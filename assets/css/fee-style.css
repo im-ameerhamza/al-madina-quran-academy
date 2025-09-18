@@ -1,0 +1,103 @@
+:root {
+  --primary: #ffd54f;
+  --primary-foreground: #ffffff;
+  --secondary: #f5f5f5;
+  --secondary-foreground: #111;
+  --accent: #ffd54f;
+  --accent-foreground: #ffffff;
+  --background: #ffffff;
+  --foreground: #111111;
+  --card: #ffffff;
+  --card-foreground: #111111;
+  --border: #e5e5e5;
+  --ring: black;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.pricing-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: all 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.premium-card {
+  border: 2px solid var(--primary);
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.premium-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: var(--card-foreground);
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.price {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.price small {
+  font-size: 1rem;
+  color: var(--muted-foreground);
+}
+
+.list-unstyled li {
+  padding: 0.5rem 0;
+  color: var(--card-foreground);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: var(--primary-foreground);
+}
+
+.btn-outline-primary {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+}
+
+.badge {
+  padding: 0.5em 1em;
+  font-weight: 500;
+}
+
+.form-switch .form-check-input {
+  width: 3rem;
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+@media (max-width: 992px) {
+  .premium-card {
+    transform: none;
+  }
+
+  .premium-card:hover {
+    transform: translateY(-5px);
+  }
+}
