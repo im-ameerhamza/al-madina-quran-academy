@@ -60,6 +60,8 @@
 
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/blog/blogs.js"></script>
+    <script src="assets/js/blog/render.js"></script>
   </head>
 
   <body class="body-pattern">
@@ -247,121 +249,8 @@ Header Area
     >
       <div class="container">
         <div class="row gx-60">
-          <div class="col-xxl-9 col-lg-8">
-            <div class="page-single event-single">
-              <div class="page-img style2 global-img mb-35">
-                <img
-                  src="assets/img/cousrse/norani-qaida.webp"
-                  alt="Norani Qaida"
-                />
-              </div>
-              <div class="event-wrapp">
-                <h2 class="h5 mb-10">Madani Noorani Qaida</h2>
-                <div class="blog-meta d-flex align-items-center">
-                  <div class="me-3">
-                    <i class="fa-solid fa-user-graduate me-1"></i> 500 Enrolled
-                  </div>
-                  <div class="me-3">
-                    <i class="fa-regular fa-clock me-1"></i>04 Months Duration
-                  </div>
-                </div>
-
-                <div class="btn-group mt-40">
-                  <a href="contact.html" class="th-btn"
-                    ><span
-                      class="btn-text"
-                      data-back="Enroll Now"
-                      data-front="Enroll Now"
-                    ></span>
-                  </a>
-                </div>
-                <div class="event-organizer">
-                  <h4 class="box-title">Course Details</h4>
-                  <span class="text"
-                    ><span class="fw-bold text-title">Days:</span> As Per Your
-                    Choice</span
-                  >
-                  <span class="text">
-                    <span class="fw-bold text-title">Class Time:</span> 30
-                    Minutes
-                  </span>
-                  <span class="text"
-                    ><span class="fw-bold text-title">Total Weekly Hours:</span>
-                    03 hours</span
-                  >
-                  <span class="text"
-                    ><span class="fw-bold text-title">Language:</span> Urdu /
-                    English</span
-                  >
-                </div>
-              </div>
-
-              <div class="page-content">
-                <blockquote class="event-blockquote">
-                  <p>
-                    “Noorani Qaida is a beginner’s book used to teach basic
-                    Quranic reading. It was developed by Moulvi Noor Muhammad
-                    Ludhyanvi in the Indian subcontinent and is widely used in
-                    Pakistan, India, Bangladesh, and other countries where
-                    people learn to read the Quran in Arabic.”
-                  </p>
-                </blockquote>
-
-                <h4>Here’s what it covers and why it’s important:</h4>
-
-                <h5>Purpose</h5>
-                <ul class="blog-text fs-18">
-                  <li>
-                    It helps children and new learners read the Quran correctly
-                    by teaching Arabic letters, their pronunciations, and how to
-                    join them into words.
-                  </li>
-                  <li>
-                    It focuses on tajweed rules (proper pronunciation) from the
-                    very start.
-                  </li>
-                </ul>
-
-                <h5>Key Contents</h5>
-                <ol class="blog-text fs-18">
-                  <li>
-                    Arabic Alphabet – Recognizing each letter in its isolated
-                    form.
-                  </li>
-                  <li>
-                    Letter Sounds – Learning the correct sounds (makharij) for
-                    each letter.
-                  </li>
-                  <li>
-                    Vowel Signs (Harakaat) – Fatha, Kasra, Dammah, Sukoon, etc.
-                  </li>
-                  <li>Tanween & Madd – Nasal sounds and elongation.</li>
-                  <li>
-                    Letter Joining – How to connect letters to form words.
-                  </li>
-                  <li>
-                    Basic Tajweed – Rules like ghunna (nasal sound), qalqalah
-                    (echoing sound), and stopping signs.
-                  </li>
-                </ol>
-
-                <h5>Importance</h5>
-                <ul class="blog-text fs-18">
-                  <li>
-                    It’s a step-by-step method so learners can move from
-                    recognizing letters to fluent Quranic recitation.
-                  </li>
-                  <li>
-                    Used in madrasas, mosques, and online classes around the
-                    world.
-                  </li>
-                  <li>
-                    It builds a strong foundation for later learning of tajweed
-                    and hifz (memorization).
-                  </li>
-                </ul>
-              </div>
-            </div>
+          <div id="course-details" class="col-xxl-9 col-lg-8">
+            Loading course...
           </div>
 
           <div class="col-xxl-3 col-lg-4">
@@ -734,5 +623,417 @@ Header Area
 
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>
+    <!-- course-details -->
+    <script>
+      const courses = [
+        {
+          id: "1",
+          title: "Noorani Qaida",
+          enrolled: "500 Enrolled",
+          duration: "04 Months Duration",
+          days: "As Per Your Choice",
+          classTime: "30 Minutes",
+          weeklyHours: "03 hours",
+          language: "Urdu / English",
+          image: "assets/img/cousrse/norani-qaida.webp",
+          description:
+            "Noorani Qaida is a beginner’s guide to Quranic reading, designed to teach the Arabic alphabet, pronunciation, and basic tajweed rules in a simple, step-by-step way. It builds the foundation for reading the Holy Quran fluently and correctly.",
+          purpose: [
+            "To help children and new learners recognize Arabic letters and sounds.",
+            "To develop the ability to join letters into words and apply basic tajweed from the very start.",
+          ],
+          keyFeatures: [
+            "Arabic Alphabet – Learning each letter in its isolated form.",
+            "Letter Sounds – Practicing correct pronunciation (makharij).",
+            "Vowel Signs (Harakaat) – Fatha, Kasra, Dammah, Sukoon, etc.",
+            "Tanween & Madd – Nasal sounds and elongation.",
+            "Letter Joining – Connecting letters to form Quranic words.",
+            "Basic Tajweed – Rules like ghunna, qalqalah, and stopping signs.",
+          ],
+          importance: [
+            "Builds a strong base for reading the Quran accurately.",
+            "Prevents pronunciation mistakes that can change meanings.",
+            "Prepares students for Nazra Quran with Tajweed and later Hifz.",
+          ],
+          howItsTaught: [
+            "Lessons start with letter recognition, then move to sounds, small words, and complete verses.",
+            "Teachers correct pronunciation daily and guide students through slow, repeated practice.",
+            "Widely taught in madrasas, mosques, and online classes.",
+          ],
+          spiritualValue: [
+            "Makes reading the Quran easy and confident for beginners.",
+            "Develops a habit of reading with tajweed from day one.",
+            "Opens the door for deeper learning like memorization and translation.",
+          ],
+        },
+        {
+          id: "2",
+          title: "Nazra Quran with Tajweed",
+          enrolled: "500 Enrolled",
+          duration: "04 Months Duration",
+          days: "As Per Your Choice",
+          classTime: "30 Minutes",
+          weeklyHours: "03 hours",
+          language: "Urdu / English",
+          image: "assets/img/cousrse/nazra-quran.webp",
+          description:
+            "Nazra Quran with Tajweed is the stage where students read the entire Quran from start to finish while applying correct pronunciation and tajweed rules. It trains learners to recite every verse fluently and beautifully.",
+          purpose: [
+            "The goal of Nazra is to read the Quran fluently and accurately.",
+            "To build confidence in recognizing words quickly and reciting with proper tajweed.",
+          ],
+          keyFeatures: [
+            "Complete Quran Reading – Cover-to-cover recitation of all 30 Juz.",
+            "Fluency & Speed – Practice for smooth and steady reading.",
+            "Tajweed in Action – Applying rules like Ghunna (nasal sound), Qalqalah (echo sound), Ikhfa, Idgham, Iqlab (blending sounds), Madd (elongation of vowels).",
+            "Correct Makharij – Accurate mouth and tongue positions for each letter.",
+            "Waqf (Stopping Rules) – Learning where and how to pause during recitation.",
+          ],
+          importance: [
+            "Ensures perfect pronunciation, preserving the Quran’s meaning.",
+            "Builds the skill for Hifz (memorization) or advanced tajweed studies.",
+            "Creates a lifelong habit of beautiful recitation.",
+          ],
+          howItsTaught: [
+            "Students begin after finishing Noorani Qaida.",
+            "Daily lessons include slow reading with teacher correction.",
+            "Speed increases gradually while keeping tajweed accuracy.",
+            "Taught in madrasas, mosques, or online classes.",
+          ],
+          spiritualValue: [
+            "Develops confidence and fluency in Quran reading.",
+            "Strengthens the bond with the Quran through clear understanding of sounds.",
+            "Prepares students for memorization and deeper study.",
+          ],
+        },
+        {
+          id: "3",
+          title: "Hifz-e-Quran with Tajweed",
+          enrolled: "500 Enrolled",
+          duration: "04 Months Duration",
+          days: "As Per Your Choice",
+          classTime: "30 Minutes",
+          weeklyHours: "03 hours",
+          language: "Urdu / English",
+          image: "assets/img/cousrse/hafiz-quran.webp",
+          description:
+            "Hifz-e-Quran with Tajweed is the advanced stage of Quran learning where students memorize the entire Quran while following perfect pronunciation and tajweed. It is a spiritual journey of discipline, devotion, and lifelong reward.",
+          purpose: [
+            "To commit the whole Quran to memory with flawless recitation.",
+            "To preserve the Quran in the heart and pass it down exactly as revealed.",
+          ],
+          keyFeatures: [
+            "Complete Memorization – Memorizing all 30 Juz, verse by verse.",
+            "Daily Revision (Muraja’ah) – Regular review of past lessons to keep them strong.",
+            "Tajweed Mastery – Perfecting rules like Makharij (precise letter articulation), Ghunna, Qalqalah, Ikhfa, Idgham, Iqlab, and Waqf rules for correct pauses.",
+            "Fluency & Melody – Memorizing with smooth rhythm and correct tune.",
+          ],
+          importance: [
+            "A great honor and responsibility, earning immense reward in Islam.",
+            "Keeps the Quran alive in memory even without a written copy.",
+            "Preserves the original sound and meaning for future generations.",
+          ],
+          howItsTaught: [
+            "Students start after the Nazra Quran with Tajweed.",
+            "Daily routine includes New Lesson (Sabq) for memorizing fresh verses, Recent Review (Sabqi) for revising the latest portions, and Old Review (Manzil) for revisiting earlier Juz.",
+            "Guided by a qualified teacher for accuracy.",
+          ],
+          spiritualValue: [
+            "Brings spiritual closeness to Allah and lifelong blessings.",
+            "Builds strong memory, focus, and discipline.",
+            "Allows the reciter to lead prayers and teach others.",
+          ],
+        },
+        {
+          id: "4",
+          title: "Tarjmat-ul-Quran",
+          enrolled: "500 Enrolled",
+          duration: "04 Months Duration",
+          days: "As Per Your Choice",
+          classTime: "30 Minutes",
+          weeklyHours: "03 hours",
+          language: "Urdu / English",
+          image: "assets/img/cousrse/tarjuma-quran.webp",
+          description:
+            "Tarjmat-ul-Quran means the translation of the Holy Quran into a language people can understand. It helps readers not only recite the Quran but also grasp its true meaning and message.",
+          purpose: [
+            "To help readers understand the guidance and commands of Allah.",
+            "To explain the meanings and lessons behind each verse.",
+            "To inspire faith, practice, and reflection.",
+          ],
+          keyFeatures: [
+            "Word-by-Word Meaning – Learning the meaning of each Arabic word.",
+            "Context of Verses – Understanding why and when revelations occurred (Asbab al-Nuzool).",
+            "Explanation of Teachings – Laws, morals, and life lessons.",
+            "Simple, Accurate Language – Clear translation in Urdu, English, or other languages.",
+            "Tafseer Support – Often paired with short tafseer for deeper insight.",
+          ],
+          importance: [
+            "Builds a personal connection with the Quran’s guidance.",
+            "Helps apply Quranic teachings in daily life and worship.",
+            "Makes the Quran accessible to those who don’t know Arabic.",
+          ],
+          howItsTaught: [
+            "Usually begins after the Nazra Quran for fluent readers.",
+            "Classes include reciting the Arabic verse, studying the translation word by word, and discussing the full meaning and context.",
+            "Taught in madrasas, study circles, and online programs.",
+          ],
+          spiritualValue: [
+            "Encourages reflection (Tadabbur) on Allah’s words.",
+            "Strengthens both faith and understanding.",
+            "Reading the Quran with understanding brings greater reward and stronger faith.",
+            "Opens the heart to the Quran’s mercy, wisdom, and light.",
+          ],
+        },
+        {
+          id: "5",
+          title: "Tajweed",
+          enrolled: "500 Enrolled",
+          duration: "04 Months Duration",
+          days: "As Per Your Choice",
+          classTime: "30 Minutes",
+          weeklyHours: "03 hours",
+          language: "Urdu / English",
+          image: "assets/img/cousrse/tajweed-quran.webp",
+          description:
+            "Tajweed is the practice of reciting the Quran with accuracy, beauty, and proper pronunciation. It helps preserve the true sound and meaning of Allah’s words. Learning Tajweed allows the reader to avoid mistakes, respect the rules of recitation, and connect more deeply with the message of the Quran.",
+          purpose: [
+            "To teach the correct sounds of Arabic letters and how to join them properly.",
+            "To help learners recite the Quran with clarity, balance, and beauty.",
+            "To prevent mistakes that can change the meaning of words.",
+          ],
+          keyFeatures: [
+            "Makharij (Letter Points) – Learning the exact place in the mouth or throat where each letter is pronounced.",
+            "Sifaat (Letter Qualities) – Understanding the natural sounds and qualities of each letter.",
+            "Rules of Noon & Meem – Ghunna (nasal sound), Ikhfa, Idgham, Iqlab.",
+            "Qalqalah – Producing the light echo sound on specific letters.",
+            "Madd (Elongation) – Knowing when and how to stretch vowel sounds.",
+            "Waqf Rules – Learning where to stop, pause, or continue during recitation.",
+          ],
+          importance: [
+            "Ensures the Quran is recited without errors or distortion.",
+            "Preserves the true meaning and beauty of Allah’s words.",
+            "Builds confidence for public recitation or leading prayers.",
+          ],
+          howItsTaught: [
+            "Taught by qualified teachers in madrasas, mosques, and online classes.",
+            "Students practice listening and repeating verses daily.",
+            "Lessons start with simple sounds, then progress to full Quran recitation with tajweed.",
+          ],
+          spiritualValue: [
+            "Brings the reader closer to Allah through careful and respectful recitation.",
+            "Increases the reward of every letter recited.",
+            "Helps maintain the pure sound of the Quran for future generations.",
+          ],
+        },
+        {
+          id: "6",
+          title: "Farz-e-Uloom",
+          enrolled: "500 Enrolled",
+          duration: "04 Months Duration",
+          days: "As Per Your Choice",
+          classTime: "30 Minutes",
+          weeklyHours: "03 hours",
+          language: "Urdu / English",
+          image: "assets/img/cousrse/farz-uloom.webp",
+          description:
+            "Farz-e-Uloom is the basic Islamic knowledge that every Muslim must learn. It explains the essential teachings of faith, worship, and daily practice needed to live as a true believer.",
+          purpose: [
+            "To help Muslims understand the key duties of Islam, such as prayer, fasting, and good conduct.",
+            "To give clear guidance on how to follow Allah’s commands in everyday life.",
+          ],
+          keyFeatures: [
+            "Covers core beliefs of Islam and their meaning.",
+            "Teaches the rules of prayer, fasting, and purification.",
+            "Explains halal and haram actions in daily living.",
+            "Guides on basic manners and moral values.",
+            "Helps build a strong Islamic foundation for all ages.",
+          ],
+          importance: [
+            "Learning Farz-e-Uloom is necessary for every Muslim to practice faith correctly.",
+            "It protects from ignorance and ensures daily actions align with Islamic teachings.",
+          ],
+          howItsTaught: [
+            "Students are taught through step-by-step lessons that cover beliefs, worship rules, and daily practices.",
+            "Teachers explain each topic with examples, making it easy to understand and apply.",
+          ],
+          spiritualValue: [
+            "Strengthens faith and protects from ignorance.",
+            "Ensures a life lived according to Allah’s guidance.",
+            "Brings peace to the heart and helps in practicing Islam with confidence and understanding.",
+          ],
+        },
+        {
+          id: "7",
+          title: "Hadith",
+          enrolled: "500 Enrolled",
+          duration: "04 Months Duration",
+          days: "As Per Your Choice",
+          classTime: "30 Minutes",
+          weeklyHours: "03 hours",
+          language: "Urdu / English",
+          image: "assets/img/cousrse/hadith-course1.webp",
+          description:
+            "Hadith is the recorded sayings, actions, and approvals of Prophet Muhammad (peace be upon him). Learning Hadith helps Muslims understand how to follow the Quran in daily life and practice Islam as the Prophet taught.",
+          purpose: [
+            "To guide Muslims to live according to the Prophet’s example.",
+            "To explain the meaning of Quranic teachings and show how to apply them in worship, character, and everyday actions.",
+          ],
+          keyFeatures: [
+            "Covers authentic sayings and actions of Prophet Muhammad (PBUH).",
+            "Explains the wisdom behind Islamic practices and morals.",
+            "Teaches lessons on worship, manners, and social dealings.",
+            "Helps build love and respect for the Prophet’s way of life.",
+            "Strengthens understanding of the connection between Quran and Sunnah.",
+          ],
+          importance: [
+            "Hadith is the second most important source of Islamic guidance after the Quran.",
+            "Learning it ensures that a Muslim’s worship and lifestyle follow the true path of Islam.",
+          ],
+          howItsTaught: [
+            "Students learn selected authentic Hadith with explanations of their meanings and practical examples.",
+            "Teachers share stories and real-life applications to make understanding easy and memorable.",
+          ],
+          spiritualValue: [
+            "Increases love for the Prophet (PBUH).",
+            "Deepens faith and inspires a life of good character, mercy, and obedience to Allah.",
+          ],
+        },
+        {
+          id: "8",
+          title: "Darse Nizami Short Course",
+          enrolled: "500 Enrolled",
+          duration: "04 Months Duration",
+          days: "As Per Your Choice",
+          classTime: "30 Minutes",
+          weeklyHours: "03 hours",
+          language: "Urdu / English",
+          image: "assets/img/cousrse/darse-nizami.webp",
+          description:
+            "Darse Nizami is a traditional Islamic study program designed to teach the core sciences of Islam in a structured way. A short course offers a simplified version of this program, focusing on key subjects needed to build a strong foundation of Islamic knowledge.",
+          purpose: [
+            "To give students a clear understanding of essential Islamic sciences such as Quran, Hadith, Fiqh (Islamic law), and Arabic.",
+            "To prepare learners to practice and share Islamic teachings in daily life.",
+          ],
+          keyFeatures: [
+            "Covers the basics of Quran interpretation and Hadith studies.",
+            "Introduces Fiqh, Islamic ethics, and moral guidance.",
+            "Provides beginner-level Arabic to understand Islamic texts.",
+            "Taught by experienced scholars in a step-by-step method.",
+            "Suitable for students of all ages seeking core Islamic knowledge.",
+          ],
+          importance: [
+            "Offers a focused and accessible path for those who cannot commit to the full Darse Nizami program.",
+            "Helps Muslims strengthen their faith and gain the knowledge needed to follow Islam with understanding.",
+          ],
+          howItsTaught: [
+            "Students learn through structured lessons, starting with simple topics and gradually moving to deeper subjects.",
+            "Teachers explain each area with practical examples, making it easy to grasp and apply.",
+          ],
+          spiritualValue: [
+            "Enriches faith, improves worship, and deepens love for the Quran and Sunnah.",
+            "Helps Muslims live with wisdom and share Islamic teachings with confidence.",
+          ],
+        },
+      ];
+
+      // Get URL parameter (?id=...)
+      document.addEventListener("DOMContentLoaded", function () {
+        debugger;
+        const params = new URLSearchParams(window.location.search);
+        const courseId = params.get("id");
+
+        // Find the course by ID
+        const course = courses.find((c) => c.id === courseId);
+
+        // Select container
+        const container = document.getElementById("course-details");
+
+        if (course) {
+          container.innerHTML = `
+      <div class="col-xxl-9 col-lg-8">
+        <div class="page-single event-single">
+          <div class="page-img style2 global-img mb-35">
+            <img src="${course.image}" alt="${course.title}" />
+          </div>
+          <div class="event-wrapp">
+            <h2 class="h5 mb-10">${course.title}</h2>
+            <div class="blog-meta d-flex align-items-center">
+              <div class="me-3">
+                <i class="fa-solid fa-user-graduate me-1"></i> ${
+                  course.enrolled
+                }
+              </div>
+              <div class="me-3">
+                <i class="fa-regular fa-clock me-1"></i> ${course.duration}
+              </div>
+            </div>
+
+            <div class="btn-group mt-40">
+              <a href="contact.html" class="th-btn">
+                <span class="btn-text" data-back="Enroll Now" data-front="Enroll Now"></span>
+              </a>
+            </div>
+
+            <div class="event-organizer">
+              <h4 class="box-title">Course Details</h4>
+              <span class="text">
+                <span class="fw-bold text-title">Days:</span> ${course.days}
+              </span>
+              <span class="text">
+                <span class="fw-bold text-title">Class Time:</span> ${
+                  course.classTime
+                }
+              </span>
+              <span class="text">
+                <span class="fw-bold text-title">Total Weekly Hours:</span> ${
+                  course.weeklyHours
+                }
+              </span>
+              <span class="text">
+                <span class="fw-bold text-title">Language:</span> ${
+                  course.language
+                }
+              </span>
+            </div>
+          </div>
+
+          <div class="page-content">
+            <blockquote class="event-blockquote">
+              <p>${course.description}</p>
+            </blockquote>
+
+            <h4>Here’s what it covers and why it’s important:</h4>
+
+            <h5>Purpose</h5>
+            <ul class="blog-text fs-18">
+              ${(course.purpose || [])
+                .map((item) => `<li>${item}</li>`)
+                .join("")}
+            </ul>
+
+            <h5>Key Features</h5>
+            <ol class="blog-text fs-18">
+              ${(course.keyFeatures || [])
+                .map((item) => `<li>${item}</li>`)
+                .join("")}
+            </ol>
+
+            <h5>Importance</h5>
+            <ul class="blog-text fs-18">
+              ${(course.importance || [])
+                .map((item) => `<li>${item}</li>`)
+                .join("")}
+            </ul>
+          </div>
+        </div>
+      </div>
+
+        `;
+        } else {
+          container.innerHTML = `<p>Course not found. Please go back to <a href="courses.html">courses</a>.</p>`;
+        }
+      });
+    </script>
   </body>
 </html>
