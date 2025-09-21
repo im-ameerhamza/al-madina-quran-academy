@@ -83,14 +83,16 @@
       <div class="th-menu-area text-center">
         <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-          <a href="home-al-noor-haven.html"
-            ><img src="assets/img/logo.svg" alt="Tawba"
+          <a href="index.html" class="logo"
+            ><img
+              src="assets/img/hero/Nav_logo.webp"
+              alt="Al Madinah Quran Academy"
           /></a>
         </div>
 
         <div class="th-mobile-menu">
           <ul>
-            <li class="menu-item-has-children">
+            <li>
               <a href="index.html">Home</a>
             </li>
             <li><a href="about.html">About Us</a></li>
@@ -98,10 +100,11 @@
             <li class="menu-item-has-children">
               <a href="#">Courses</a>
               <ul class="sub-menu">
-                <li><a href="popular-courses.html">Popular-courses</a></li>
-                <li><a href="courses-details.html">Courses Details</a></li>
+                <li><a href="popular-courses.html">Popular Courses</a></li>
+                <li><a href="fee-structure.html">Fee Structure</a></li>
               </ul>
             </li>
+            <li><a href="educators.html">Educators</a></li>
 
             <li><a href="contact.html">Contact Us</a></li>
           </ul>
@@ -119,31 +122,38 @@
         <div class="widget footer-widget">
           <h3 class="widget_title">Informations</h3>
           <div class="th-widget-about">
-            <p class="about-text">
-              Islamic history is a testament to the resilience, adaptability,
-              and profound influence of Islamic civilization. It is a story of
-              faith, innovation, and enduring contributions to humanity.
+            <p class="about-text" style="text-align: justify; font-size: large">
+              Welcome to our Online Quran Academy, where learning the Quran is
+              easy and accessible from anywhere. We offer personalized Quran
+              classes for all ages, taught by experienced and qualified
+              teachers. Our lessons cover proper Quran recitation (Tajweed),
+              memorization (Hifz), and understanding the meaning of the Quran in
+              a simple way. With flexible timings and online access, students
+              can learn comfortably from home while gaining a strong connection
+              with the Quran.
             </p>
             <div class="th-widget-about">
               <p class="footer-info">
                 <i class="fa-sharp fa-solid fa-phone"></i>
                 <span
-                  ><a class="text-inherit" href="tel:+00123456789012"
-                    >+00 (123) 456 789 012</a
+                  ><a class="text-inherit" href="tel:+923234874809"
+                    >+923234874809</a
                   ></span
                 >
               </p>
               <p class="footer-info">
                 <i class="fa-sharp fa-solid fa-envelope"></i
                 ><span>
-                  <a class="text-inherit" href="mailto:infomail123@domain.com"
-                    >infomail123@domain.com</a
+                  <a
+                    class="text-inherit"
+                    href="mailto:info@almadinaquranacademy.or"
+                    >info@almadinaquranacademy.org</a
                   ></span
                 >
               </p>
               <p class="footer-info">
-                <i class="fas fa-map-marker-alt"></i>West 2nd lane, Inner
-                circular road, New York City
+                <i class="fas fa-map-marker-alt"></i>456 Oak Avenue, Vancouver,
+                BC V5K 3N7 Canada
               </p>
             </div>
           </div>
@@ -163,7 +173,7 @@ Header Area
     <header class="th-header header-layout5">
       <div class="sticky-wrapper">
         <!-- Main Menu Area -->
-        <div class="menu-area">
+        <div class="menu-area" data-bg-src="assets/img/bg/pattern_bg_2.png">
           <div class="container">
             <div class="row align-items-center justify-content-between">
               <div class="col-auto">
@@ -192,10 +202,11 @@ Header Area
                               <a href="popular-courses.html">Popular-courses</a>
                             </li>
                             <li>
-                              <a href="courses-details.html">Courses Details</a>
+                              <a href="fee-structure.html">Fee Structure</a>
                             </li>
                           </ul>
                         </li>
+                        <li><a href="educators.html">Educators</a></li>
 
                         <li><a href="contact.html">Contact Us</a></li>
                       </ul>
@@ -232,11 +243,38 @@ Header Area
       </div>
     </header>
 
-    <!--  -->
-    <section style="background-image: url('assets/img/bg/about-bg-1.webp')">
+    <!--==============================
+    Breadcumb
+============================== -->
+    <div
+      class="breadcumb-wrapper"
+      data-bg-src="assets/img/bg/about-us-header-bg.webp"
+    >
+      <div class="container">
+        <div class="breadcumb-content">
+          <h1 class="breadcumb-title">Fee Structure</h1>
+          <ul class="breadcumb-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="popular-courses.html">Popular Courses</a></li>
+            <li>Fee Structure</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--==============================
+Hero Area
+==============================-->
+    <section
+      style="
+        background-image: url('assets/img/bg/about-bg-1.webp');
+        padding-bottom: 70px;
+      "
+    >
       <div class="pricing-header text-center mb-5">
-        <h1 class="display-4 fw-bold" style="color: #ffd54f">Fees Struture</h1>
-        <h2 class="mt-5 text-sm">Student Package</h2>
+        <!-- <h1 class="display-4 fw-bold" style="color: #ffd54f; padding-top: 30px">
+          Fees Struture
+        </h1> -->
+        <h2 style="color: #264571; padding-top: 30px">STUDENT PACKAGE</h2>
       </div>
       <div
         class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center"
@@ -422,12 +460,9 @@ Header Area
           </div>
         </div>
       </div>
-    </section>
 
-    <!--  -->
-    <section style="background-image: url('assets/img/bg/about-bg-1.webp')">
       <div class="pricing-header text-center mb-5">
-        <h2 class="mt-5 text-sm">Famaily Package</h2>
+        <h2 class="mt-5" style="color: #264571">FAMILY PACKAGE</h2>
       </div>
       <div
         class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center"
