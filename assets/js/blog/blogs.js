@@ -86,7 +86,7 @@ const courses = [
     duration: "04 Months Duration",
     days: "As Per Your Choice",
     classTime: "30 Minutes",
-    weeklyHours: "03 hours",
+    weeklyHours: "05 hours",
     language: "Urdu / English",
     image: "assets/img/cousrse/hafiz-quran.webp",
     description:
@@ -165,7 +165,7 @@ const courses = [
     duration: "04 Months Duration",
     days: "As Per Your Choice",
     classTime: "30 Minutes",
-    weeklyHours: "03 hours",
+    weeklyHours: "06 hours",
     language: "Urdu / English",
     image: "assets/img/cousrse/tajweed-quran.webp",
     description:
@@ -206,7 +206,7 @@ const courses = [
     duration: "06 Months Duration",
     days: "As Per Your Choice",
     classTime: "30 Minutes",
-    weeklyHours: "03 hours",
+    weeklyHours: "06 hours",
     language: "Urdu / English",
     image: "assets/img/cousrse/farz-uloom.webp",
     description:
@@ -243,7 +243,7 @@ const courses = [
     duration: "Depends of Students (Duration)",
     days: "As Per Your Choice",
     classTime: "30 Minutes",
-    weeklyHours: "03 hours",
+    weeklyHours: "06 hours",
     language: "Urdu / English",
     image: "assets/img/cousrse/hadith-course1.webp",
     description:
@@ -279,7 +279,7 @@ const courses = [
     duration: "04 Years Duration",
     days: "As Per Your Choice",
     classTime: "30 Minutes",
-    weeklyHours: "03 hours",
+    weeklyHours: "06 hours",
     language: "Urdu / English",
     image: "assets/img/cousrse/darse-nizami.webp",
     description:
@@ -306,6 +306,479 @@ const courses = [
     spiritualValue: [
       "Enriches faith, improves worship, and deepens love for the Quran and Sunnah.",
       "Helps Muslims live with wisdom and share Islamic teachings with confidence.",
+    ],
+  },
+
+  {
+    id: "9",
+    title: "Tafseer of Surah Noor, Nisa, and Yusuf",
+    enrolled: "200 Enrolled",
+    duration: "03 Months Duration",
+    days: "As Per Your Choice",
+    classTime: "30 Minutes",
+    weeklyHours: "03 hours",
+    language: "Urdu / English",
+    image: "assets/img/cousrse/surah-noor-nisa-yusuf.webp",
+    description:
+      "Tafseer of Surah Noor, Nisa, and Yusuf is the detailed explanation of these important chapters of the Quran. It helps Muslims understand the deep meanings, lessons, and guidance that Allah has given for daily life and spiritual growth.",
+    purpose: [
+      "To connect with the Quran on a deeper level.",
+      "To explain the reasons behind the verses, their context, and how to apply their guidance in personal and social life.",
+    ],
+    keyFeatures: [
+      "Surah Noor: Teaches rules of modesty, purity, and social ethics.",
+      "Surah Nisa: Explains family rights, justice, and the role of women in Islam.",
+      "Surah Yusuf: Shares the inspiring story of Prophet Yusuf (AS) filled with lessons of patience, trust, and forgiveness.",
+      "Step-by-step explanation of verses with historical background.",
+      "Practical examples to apply Quranic guidance in daily life.",
+    ],
+    importance: [
+      "Provides direction for personal character, family matters, and social dealings.",
+      "Helps strengthen faith, improve moral values, and bring clarity to many life issues.",
+    ],
+    howItsTaught: [
+      "Teachers explain each verse with its meaning, context, and lessons.",
+      "Students learn through discussions and real-life applications to connect the teachings with everyday situations.",
+    ],
+    spiritualValue: [
+      "Increases love for the Quran and strengthens belief in Allah’s wisdom.",
+      "Inspires a life of patience, justice, and purity.",
+    ],
+  },
+
+  {
+    id: "10",
+    title: "Tafseer Sirat ul Jinan",
+    enrolled: "200 Enrolled",
+    duration: "12 Months Duration",
+    days: "As Per Your Choice",
+    classTime: "30 Minutes",
+    weeklyHours: "03 hours",
+    language: "Urdu / English",
+    image: "assets/img/cousrse/tafseer-ul-jinan.webp",
+    description:
+      "Tafseer Sirat ul Jinan is a detailed explanation of the Holy Quran written by Islamic scholars to help Muslims understand Allah’s words with clarity and depth. This study brings out the meanings, wisdom, and guidance of the Quran in an easy and practical way.",
+    purpose: [
+      "The purpose of studying Tafseer Sirat ul Jinan is to help Muslims connect with the Quran, understand its message, and apply it in their daily lives.",
+      "It explains the reasons behind each verse and reveals lessons for faith, worship, and character.",
+    ],
+    keyFeatures: [
+      "Covers the complete explanation of the Quran with simple language",
+      "Provides background stories and reasons for revelation (Asbab al-Nuzool)",
+      "Highlights moral, spiritual, and legal teachings of Islam",
+      "Offers practical guidance for daily actions and decision-making",
+      "Written by trusted scholars to ensure authentic understanding",
+    ],
+    importance: [
+      "Provides direction for personal character, family matters, and social dealings.",
+      "Helps strengthen faith, improve moral values, and bring clarity to many life issues.",
+    ],
+    howItsTaught: [
+      "Teachers explain each verse with its meaning, context, and lessons.",
+      "Students learn through discussions and real-life applications to connect the teachings with everyday situations.",
+    ],
+    spiritualValue: [
+      "Increases love for the Quran and strengthens belief in Allah’s wisdom.",
+      "Inspires a life of patience, justice, and purity.",
+    ],
+  },
+
+  {
+    id: "11",
+    title: "Aqaid-o-Fiqh",
+    enrolled: "150 Enrolled",
+    duration: "02 Years Duration",
+    days: "As Per Your Choice",
+    classTime: "30 Minutes",
+    weeklyHours: "03 hours",
+    language: "Urdu / English",
+    image: "assets/img/cousrse/aqaid-fiqh.webp",
+    description:
+      "Aqaid-o-Fiqh focuses on two main parts of Islamic knowledge: Aqaid (beliefs) and Fiqh (Islamic law). It teaches the correct faith about Allah, Prophets, and the unseen world, along with the rules for worship and daily life.",
+    purpose: [
+      "The purpose of studying Aqaid-o-Fiqh is to help Muslims strengthen their faith and learn how to practice Islam correctly.",
+      "It guides both the heart and actions, ensuring a balanced understanding of belief and practice.",
+    ],
+    keyFeatures: [
+      "Explains core Islamic beliefs about Allah, Prophets, angels, and the Hereafter",
+      "Covers the rules of prayer, fasting, zakat, and other acts of worship",
+      "Teaches halal and haram matters for daily living",
+      "Provides moral guidance for good character and social dealings",
+      "Helps clear common doubts about faith and practice",
+    ],
+    importance: [
+      "Aqaid builds the foundation of a Muslim’s belief, while Fiqh ensures that worship and daily actions follow Islamic law.",
+      "Learning both protects from misunderstandings and keeps faith strong.",
+    ],
+    howItsTaught: [
+      "Lessons begin with simple explanations of beliefs and basic rules of worship.",
+      "Teachers use examples and step-by-step methods to make learning easy and practical.",
+    ],
+    spiritualValue: [
+      "Studying Aqaid-o-Fiqh strengthens the heart with true belief, brings peace to worship.",
+      "It helps Muslims live in complete obedience to Allah with confidence and clarity.",
+    ],
+  },
+
+  {
+    id: "12",
+    title: "Namaz (Salah)",
+    enrolled: "500 Enrolled",
+    duration: "01 Month Duration",
+    days: "As Per Your Choice",
+    classTime: "30 Minutes",
+    weeklyHours: "03 hours",
+    language: "Urdu / English",
+    image: "assets/img/cousrse/namaz.webp",
+    description:
+      "Namaz (Salah) is the most important act of worship in Islam and the second pillar of faith. It is the daily prayer that connects a Muslim directly with Allah, bringing peace to the heart and discipline to life.",
+    purpose: [
+      "The purpose of learning Namaz is to understand its correct method, meaning, and importance.",
+      "It helps Muslims perform their prayers with proper actions, words, and devotion as taught by Prophet Muhammad (peace be upon him).",
+    ],
+    keyFeatures: [
+      "Teaches the step-by-step method of performing Namaz",
+      "Explains the conditions of purity, wudu (ablution), and cleanliness",
+      "Covers the timings and types of daily prayers",
+      "Provides the meaning of different duas and Quranic verses recited in Salah",
+      "Highlights the spiritual benefits of regular prayer",
+    ],
+    importance: [
+      "Namaz is the first act of worship that will be questioned on the Day of Judgment.",
+      "Learning it properly ensures that prayers are accepted and performed according to the Sunnah.",
+    ],
+    howItsTaught: [
+      "Students are guided through practical demonstrations, starting with wudu and moving to each step of prayer.",
+      "Teachers explain the meaning of each action to help build focus and understanding.",
+    ],
+    spiritualValue: [
+      "Praying Namaz strengthens faith, purifies the soul, and keeps the heart connected to Allah.",
+      "It brings peace, discipline, and blessings in both worldly life and the Hereafter.",
+    ],
+  },
+  {
+    id: "13",
+    title: "Sunnat-e-Nikah",
+    enrolled: "500 Enrolled",
+    duration: "01 Month Duration",
+    days: "As Per Your Choice",
+    classTime: "30 Minutes",
+    weeklyHours: "03 hours",
+    language: "Urdu / English",
+    image: "assets/img/cousrse/Sunnat-Nikah.webp",
+    description:
+      "Sunnat-e-Nikah teaches the Islamic way of marriage as practiced and guided by Prophet Muhammad (peace be upon him). It explains the rules, etiquettes, and spiritual wisdom of Nikah, making this blessed bond a means of love, mercy, and obedience to Allah.",
+    purpose: [
+      "The purpose of learning Sunnat-e-Nikah is to understand the proper Islamic method of marriage.",
+      "It guides Muslims in performing Nikah according to the Sunnah, ensuring that the union is lawful, pure, and filled with blessings.",
+    ],
+    keyFeatures: [
+      "Explains the importance and virtues of Nikah in Islam",
+      "Covers the conditions, rights, and responsibilities of husband and wife",
+      "Teaches the proper way to perform the Nikah ceremony",
+      "Highlights the etiquette of engagement, dowry (mahr), and wedding practices",
+      "Shares advice for building a loving and peaceful married life",
+    ],
+    importance: [
+      "Marriage in Islam is not only a social contract but also an act of worship.",
+      "Learning the Sunnah of Nikah protects from un-Islamic customs and ensures the marriage is based on faith, respect, and love.",
+    ],
+    howItsTaught: [
+      "Lessons explain the steps of Nikah with references from the Quran and Hadith.",
+      "Teachers provide practical guidance for both the ceremony and the responsibilities that follow.",
+    ],
+    spiritualValue: [
+      "Following the Sunnat-e-Nikah brings blessings to the couple, strengthens family ties, and earns the pleasure of Allah.",
+      " It helps create a home built on faith, compassion, and mutual respect.",
+    ],
+  },
+  {
+    id: "14",
+    title: "Hajj Short & Complete Course",
+    enrolled: "100 Enrolled",
+    duration: "02 Months Duration",
+    days: "As Per Your Choice",
+    classTime: "30 Minutes",
+    weeklyHours: "03 hours",
+    language: "Urdu / English",
+    image: "assets/img/cousrse/Hajj.webp",
+    description:
+      "Hajj is the sacred pilgrimage to the Holy Kaaba in Makkah and one of the five pillars of Islam. It is a journey of worship, sacrifice, and unity that every Muslim must perform at least once in a lifetime if able.",
+    purpose: [
+      "The purpose of learning about Hajj is to understand its rituals, meaning, and spiritual importance.",
+      "This course explains both the complete Hajj and a short guide for those who need a clear, step-by-step understanding.",
+    ],
+    keyFeatures: [
+      "Explains the conditions and requirements of Hajj",
+      "Covers the detailed steps of each ritual, from Ihram to Tawaf and Sa’i",
+      "Teaches the duas and prayers to be read at each stage",
+      "Provides guidance for both first-time pilgrims and those seeking a quick refresher",
+      "Shares the history and wisdom behind the pilgrimage",
+    ],
+    importance: [
+      "Hajj is a powerful act of worship that cleanses sins and renews faith.",
+      "Learning its proper method ensures the pilgrimage is performed correctly and accepted by Allah.",
+    ],
+    howItsTaught: [
+      "Students learn through easy lessons that explain each step of Hajj with visuals, practical tips, and examples.",
+      "Teachers share the Sunnah practices and common mistakes to avoid.",
+    ],
+    spiritualValue: [
+      "Performing Hajj brings forgiveness, humility, and a stronger connection with Allah.",
+      "It unites Muslims from all over the world and reminds every believer of equality, obedience, and the hope of Paradise.",
+    ],
+  },
+  {
+    id: "15",
+    title: "Umrah Short & Complete Course",
+    enrolled: "200 Enrolled",
+    duration: "02 Months Duration",
+    days: "As Per Your Choice",
+    classTime: "30 Minutes",
+    weeklyHours: "03 hours",
+    language: "Urdu / English",
+    image: "assets/img/cousrse/umrah.webp",
+    description:
+      "Umrah is a blessed pilgrimage to the Holy Kaaba in Makkah that can be performed at any time of the year. It is a spiritual journey of devotion and purification, bringing peace to the heart and closeness to Allah.",
+    purpose: [
+      "The purpose of learning about Umrah is to understand its rituals, meaning, and spiritual value.",
+      "This guide explains both the complete method and a short step-by-step version for easy understanding.",
+    ],
+    keyFeatures: [
+      "Explains the conditions and requirements of Umrah",
+      "Covers each ritual, from Ihram to Tawaf and Sa’i",
+      "Teaches the duas and prayers to be recited at every stage",
+      "Provides tips for first-time pilgrims and quick learners",
+      "Shares the history and wisdom behind this sacred journey",
+    ],
+    importance: [
+      "Umrah is a Sunnah of Prophet Muhammad (peace be upon him) and a way to gain forgiveness and blessings.",
+      "Learning its correct method ensures the pilgrimage is performed properly and accepted by Allah.",
+    ],
+    howItsTaught: [
+      "Students learn through clear lessons that explain each step with practical guidance.",
+      "Teachers highlight the Sunnah practices and common mistakes to avoid for a smooth and meaningful experience.",
+    ],
+    spiritualValue: [
+      "Performing Umrah purifies the soul, strengthens faith, and draws a Muslim closer to Allah.",
+      "It brings peace, mercy, and countless rewards both in this world and the Hereafter.",
+    ],
+  },
+  {
+    id: "16",
+    title: "Ahkam-e-Roza",
+    enrolled: "300 Enrolled",
+    duration: "01 Month Duration",
+    days: "As Per Your Choice",
+    classTime: "30 Minutes",
+    weeklyHours: "03 hours",
+    language: "Urdu / English",
+    image: "assets/img/cousrse/Ramadan.webp",
+    description:
+      "Ahkam-e-Roza focuses on the rules, guidance, and spiritual wisdom of fasting in Islam. It explains the proper way to observe Roza during the month of Ramadan and other recommended fasts, ensuring that this act of worship is done correctly and with devotion.",
+    purpose: [
+      "The purpose of learning Ahkam-e-Roza is to understand the obligations, conditions, and spiritual benefits of fasting.",
+      "It guides Muslims on how to keep fasts according to the Sunnah and avoid actions that can break or reduce their reward.",
+    ],
+    keyFeatures: [
+      "Explains the rules of fasting in Ramadan and voluntary fasts",
+      "Covers conditions that validate or invalidate the fast",
+      "Teaches the correct intention (niyyah) and timing for sehri and iftar",
+      "Provides guidance on fasting for special cases like sickness or travel",
+      "Shares the spiritual lessons of patience, gratitude, and self-control",
+    ],
+    importance: [
+      "Fasting is one of the five pillars of Islam and a key way to develop taqwa (God-consciousness).",
+      "Learning its rules ensures that fasts are valid and pleasing to Allah.",
+    ],
+    howItsTaught: [
+      "Lessons include step-by-step explanations, practical examples, and answers to common questions about fasting.",
+      "Teachers make it easy to understand what is required and what to avoid.",
+    ],
+    spiritualValue: [
+      "Observing Roza correctly purifies the soul, increases self-discipline, and brings forgiveness of sins.",
+      "It strengthens the bond with Allah and fills the heart with peace, gratitude, and faith.",
+    ],
+  },
+  {
+    id: "17",
+    title: "Islamic Life",
+    enrolled: "500 Enrolled",
+    duration: "01 Month Duration",
+    days: "As Per Your Choice",
+    classTime: "30 Minutes",
+    weeklyHours: "03 hours",
+    language: "Urdu / English",
+    image: "assets/img/cousrse/islamic-life.webp",
+    description:
+      "Islamic Life teaches the essential principles of living every part of life according to the guidance of the Quran and Sunnah. It covers worship, character, family, work, and social dealings to help Muslims live a balanced and faithful life.",
+    purpose: [
+      "The purpose of learning Islamic Life is to understand how Islam guides every action, from personal habits to community relations.",
+      "It shows how to follow Allah’s commands in daily routines, relationships, and decision-making.",
+    ],
+    keyFeatures: [
+      "Explains the basics of worship, including prayer, fasting, and charity",
+      "Covers Islamic manners for family, friends, and society",
+      "Teaches halal and haram in food, income, and lifestyle",
+      "Provides guidance on honesty, kindness, and moral behavior",
+      "Offers practical tips to balance faith and modern living",
+    ],
+    importance: [
+      "Islam is a complete way of life. Learning these teachings helps Muslims stay close to Allah;",
+      "while facing the challenges of daily life, ensuring both spiritual growth and worldly success.",
+    ],
+    howItsTaught: [
+      "Lessons are given step by step, using real-life examples to explain Islamic rules and values.",
+      "Teachers focus on practical applications so students can easily follow them in everyday situations.",
+    ],
+    spiritualValue: [
+      "Living according to Islamic guidance brings peace, blessings, and protection from sin.",
+      "It strengthens faith, builds good character, and leads to a life that pleases Allah in this world and the Hereafter.",
+    ],
+  },
+  {
+    id: "18",
+    title: "Seerat-e-Mustafa",
+    enrolled: "300 Enrolled",
+    duration: "06 Months Duration",
+    days: "As Per Your Choice",
+    classTime: "30 Minutes",
+    weeklyHours: "03 hours",
+    language: "Urdu / English",
+    image: "assets/img/cousrse/seerat-e-mustafa.webp",
+    description:
+      "Seerat-e-Mustafa is the study of the blessed life of Prophet Muhammad (peace be upon him). It explores his character, teachings, struggles, and the way he spread the message of Islam, serving as the perfect model for every Muslim.",
+    purpose: [
+      "The purpose of learning Seerat-e-Mustafa is to understand the life of the Prophet (PBUH) and follow his example in worship, morals, and daily conduct.",
+      "It helps Muslims connect with his mission and apply his teachings in today’s world.",
+    ],
+    keyFeatures: [
+      "Covers the Prophet’s early life, prophethood, and key events in Makkah and Madinah",
+      "Highlights his character of mercy, honesty, patience, and justice",
+      "Explains his role as a leader, teacher, and family man",
+      "Shares lessons from his struggles and victories for personal growth",
+      "Shows how his Sunnah guides every aspect of life",
+    ],
+    importance: [
+      "The Prophet’s life is the best guide after the Quran.",
+      "Studying his Seerah strengthens love for him, clarifies Islamic practices, and inspires Muslims to live with compassion and faith.",
+    ],
+    howItsTaught: [
+      "Lessons are presented in a storytelling style with historical context and practical examples.",
+      "Teachers explain how each event and action of the Prophet offers guidance for modern times.",
+    ],
+    spiritualValue: [
+      "Learning Seerat-e-Mustafa deepens love for the Prophet (PBUH), strengthens faith, and motivates a life of patience, kindness, and devotion to Allah.",
+      "It teaches the values of mercy, honesty, and humility, helping believers walk the path shown by the Prophet (PBUH).",
+    ],
+  },
+
+  {
+    id: "19",
+    title: "Sunnatain & Adab",
+    enrolled: "250 Enrolled",
+    duration: "01 Month Duration",
+    days: "As Per Your Choice",
+    classTime: "30 Minutes",
+    weeklyHours: "03 hours",
+    language: "Urdu / English",
+    image: "assets/img/cousrse/sunat-course.webp",
+    description:
+      "Sunnatain & Adab teaches the daily practices (Sunnah) of Prophet Muhammad (peace be upon him) and the beautiful manners (Adab) that every Muslim should follow. It helps bring the Sunnah into everyday life and build a character of kindness, respect, and devotion.",
+    purpose: [
+      "The purpose of learning Sunnatain & Adab is to guide Muslims in following the Prophet’s way in daily habits, worship, and social dealings.",
+      "It shows how small actions done with the right intention can earn Allah’s pleasure.",
+    ],
+    keyFeatures: [
+      "Explains Sunnah practices for eating, drinking, greeting, and dressing",
+      "Teaches Adab for family, friends, elders, and strangers",
+      "Covers the etiquette of prayer, gatherings, and daily interactions",
+      "Highlights the rewards of following Sunnah in simple actions",
+      "Encourages love and respect through good manners and behavior",
+    ],
+    importance: [
+      "Practicing Sunnah and Adab strengthens faith, improves character, and spreads love and harmony in society.",
+      "It keeps a Muslim close to the way of the Prophet (PBUH) in every part of life.",
+    ],
+    howItsTaught: [
+      "Lessons include practical demonstrations and examples from the Prophet’s life.",
+      "Teachers explain how to adopt these Sunnahs and manners step by step in modern daily routines.",
+    ],
+    spiritualValue: [
+      "Following Sunnatain & Adab brings blessings to everyday actions, purifies the heart, and helps a Muslim live a life filled with respect, humility, and the love of Allah and His Messenger.",
+      "It brings more blessings to everyday life, helps you stay humble, and keeps your heart connected to Allah and His Prophet (PBUH).",
+    ],
+  },
+  {
+    id: "20",
+    title: "Taharat",
+    enrolled: "250 Enrolled",
+    duration: "01 Month Duration",
+    days: "As Per Your Choice",
+    classTime: "30 Minutes",
+    weeklyHours: "03 hours",
+    language: "Urdu / English",
+    image: "assets/img/cousrse/taharat.webp",
+    description:
+      "Taharat is the Islamic teaching of purity and cleanliness, which is the foundation of all acts of worship. It explains the rules of physical and spiritual cleanliness, ensuring that prayers and other forms of worship are accepted by Allah.",
+    purpose: [
+      "The purpose of learning Taharat is to understand the proper methods of purification, such as wudu (ablution), ghusl (full bath), and cleanliness in daily life.",
+      "It helps Muslims stay pure in both body and soul.",
+    ],
+    keyFeatures: [
+      "Teaches the step-by-step method of wudu and ghusl",
+      "Explains the rules of cleanliness for clothes, body, and surroundings",
+      "Covers topics like tayammum (dry ablution) and impurity removal",
+      "Highlights the importance of hygiene in eating, dressing, and living",
+      "Shares the spiritual benefits of staying clean and pure",
+    ],
+    importance: [
+      "Purity is a key condition for prayers and other acts of worship.",
+      "Learning Taharat ensures that worship is valid and keeps a Muslim safe from impurity and negligence.",
+    ],
+    howItsTaught: [
+      "Lessons include practical demonstrations of wudu, ghusl, and other methods of purification.",
+      "Teachers explain common mistakes and give tips for maintaining cleanliness in daily routines.",
+    ],
+    spiritualValue: [
+      "Practicing Taharat brings inner peace, strengthens faith, and keeps a Muslim in a state loved by Allah.",
+      "It purifies the heart, protects health, and makes worship more meaningful and accepted.",
+    ],
+  },
+  {
+    id: "21",
+    title: "Arabic Grammar",
+    enrolled: "250 Enrolled",
+    duration: "06 Months Duration",
+    days: "As Per Your Choice",
+    classTime: "30 Minutes",
+    weeklyHours: "03 hours",
+    language: "Urdu / English",
+    image: "assets/img/cousrse/arabic-grammar.webp",
+    description:
+      "Arabic Grammar is the study of the rules that explain how the Arabic language works. Learning these rules helps Muslims understand the Quran, Hadith, and Islamic texts with accuracy and clarity.",
+    purpose: [
+      "The purpose of learning Arabic Grammar is to make it easier to read, write, and understand Arabic correctly.",
+      "It helps students grasp the meanings of Quranic verses and prayers without relying only on translations.",
+    ],
+    keyFeatures: [
+      "Teaches the basics of nouns, verbs, and sentence structure",
+      "Explains key grammar rules like gender, numbers, and tenses",
+      "Covers common vocabulary found in the Quran and Hadith",
+      "Improves reading, writing, and speaking skills step by step",
+      "Makes understanding Islamic texts more natural and meaningful",
+    ],
+    importance: [
+      "Arabic is the language of the Quran and the Sunnah.",
+      "Learning its grammar brings a deeper connection with Allah’s words and ensures correct recitation and comprehension.",
+    ],
+    howItsTaught: [
+      "Lessons begin with simple grammar concepts and gradually move to advanced rules.",
+      "Teachers use examples from the Quran and everyday speech to make learning easy and practical.",
+    ],
+    spiritualValue: [
+      "Studying Arabic Grammar strengthens the bond with the Quran, increases love for Allah’s words",
+      "It opens the door to a richer understanding of Islamic knowledge and worship.",
     ],
   },
 ];

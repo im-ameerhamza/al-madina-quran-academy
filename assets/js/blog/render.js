@@ -75,6 +75,20 @@ function renderCourseDetails() {
       <ul class="blog-text fs-18">
         ${(course.importance || []).map((item) => `<li>${item}</li>`).join("")}
       </ul>
+
+      <h5>How It's Taught</h5>
+      <ul class="blog-text fs-18">
+        ${(course.howItsTaught || [])
+          .map((item) => `<li>${item}</li>`)
+          .join("")}
+      </ul>
+
+      <h5>Spiritual Value</h5>
+      <ul class="blog-text fs-18">
+        ${(course.spiritualValue || [])
+          .map((item) => `<li>${item}</li>`)
+          .join("")}
+      </ul>
     </div>
   </div>
 
