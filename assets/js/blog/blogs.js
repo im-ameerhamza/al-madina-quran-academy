@@ -501,7 +501,7 @@ const courses = [
     classTime: "30 Minutes",
     weeklyHours: "03 hours",
     language: "Urdu / English",
-    image: "assets/img/cousrse/Hajj.webp",
+    image: "assets/img/gallery/Hajj.webp",
     description:
       "Hajj is the sacred pilgrimage to the Holy Kaaba in Makkah and one of the five pillars of Islam. It is a journey of worship, sacrifice, and unity that every Muslim must perform at least once in a lifetime if able.",
     purpose: [
@@ -573,7 +573,7 @@ const courses = [
     classTime: "30 Minutes",
     weeklyHours: "03 hours",
     language: "Urdu / English",
-    image: "assets/img/cousrse/Ramadan.webp",
+    image: "assets/img/gallery/Ramadan.webp",
     description:
       "Ahkam-e-Roza focuses on the rules, guidance, and spiritual wisdom of fasting in Islam. It explains the proper way to observe Roza during the month of Ramadan and other recommended fasts, ensuring that this act of worship is done correctly and with devotion.",
     purpose: [

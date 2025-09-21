@@ -11605,6 +11605,16 @@ blockquote.event-blockquote,
   /* Medium devices */
 }
 
+blockquote.event-blockquote1,
+.wp-block-quote.event-blockquote {
+  background-color: #f0f8ff;
+  border: 1px solid skyblue !important;
+  border-top: 3px solid skyblue !important;
+  border-radius: 8px;
+  padding: 82px 57px 55px 48px;
+  /* Medium devices */
+}
+
 @media (max-width: 991px) {
 
   blockquote.event-blockquote,
