@@ -1590,7 +1590,7 @@ select,
 .form-select,
 textarea,
 input {
-  height: 50px;
+  height: auto;
   padding: 0 25px 0 25px;
   padding-right: 45px;
   color: var(--body-color);
