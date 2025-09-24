@@ -60,6 +60,40 @@
 
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- hero section -->
+    <style>
+      .hero-section {
+        position: relative;
+        width: 100%;
+        height: 700px; /* or use height: 100vh; for full screen */
+        overflow: hidden;
+      }
+      .hero-section {
+        background-size: cover; /* image always covers parent */
+        background-position: center; /* center the image */
+      }
+      .hero-section img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* keeps image aspect ratio while filling parent */
+        position: absolute; /* if overlapping images for slider */
+        top: 0;
+        left: 0;
+      }
+      .hero-section img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      @media (max-width: 480px) {
+        .hero-section {
+          height: 650px; /* adjust height for smaller screens */
+        }
+      }
+    </style>
   </head>
 
   <body class="body-pattern">
@@ -236,7 +270,7 @@ Header Area
     <!--==============================
 Hero Area
 ==============================-->
-    <div class="th-hero-wrapper hero-2" id="hero">
+    <div class="th-hero-wrapper hero-2 hero-section" id="hero">
       <div
         class="swiper th-slider hero-slider-2"
         id="hero-thumb"
