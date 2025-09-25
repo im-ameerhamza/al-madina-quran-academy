@@ -12749,10 +12749,6 @@ ul.comment-list .th-comment-item:first-child>.th-post-comment {
   color: inherit;
 }
 
-.btn-group:has(.call-btn) {
-  /* Large devices */
-  /* Small devices */
-}
 
 @media (max-width: 1199px) {
   .btn-group:has(.call-btn) {
@@ -13047,8 +13043,8 @@ ul.comment-list .th-comment-item:first-child>.th-post-comment {
 }
 
 .hero-2 .th-hero-bg {
-  -webkit-mask-image: url("../img/hero/hero-shape.png");
-  mask-image: url("../img/hero/hero-shape.png");
+  /* -webkit-mask-image: url("../img/hero/hero-shape.png");
+  mask-image: url("../img/hero/hero-shape.png"); */
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
@@ -13522,8 +13518,8 @@ ul.comment-list .th-comment-item:first-child>.th-post-comment {
   inset: 0;
   top: 0px;
   right: -15px;
-  -webkit-mask-image: url("../img/shape/hero-shape2.png");
-  mask-image: url("../img/shape/hero-shape2.png");
+  /* -webkit-mask-image: url("../img/shape/hero-shape2.png");
+  mask-image: url("../img/shape/hero-shape2.png"); */
   background-color: var(--theme-color2);
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
@@ -13535,8 +13531,8 @@ ul.comment-list .th-comment-item:first-child>.th-post-comment {
 .hero-3 .hero-image {
   position: relative;
   height: 100%;
-  -webkit-mask-image: url("../img/shape/hero-shape2.png");
-  mask-image: url("../img/shape/hero-shape2.png");
+  /* -webkit-mask-image: url("../img/shape/hero-shape2.png");
+  mask-image: url("../img/shape/hero-shape2.png"); */
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
