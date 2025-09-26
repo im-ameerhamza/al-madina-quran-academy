@@ -19122,14 +19122,19 @@ form[id*=give-form] #give-gateway-radio-list {
 .contact-form2 .form-select,
 .contact-form2 textarea,
 .contact-form2 input {
-  background-color: transparent;
-  border: 1px solid #999999;
+  background-color: white;
+  border: 2px solid #999999;
   border-radius: 8px;
   color: var(--body-color);
   font-weight: 400;
   height: 60px;
-  line-height: 60px;
+  line-height: 40px;
 }
+
+.contact-form2 .form-select {
+  line-height: 55px;
+}
+
 
 .contact-form2 select::-moz-placeholder,
 .contact-form2 .form-control::-moz-placeholder,
