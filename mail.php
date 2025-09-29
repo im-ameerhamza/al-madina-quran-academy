@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Recipient email address
-    $recipient = "umairmanzoor320@gmail.com";
+    $recipient = "info@almadinaquranacademy.org";
 
     // Subject line
     $subjectLine = "New contact from $name about $subject";
