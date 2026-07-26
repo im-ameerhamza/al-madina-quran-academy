@@ -15,14 +15,14 @@
             <div
               class="btn-group justify-content-center justify-content-lg-end"
             >
-              <a href="contact.html" class="th-btn"
+              <a href="contact.php" class="th-btn"
                 ><span
                   class="btn-text"
                   data-back="Enroll Now"
                   data-front="Enroll Now"
                 ></span>
               </a>
-              <a href="contact.html" class="th-btn style2"
+              <a href="contact.php" class="th-btn style2"
                 ><span
                   class="btn-text"
                   data-back="Get Free Trial"
@@ -43,7 +43,7 @@
           <div class="widget footer-widget">
             <div class="th-widget-about">
               <div class="about-logo">
-                <a href="index.html"
+                <a href="index.php"
                   ><img
                     src="assets/img/footer-logo.webp"
                     alt="Al Madinah Quran Academy Logo"
@@ -80,23 +80,23 @@
             <div class="menu-all-pages-container">
               <ul class="menu">
                 <li>
-                  <a href="course-details.html?id=1">Madani Noorani Qaida</a>
+                  <a href="course-details.php?id=1">Madani Noorani Qaida</a>
                 </li>
                 <li>
-                  <a href="course-details.html?id=2"
+                  <a href="course-details.php?id=2"
                     >Nazra Quran With Tajweed</a
                   >
                 </li>
                 <li>
-                  <a href="course-details.html?id=3"
+                  <a href="course-details.php?id=3"
                     >Hifz-e-Quran with Tajweed</a
                   >
                 </li>
                 <li>
-                  <a href="course-details.html?id=4">Tarjmat ul Quran</a>
+                  <a href="course-details.php?id=4">Tarjmat ul Quran</a>
                 </li>
                 <li>
-                  <a href="course-details.html?id=5">Tajweed Course</a>
+                  <a href="course-details.php?id=5">Tajweed Course</a>
                 </li>
               </ul>
             </div>
@@ -108,21 +108,21 @@
             <div class="menu-all-pages-container">
               <ul class="menu">
                 <li>
-                  <a href="course-details.html?id=6">Farz-E-Uloom Course</a>
+                  <a href="course-details.php?id=6">Farz-E-Uloom Course</a>
                 </li>
                 <li>
-                  <a href="course-details.html?id=7">The Hadith Course</a>
+                  <a href="course-details.php?id=7">The Hadith Course</a>
                 </li>
                 <li>
-                  <a href="course-details.html?id=8"
+                  <a href="course-details.php?id=8"
                     >Darse Nizami Short Course</a
                   >
                 </li>
                 <li>
-                  <a href="course-details.html?id=12">Namaz Course</a>
+                  <a href="course-details.php?id=12">Namaz Course</a>
                 </li>
                 <li>
-                  <a href="course-details.html?id=11">Aqaid-o-Fiqh Course</a>
+                  <a href="course-details.php?id=11">Aqaid-o-Fiqh Course</a>
                 </li>
               </ul>
             </div>
@@ -133,10 +133,10 @@
             <h3 class="widget_title">Support</h3>
             <div class="menu-all-pages-container">
               <ul class="menu">
-                <li><a href="contact.html">Get Free Trial</a></li>
-                <li><a href="contact.html">Registration</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="contact.html">Query</a></li>
+                <li><a href="contact.php">Get Free Trial</a></li>
+                <li><a href="contact.php">Registration</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="contact.php">Query</a></li>
                 <li><a href="https://wa.me/+923234874809">Live Chat</a></li>
               </ul>
             </div>
@@ -266,14 +266,14 @@
         <div class="col-lg-5">
           <p class="copyright-text">
             Copyright <i class="fal fa-copyright"></i> 2025 All Rights Reserved
-            by <a href="index.html">Al Madinah Quran Academy</a>
+            by <a href="index.php">Al Madinah Quran Academy</a>
           </p>
         </div>
         <div class="col-lg-7 text-center text-lg-end">
           <div class="footer-links">
             <ul>
-              <li><a href="about.html">Terms of service</a></li>
-              <li><a href="educators.html">Privacy policy</a></li>
+              <li><a href="about.php">Terms of service</a></li>
+              <li><a href="educators.php">Privacy policy</a></li>
             </ul>
           </div>
         </div>
