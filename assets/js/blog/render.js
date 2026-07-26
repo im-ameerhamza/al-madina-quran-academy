@@ -6,50 +6,87 @@ function renderCourseDetails() {
   // Find the course by ID
   const course = courses.find((c) => c.id === courseId);
 
-  // Select container
+  // Select elements
   const container = document.getElementById("course-details");
+  const title = document.getElementById("course-title");
 
-  if (course) {
+  if (!container) return;
+
+  // If course not found
+  if (!course) {
+    if (title) {
+      title.textContent = "Course Not Found";
+    }
+
     container.innerHTML = `
+      <p>
+        Course not found.
+        Please go back to
+        <a href="popular-courses.php">Popular Courses</a>.
+      </p>
+    `;
+    return;
+  }
+
+  // Update breadcrumb title
+  if (title) {
+    title.textContent = course.title;
+  }
+
+  // Render course details
+  container.innerHTML = `
 
   <div class="page-single event-single">
     <div class="page-img style2 global-img mb-35">
       <img src="${course.image}" alt="${course.title}" />
     </div>
+
     <div class="event-wrapp">
       <h2 class="h5 mb-10">${course.title}</h2>
+
       <div class="blog-meta d-flex align-items-center">
         <div class="me-3">
-          <i class="fa-solid fa-user-graduate me-1"></i> ${course.enrolled}
+          <i class="fa-solid fa-user-graduate me-1"></i>
+          ${course.enrolled}
         </div>
+
         <div class="me-3">
-          <i class="fa-regular fa-clock me-1"></i> ${course.duration}
+          <i class="fa-regular fa-clock me-1"></i>
+          ${course.duration}
         </div>
       </div>
 
       <div class="btn-group mt-40">
-        <a href="contact.html" class="th-btn">
-          <span class="btn-text" data-back="Enroll Now" data-front="Enroll Now"></span>
+        <a href="contact.php" class="th-btn">
+          <span
+            class="btn-text"
+            data-back="Enroll Now"
+            data-front="Enroll Now"
+          ></span>
         </a>
       </div>
 
       <div class="event-organizer">
         <h4 class="box-title">Course Details</h4>
+
         <span class="text">
-          <span class="fw-bold text-title">Days:</span> ${course.days}
+          <span class="fw-bold text-title">Days:</span>
+          ${course.days}
         </span>
+
         <span class="text">
-          <span class="fw-bold text-title">Class Time:</span> ${
-            course.classTime
-          }
+          <span class="fw-bold text-title">Class Time:</span>
+          ${course.classTime}
         </span>
+
         <span class="text">
-          <span class="fw-bold text-title">Total Weekly Hours:</span> ${
-            course.weeklyHours
-          }
+          <span class="fw-bold text-title">Total Weekly Hours:</span>
+          ${course.weeklyHours}
         </span>
+
         <span class="text">
-          <span class="fw-bold text-title">Language:</span> ${course.language}
+          <span class="fw-bold text-title">Language:</span>
+          ${course.language}
         </span>
       </div>
     </div>
@@ -92,11 +129,8 @@ function renderCourseDetails() {
     </div>
   </div>
 
-    `;
-  } else {
-    container.innerHTML = `<p>Course not found. Please go back to <a href="courses.html">courses</a>.</p>`;
-  }
+  `;
 }
 
-// Call function when page loads
-window.onload = renderCourseDetails;
+// Run when page is loaded
+document.addEventListener("DOMContentLoaded", renderCourseDetails);
