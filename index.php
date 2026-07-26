@@ -78,7 +78,7 @@ Hero Area
                         class="sub-title"
                         data-ani="slideindown"
                         data-ani-delay="0.2s"
-                        ><img src="assets/img/theme-img/sub-title-2.svg" alt=""
+                        ><img src="assets/img/theme-img/sub-title-2.svg" alt="In the name of Allah"
                       /></span>
                       <h1
                         class="hero-title"
@@ -101,7 +101,7 @@ Hero Area
                         data-ani="slideinup"
                         data-ani-delay="0.8s"
                       >
-                        <a href="popular-courses.html" class="th-btn"
+                        <a href="popular-courses.php" class="th-btn"
                           ><span
                             class="btn-text"
                             data-back="Find The Course"
@@ -157,7 +157,7 @@ Hero Area
                         data-ani="slideinup"
                         data-ani-delay="0.8s"
                       >
-                        <a href="popular-courses.html" class="th-btn"
+                        <a href="popular-courses.php" class="th-btn"
                           ><span
                             class="btn-text"
                             data-back="Find The Course"
@@ -224,7 +224,7 @@ Hero Area
                         data-ani="slideinup"
                         data-ani-delay="0.8s"
                       >
-                        <a href="popular-courses.html" class="th-btn"
+                        <a href="popular-courses.php" class="th-btn"
                           ><span
                             class="btn-text"
                             data-back="Find The Course"
@@ -280,199 +280,10 @@ Hero Area
 <!--==============================
 About Area  
 ==============================-->
-    <div
-      class="overflow-hidden position-relative space"
-      style="background-image: url(&quot;assets/img/bg/about-bg-1.webp&quot;)"
-    >
-      <div class="container">
-        <div class="row gy-5">
-          <div class="col-xxl-6 mb-30 mb-xl-0">
-            <div class="title-area pe-xl-5 me-xl-5">
-              <span class="sub-title text-anime-style-2">About us</span>
-              <h2 class="sec-title text-anime-style-3">
-                Discover the Divine Where Faith Meets Purpose
-              </h2>
-            </div>
-            <div class="img-box2 pe-xl-5 me-xl-2">
-              <div class="img1">
-                <img
-                  src="assets/img/bg/about-1.webp"
-                  alt="About"
-                  style="width: 524px; height: 540px"
-                />
-              </div>
-              <div class="discount-wrapp">
-                <div class="logo">
-                  <img
-                    src="assets/img/hero/logo_1.webp"
-                    alt="Al-Madina Quran Academy Logo"
-                  />
-                </div>
-                <div class="discount-tag">
-                  <span class="discount-anime"
-                    >learn quran everyday * quran learn *</span
-                  >
-                </div>
-              </div>
-              <div class="about-quran-area">
-                <h2 class="box-title">Listen to quran audio</h2>
-                <div class="about-quran">
-                  <div class="quran-image">
-                    <img
-                      src="assets/img/quran-img.webp"
-                      alt="Quran Image"
-                      style="width: 444px; height: 250px"
-                    />
-                  </div>
-                  <span class="text"
-                    ><img src="assets/img/shape/starting.png" alt=""
-                  /></span>
-                  <audio controls="">
-                    <source src="assets/img/audio.mp3" type="audio/mpeg" />
-                  </audio>
-                </div>
-              </div>
-              <div class="th-experience">
-                <div class="th-experience_content">
-                  <h2 class="experience-year">
-                    <span class="counter-number">10</span>k+
-                  </h2>
-                  <p class="experience-text">Satisfied students worldwide.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xxl-6 mb-30 mb-xl-0">
-            <p
-              class="mt-3 mb-15 fs-18 wow fadeInUp"
-              data-wow-delay=".2s"
-              style="text-align: justify"
-            >
-              The history of the Quran is a journey that spans over 1,400 years,
-              beginning with its revelation to Prophet Muhammad (peace be upon
-              him) in Mecca. This sacred book has guided generations, shaping
-              spiritual, cultural, and social life across the world. From its
-              careful preservation to the development of diverse recitation
-              traditions, the Quran continues to inspire and connect hearts.
-              Explore its timeless wisdom, listen to authentic recitations by
-              renowned Qaris, and deepen your own understanding through guided
-              lessons, all while experiencing the beauty and serenity of Allah’s
-              words.
-            </p>
-            <p
-              class="fs-18 wow fadeInUp"
-              data-wow-delay=".3s"
-              style="text-align: justify"
-            >
-              Over the centuries, the Quran has guided millions with its
-              timeless wisdom and teachings. Its verses inspire compassion,
-              patience, and gratitude, shaping hearts and minds. Listening to
-              authentic recitations and studying its meanings brings peace and
-              understanding. The Quran continues to illuminate lives, offering a
-              path to faith, knowledge, and spiritual connection.
-            </p>
-            <div class="about-wrapper2 mt-40">
-              <div>
-                <div
-                  class="about-feature style3 wow fadeInUp"
-                  data-wow-delay=".4s"
-                >
-                  <div class="box-icon">
-                    <img src="assets/img/icon/about_2_1.svg" alt="Icon" />
-                  </div>
-                  <div class="media-body">
-                    <h3 class="box-title">
-                      Finding Contentment in Allah’s Blessings
-                    </h3>
-                    <p class="box-text">
-                      The Quran teaches us to appreciate Allah’s blessings,
-                      guiding us to find peace and contentment in our daily
-                      lives.
-                    </p>
-                  </div>
-                </div>
-                <div
-                  class="about-feature style3 wow fadeInUp"
-                  data-wow-delay=".5s"
-                >
-                  <div class="box-icon">
-                    <img src="assets/img/icon/about_2_2.svg" alt="Icon" />
-                  </div>
-                  <div class="media-body">
-                    <h3 class="box-title">
-                      Connecting with Allah in Every Moment
-                    </h3>
-                    <p class="box-text">
-                      The Quran helps us stay close to Allah and find peace in
-                      every moment.
-                    </p>
-                  </div>
-                </div>
-                <div
-                  class="about-feature style3 wow fadeInUp"
-                  data-wow-delay=".6s"
-                >
-                  <div class="box-icon">
-                    <img src="assets/img/icon/about_2_3.svg" alt="Icon" />
-                  </div>
-                  <div class="media-body">
-                    <h3 class="box-title">The Spiritual Benefits of Ramadan</h3>
-                    <p class="box-text">
-                      The Quran guides us during Ramadan, deepening our faith,
-                      patience, and connection with Allah.
-                    </p>
-                  </div>
-                </div>
-                <div
-                  class="about-feature style3 wow fadeInUp"
-                  data-wow-delay=".7s"
-                >
-                  <div class="box-icon">
-                    <img src="assets/img/icon/about_2_2.svg" alt="Icon" />
-                  </div>
-                  <div class="media-body">
-                    <h3 class="box-title">The Global Ummah and Its Strength</h3>
-                    <p class="box-text">
-                      The Quran unites Muslims around the world, inspiring
-                      faith, solidarity, and shared purpose.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="btn-group mt-30 mb-xxl-0 mb-25 wow fadeInUp"
-              data-wow-delay=".8s"
-            >
-              <a href="about.html" class="th-btn"
-                ><span
-                  class="btn-text"
-                  data-back="Read More"
-                  data-front="Read More"
-                ></span>
-              </a>
-            </div>
-            <div
-              class="video-wrapp style2 wow fadeInRight"
-              data-wow-delay=".9s"
-              data-mask-src="assets/img/shape/about-shape2.png"
-            >
-              <div
-                class="video-image style2"
-                data-bg-src="assets/img/bg/video_bg_2.webp"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=OejiVcPicog"
-                  class="play-btn popup-video"
-                >
-                  <i class="fa-solid fa-play"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<?php
+$showReadMore = true;
+require_once 'includes/about-us.php';
+?>
     <!--==============================
 cousrse Area
 ==============================-->
@@ -518,7 +329,7 @@ Career Area
                   </div>
                   <span class="tags">Noorani Qaida</span>
                   <h3 class="box-title">
-                    <a href="course-details.html?id=1">Madani Noorani Qaida</a>
+                    <a href="course-details.php?id=1">Madani Noorani Qaida</a>
                   </h3>
                   <div class="box-wrapp">
                     <div class="box-profile">
@@ -540,10 +351,10 @@ Career Area
                   <div class="btn-group justify-content-between">
                     <a
                       class="th-btn border-btn2"
-                      href="course-details.html?id=1"
+                      href="course-details.php?id=1"
                       >Learn More</a
                     >
-                    <a href="contact.html" class="th-btn"
+                    <a href="contact.php" class="th-btn"
                       ><span
                         class="btn-text"
                         data-back="Enroll Now"
@@ -575,7 +386,7 @@ Career Area
                   </div>
                   <span class="tags">Nazra Quran</span>
                   <h3 class="box-title">
-                    <a href="courses-details.html?id=2"
+                    <a href="courses-details.php?id=2"
                       >Nazra Quran With Tajweed</a
                     >
                   </h3>
@@ -599,10 +410,10 @@ Career Area
                   <div class="btn-group justify-content-between">
                     <a
                       class="th-btn border-btn2"
-                      href="course-details.html?id=2"
+                      href="course-details.php?id=2"
                       >Learn More</a
                     >
-                    <a href="contact.html" class="th-btn"
+                    <a href="contact.php" class="th-btn"
                       ><span
                         class="btn-text"
                         data-back="Enroll Now"
@@ -634,7 +445,7 @@ Career Area
                   </div>
                   <span class="tags">Hifz-e-Quran</span>
                   <h3 class="box-title">
-                    <a href="courses-details.html?id=3"
+                    <a href="courses-details.php?id=3"
                       >Hifz-e-Quran with Tajweed</a
                     >
                   </h3>
@@ -658,10 +469,10 @@ Career Area
                   <div class="btn-group justify-content-between">
                     <a
                       class="th-btn border-btn2"
-                      href="course-details.html?id=3"
+                      href="course-details.php?id=3"
                       >Learn More</a
                     >
-                    <a href="contact.html" class="th-btn"
+                    <a href="contact.php" class="th-btn"
                       ><span
                         class="btn-text"
                         data-back="Enroll Now"
@@ -693,7 +504,7 @@ Career Area
                   </div>
                   <span class="tags">Tarjmat ul Quran</span>
                   <h3 class="box-title">
-                    <a href="courses-details.html?id=4">Tarjmat ul Quran</a>
+                    <a href="courses-details.php?id=4">Tarjmat ul Quran</a>
                   </h3>
                   <div class="box-wrapp">
                     <div class="box-profile">
@@ -716,10 +527,10 @@ Career Area
                   <div class="btn-group justify-content-between">
                     <a
                       class="th-btn border-btn2"
-                      href="course-details.html?id=4"
+                      href="course-details.php?id=4"
                       >Learn More</a
                     >
-                    <a href="contact.html" class="th-btn"
+                    <a href="contact.php" class="th-btn"
                       ><span
                         class="btn-text"
                         data-back="Enroll Now"
@@ -751,7 +562,7 @@ Career Area
                   </div>
                   <span class="tags">Tajweed</span>
                   <h3 class="box-title">
-                    <a href="courses-details.html?id=5">Tajweed Course</a>
+                    <a href="courses-details.php?id=5">Tajweed Course</a>
                   </h3>
                   <div class="box-wrapp">
                     <div class="box-profile">
@@ -774,10 +585,10 @@ Career Area
                   <div class="btn-group justify-content-between">
                     <a
                       class="th-btn border-btn2"
-                      href="course-details.html?id=5"
+                      href="course-details.php?id=5"
                       >Learn More</a
                     >
-                    <a href="contact.html" class="th-btn"
+                    <a href="contact.php" class="th-btn"
                       ><span
                         class="btn-text"
                         data-back="Enroll Now"
@@ -819,7 +630,7 @@ Cta Area
           <p class="text text-white">7:00 AM to 10:00 PM</p>
         </div>
         <div class="button">
-          <a class="cta-text" href="fee-structure.html"
+          <a class="cta-text" href="fee-structure.php"
             >We offer flexible learning: 1 day, 2 days, 3 days, or even 5 days
             every week. <br />
             Pick the plan that suits you best</a
@@ -838,7 +649,7 @@ Cta Area
         </div>
 
         <div class="cta-button justify-content-center mt-55">
-          <a href="contact.html" class="th-btn style1"
+          <a href="contact.php" class="th-btn style1"
             ><span
               class="btn-text"
               data-back="Get Started"
@@ -879,7 +690,7 @@ Service Area
                   <img src="assets/img/icon/about_2_1.svg" alt="Icon" />
                 </div>
                 <h3 class="box-title">
-                  <a href="course-details.html?id=6">Farz-E-Uloom Course</a>
+                  <a href="course-details.php?id=6">Farz-E-Uloom Course</a>
                 </h3>
               </div>
               <div class="box-content">
@@ -888,7 +699,7 @@ Service Area
                     <img src="assets/img/icon/about_2_1.svg" alt="Icon" />
                   </div>
                   <h3 class="box-title">
-                    <a href="course-details.html?id=6">Farz-E-Uloom Course</a>
+                    <a href="course-details.php?id=6">Farz-E-Uloom Course</a>
                   </h3>
                   <p class="box-text">
                     The Farz-E-Uloom course walks you through the heart of
@@ -898,7 +709,7 @@ Service Area
                   </p>
                 </div>
                 <div class="service-btn">
-                  <a href="course-details.html?id=6" class="simple-btn"
+                  <a href="course-details.php?id=6" class="simple-btn"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -916,7 +727,7 @@ Service Area
                   <img src="assets/img/icon/service_2_9.svg" alt="Icon" />
                 </div>
                 <h3 class="box-title">
-                  <a href="course-details.html?id=7">The Hadith Course</a>
+                  <a href="course-details.php?id=7">The Hadith Course</a>
                 </h3>
               </div>
               <div class="box-content">
@@ -925,7 +736,7 @@ Service Area
                     <img src="assets/img/icon/service_2_9.svg" alt="Icon" />
                   </div>
                   <h3 class="box-title">
-                    <a href="course-details.html?id=7">Hadith Course</a>
+                    <a href="course-details.php?id=7">Hadith Course</a>
                   </h3>
                   <p class="box-text">
                     The Hadith Course offers insight into the sayings and
@@ -934,7 +745,7 @@ Service Area
                   </p>
                 </div>
                 <div class="service-btn">
-                  <a href="course-details.html?id=7" class="simple-btn"
+                  <a href="course-details.php?id=7" class="simple-btn"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -955,7 +766,7 @@ Service Area
                   <img src="assets/img/icon/about_2_4.svg" alt="Icon" />
                 </div>
                 <h3 class="box-title">
-                  <a href="course-details.html?id=8"
+                  <a href="course-details.php?id=8"
                     >Darse Nizami Short Course</a
                   >
                 </h3>
@@ -966,7 +777,7 @@ Service Area
                     <img src="assets/img/icon/about_2_4.svg" alt="Icon" />
                   </div>
                   <h3 class="box-title">
-                    <a href="course-details.html?id=8"
+                    <a href="course-details.php?id=8"
                       >Darse Nizami Short Course</a
                     >
                   </h3>
@@ -977,7 +788,7 @@ Service Area
                   </p>
                 </div>
                 <div class="service-btn">
-                  <a href="course-details.html?id=8" class="simple-btn"
+                  <a href="course-details.php?id=8" class="simple-btn"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -998,7 +809,7 @@ Service Area
                   <img src="assets/img/icon/service_2_4.svg" alt="Icon" />
                 </div>
                 <h3 class="box-title">
-                  <a href="course-details.html?id=9"
+                  <a href="course-details.php?id=9"
                     >Tafseer Surah Noor, Nisa, Yusuf</a
                   >
                 </h3>
@@ -1009,7 +820,7 @@ Service Area
                     <img src="assets/img/icon/service_2_4.svg" alt="Icon" />
                   </div>
                   <h3 class="box-title">
-                    <a href="course-details.html?id=9"
+                    <a href="course-details.php?id=9"
                       >Tafseer Surah Noor, Nisa, Yusuf</a
                     >
                   </h3>
@@ -1020,7 +831,7 @@ Service Area
                   </p>
                 </div>
                 <div class="service-btn">
-                  <a href="course-details.html?id=9" class="simple-btn"
+                  <a href="course-details.php?id=9" class="simple-btn"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -1041,7 +852,7 @@ Service Area
                   <img src="assets/img/icon/service_2_5.svg" alt="Icon" />
                 </div>
                 <h3 class="box-title">
-                  <a href="course-details.html?id=12">Namaz Course</a>
+                  <a href="course-details.php?id=12">Namaz Course</a>
                 </h3>
               </div>
               <div class="box-content">
@@ -1050,7 +861,7 @@ Service Area
                     <img src="assets/img/icon/service_2_5.svg" alt="Icon" />
                   </div>
                   <h3 class="box-title">
-                    <a href="course-details.html?id=12">Namaz Course</a>
+                    <a href="course-details.php?id=12">Namaz Course</a>
                   </h3>
                   <p class="box-text">
                     The Namaz Course provides complete guidance on Salah,
@@ -1059,7 +870,7 @@ Service Area
                   </p>
                 </div>
                 <div class="service-btn">
-                  <a href="course-details.html?id=12" class="simple-btn"
+                  <a href="course-details.php?id=12" class="simple-btn"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -1077,7 +888,7 @@ Service Area
                   <img src="assets/img/icon/service_2_7.svg" alt="Icon" />
                 </div>
                 <h3 class="box-title">
-                  <a href="course-details.html?id=13">Sunnat e Nikah Course</a>
+                  <a href="course-details.php?id=13">Sunnat e Nikah Course</a>
                 </h3>
               </div>
               <div class="box-content">
@@ -1086,7 +897,7 @@ Service Area
                     <img src="assets/img/icon/service_2_7.svg" alt="Icon" />
                   </div>
                   <h3 class="box-title">
-                    <a href="course-details.html?id=13"
+                    <a href="course-details.php?id=13"
                       >Sunnat e Nikah Course</a
                     >
                   </h3>
@@ -1097,7 +908,7 @@ Service Area
                   </p>
                 </div>
                 <div class="service-btn">
-                  <a href="course-details.html?id=13" class="simple-btn"
+                  <a href="course-details.php?id=13" class="simple-btn"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -1110,174 +921,7 @@ Service Area
     <!--==============================
 Team Area  
 ==============================-->
-    <section
-      class="team-sec overflow-hidden space overflow-hidden"
-      data-bg-src="assets/img/bg/about-bg.webp"
-    >
-      <div class="container z-index-common">
-        <div class="title-area text-center">
-          <span class="sub-title text-anime-style-2">OUR BEST SCHOLARS</span>
-          <h2 class="sec-title text-anime-style-3">Meet Islamic Scholars</h2>
-        </div>
-        <div class="slider-area">
-          <div
-            class="swiper th-slider has-shadow"
-            id="teamSlider2"
-            data-slider-options='{"loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1300":{"slidesPerView":"4"}}}'
-          >
-            <div class="swiper-wrapper">
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/hafiz-ameer-hamza.webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Hafiz Ameer Hamza</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/kabir-rafiq.webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Kabir Rafiq</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/abdul-quddoos.webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Abdul Quddoos Madni</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/ahmad-raza.webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Ahmad Raza</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/maryam-zahid.Webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Maryam Zahid</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/sana-manzoor.Webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Sana Manzoor</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/amina-shehbaz.webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Amina Shehbaz</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/rizwana-nazir.webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Rizwana Nazir</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button
-            data-slider-prev="#teamSlider2"
-            class="slider-arrow slider-prev"
-          >
-            <i class="far fa-arrow-left"></i>
-          </button>
-          <button
-            data-slider-next="#teamSlider2"
-            class="slider-arrow slider-next"
-          >
-            <i class="far fa-arrow-right"></i>
-          </button>
-        </div>
-      </div>
-    </section>
+<?php require_once 'includes/islamic-scholars.php'; ?>
     <!--==============================
 Download Area 1 
 ==============================-->

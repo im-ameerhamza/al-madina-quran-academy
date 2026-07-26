@@ -142,7 +142,12 @@ pillar  Area
     <!--==============================
 About Area  
 ==============================-->
-    <div
+<?php
+$showReadMore = false;
+require_once 'includes/about-us.php';
+?>
+
+    <!-- <div
       class="overflow-hidden position-relative space"
       style="background-image: url('assets/img/bg/about-bg-1.webp')"
     >
@@ -326,7 +331,7 @@ About Area
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--==============================
 Service Area  
 ==============================-->
@@ -417,14 +422,14 @@ Service Area
               class="btn-group justify-content-center justify-content-md-start mt-50 wow fadeInUp"
               data-wow-delay=".7s"
             >
-              <a href="popular-courses.html" class="th-btn style2 th-icon"
+              <a href="popular-courses.php" class="th-btn style2 th-icon"
                 ><span
                   class="btn-text"
                   data-back="Discover More"
                   data-front="Discover More"
                 ></span>
               </a>
-              <a href="contact.html" class="th-btn th-icon"
+              <a href="contact.php" class="th-btn th-icon"
                 ><span
                   class="btn-text"
                   data-back="Enroll Now"
@@ -441,174 +446,7 @@ Service Area
    <!--==============================
 Team Area  
 ==============================-->
-    <section
-      class="team-sec overflow-hidden space overflow-hidden"
-      data-bg-src="assets/img/bg/about-bg.webp"
-    >
-      <div class="container z-index-common">
-        <div class="title-area text-center">
-          <span class="sub-title text-anime-style-2">OUR BEST SCHOLARS</span>
-          <h2 class="sec-title text-anime-style-3">Meet Islamic Scholars</h2>
-        </div>
-        <div class="slider-area">
-          <div
-            class="swiper th-slider has-shadow"
-            id="teamSlider2"
-            data-slider-options='{"loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1300":{"slidesPerView":"4"}}}'
-          >
-            <div class="swiper-wrapper">
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/hafiz-ameer-hamza.webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Hafiz Ameer Hamza</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/kabir-rafiq.webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Kabir Rafiq</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/abdul-quddoos.webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Abdul Quddoos Madni</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/ahmad-raza.webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Ahmad Raza</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/maryam-zahid.Webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Maryam Zahid</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/sana-manzoor.Webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Sana Manzoor</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/amina-shehbaz.webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Amina Shehbaz</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Single Item -->
-              <div class="swiper-slide">
-                <div class="th-team team-card">
-                  <div class="box-img">
-                    <div class="team-overlay"></div>
-                    <img
-                      src="assets/img/team/rizwana-nazir.webp"
-                      alt="Islamic Scholar"
-                    />
-                  </div>
-                  <div class="box-content">
-                    <h3 class="box-title">Rizwana Nazir</h3>
-                    <span class="team-desig">Islamic Scholar</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button
-            data-slider-prev="#teamSlider2"
-            class="slider-arrow slider-prev"
-          >
-            <i class="far fa-arrow-left"></i>
-          </button>
-          <button
-            data-slider-next="#teamSlider2"
-            class="slider-arrow slider-next"
-          >
-            <i class="far fa-arrow-right"></i>
-          </button>
-        </div>
-      </div>
-    </section>
+   <?php require_once 'includes/islamic-scholars.php'; ?>
     <!--==============================
 About Area  
 ==============================-->
@@ -637,7 +475,7 @@ About Area
                   <img src="assets/img/icon/choose_1_1.svg" alt="Icon" />
                 </div>
                 <h3 class="box-title">
-                  <a href="choose-details.html">Expert Quran Tutor</a>
+                  <a href="educators.php">Expert Quran Tutor</a>
                 </h3>
                 <p class="box-text">
                   All the classes of online Quran teaching are conducted by well
@@ -645,7 +483,7 @@ About Area
                 </p>
               </div>
               <div class="choose-btn">
-                <a href="educators.html" class="icon-btn">
+                <a href="educators.php" class="icon-btn">
                   <i class="fa-regular fa-arrow-right"></i>
                 </a>
               </div>
@@ -658,7 +496,7 @@ About Area
                   <img src="assets/img/icon/choose_1_2.svg" alt="Icon" />
                 </div>
                 <h3 class="box-title">
-                  <a href="choose-details.html">One-to-One Classes</a>
+                  <a href="educators.php">One-to-One Classes</a>
                 </h3>
                 <p class="box-text">
                   One-to-one classes that give you full attention, personalized
@@ -666,7 +504,7 @@ About Area
                 </p>
               </div>
               <div class="choose-btn">
-                <a href="educators.html" class="icon-btn">
+                <a href="educators.php" class="icon-btn">
                   <i class="fa-regular fa-arrow-right"></i>
                 </a>
               </div>
@@ -679,7 +517,7 @@ About Area
                   <img src="assets/img/icon/choose_1_3.svg" alt="Icon" />
                 </div>
                 <h3 class="box-title">
-                  <a href="choose-details.html">Any course Flexible Timings</a>
+                  <a href="educators.php">Any course Flexible Timings</a>
                 </h3>
                 <p class="box-text">
                   Pick any course and study at the time that suits you best,
@@ -687,7 +525,7 @@ About Area
                 </p>
               </div>
               <div class="choose-btn">
-                <a href="educators.html" class="icon-btn">
+                <a href="educators.php" class="icon-btn">
                   <i class="fa-regular fa-arrow-right"></i>
                 </a>
               </div>
@@ -700,7 +538,7 @@ About Area
                   <img src="assets/img/icon/choose_1_4.svg" alt="Icon" />
                 </div>
                 <h3 class="box-title">
-                  <a href="choose-details.html">Male & female Teachers</a>
+                  <a href="educators.php">Male & female Teachers</a>
                 </h3>
                 <p class="box-text">
                   Our female teachers provides comfortable learning environment
@@ -708,7 +546,7 @@ About Area
                 </p>
               </div>
               <div class="choose-btn">
-                <a href="educators.html" class="icon-btn">
+                <a href="educators.php" class="icon-btn">
                   <i class="fa-regular fa-arrow-right"></i>
                 </a>
               </div>
