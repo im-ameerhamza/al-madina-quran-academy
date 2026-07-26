@@ -1,234 +1,26 @@
+<?php
+$pageTitle = "Popular Quran Courses | Al Madinah Quran Academy";
+$pageDescription = "Explore our online Quran courses including Nazra, Tajweed, Hifz, Qaida and Islamic studies for children and adults.";
+$pageKeywords = "Quran Courses, Nazra Quran, Tajweed Course, Hifz Quran";
+?>
+
 <!DOCTYPE html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Al Madinah Quran Academy - Popular Courses</title>
-    <meta name="author" content="Al Madinah Quran Academy" />
-    <meta
-      name="description"
-      content="Al Madina Quran Academy helps all ages learn the Quran with Tajweed, Hifz and Islamic studies through caring and experienced teachers."
-    />
-    <meta
-      name="keywords"
-      content="Learn Quran Online, Quran Academy, Quran Studies"
-    />
-    <meta name="robots" content="INDEX,FOLLOW" />
-
-    <!-- Mobile Specific Metas -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Favicon -->
-    <link
-      rel="icon"
-      href="assets/img/hero/logo_1.webp"
-      type="image/png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      href="assets/img/hero/logo_1.webp"
-      type="image/png"
-      sizes="192x192"
-    />
-
-    <meta name="theme-color" content="#ffffff" />
-
-    <!--==============================
-	  Google Fonts
-	============================== -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
-
-    <!--==============================
-	    All CSS File
-	============================== -->
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
-    <!-- Swiper Slider -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-
-    <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+   <?php require_once 'includes/head.php'; ?>
   </head>
 
   <body class="body-pattern">
     <!--==============================
-    Mobile Menu
-  ============================== -->
-    <div class="th-menu-wrapper">
-      <div class="th-menu-area text-center">
-        <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-        <div class="mobile-logo">
-          <a href="index.html" class="logo"
-            ><img
-              src="assets/img/hero/Nav_logo.webp"
-              alt="Al Madinah Quran Academy"
-          /></a>
-        </div>
-
-        <div class="th-mobile-menu">
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li><a href="about.html">About Us</a></li>
-
-            <li class="menu-item-has-children">
-              <a href="#">Courses</a>
-              <ul class="sub-menu">
-                <li><a href="popular-courses.html">Popular Courses</a></li>
-                <li><a href="fee-structure.html">Fee Structure</a></li>
-              </ul>
-            </li>
-            <li><a href="educators.html">Educators</a></li>
-
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!--==============================
     Sidemenu
 ============================== -->
-    <div class="sidemenu-wrapper d-none d-lg-block">
-      <div class="sidemenu-content">
-        <button class="closeButton sideMenuCls">
-          <i class="far fa-times"></i>
-        </button>
-        <div class="widget footer-widget">
-          <h3 class="widget_title">Informations</h3>
-          <div class="th-widget-about">
-            <p class="about-text" style="text-align: justify; font-size: large">
-              Welcome to our Online Quran Academy, where learning the Quran is
-              easy and accessible from anywhere. We offer personalized Quran
-              classes for all ages, taught by experienced and qualified
-              teachers. Our lessons cover proper Quran recitation (Tajweed),
-              memorization (Hifz), and understanding the meaning of the Quran in
-              a simple way. With flexible timings and online access, students
-              can learn comfortably from home while gaining a strong connection
-              with the Quran.
-            </p>
-            <div class="th-widget-about">
-              <p class="footer-info">
-                <i class="fa-sharp fa-solid fa-phone"></i>
-                <span
-                  ><a class="text-inherit" href="tel:+923234874809"
-                    >+923234874809</a
-                  ></span
-                >
-              </p>
-              <p class="footer-info">
-                <i class="fa-sharp fa-solid fa-envelope"></i
-                ><span>
-                  <a
-                    class="text-inherit"
-                    href="mailto:info@almadinaquranacademy.or"
-                    >info@almadinaquranacademy.org</a
-                  ></span
-                >
-              </p>
-              <p class="footer-info">
-                <i class="fas fa-map-marker-alt"></i>456 Oak Avenue, Vancouver,
-                BC V5K 3N7 Canada
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="popup-search-box d-none d-lg-block">
-      <button class="searchClose"><i class="fal fa-times"></i></button>
-      <form action="#">
-        <input type="text" placeholder="What are you looking for?" />
-        <button type="submit"><i class="fal fa-search"></i></button>
-      </form>
-    </div>
-    <!--==============================
+<?php require_once 'includes/sidemenu.php'; ?>
+
+<!--==============================
 Header Area
 ==============================-->
-    <header class="th-header header-layout5">
-      <div class="sticky-wrapper">
-        <!-- Main Menu Area -->
-        <div class="menu-area" data-bg-src="assets/img/bg/pattern_bg_2.png">
-          <div class="container">
-            <div class="row align-items-center justify-content-between">
-              <div class="col-auto">
-                <div class="header-logo">
-                  <a href="index.html"
-                    ><img
-                      src="assets/img/hero/Nav_logo.webp"
-                      alt="Al Madinah Quran Academy"
-                      style="height: 110px"
-                  /></a>
-                </div>
-              </div>
-              <div class="col-auto">
-                <div class="row align-items-center">
-                  <div class="col-auto">
-                    <nav class="main-menu d-none d-lg-inline-block">
-                      <ul>
-                        <li>
-                          <a href="index.html">Home</a>
-                        </li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li class="menu-item-has-children">
-                          <a href="#">Courses</a>
-                          <ul class="sub-menu">
-                            <li>
-                              <a href="popular-courses.html">Popular-courses</a>
-                            </li>
-                            <li>
-                              <a href="fee-structure.html">Fee Structure</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li><a href="educators.html">Educators</a></li>
-
-                        <li><a href="contact.html">Contact Us</a></li>
-                      </ul>
-                    </nav>
-                    <button
-                      type="button"
-                      class="th-menu-toggle d-inline-block d-lg-none"
-                    >
-                      <i class="far fa-bars"></i>
-                    </button>
-                  </div>
-                  <div class="col-auto d-none d-xxl-block">
-                    <div class="header-button">
-                      <a href="contact.html" class="th-btn style1 th-icon"
-                        ><span
-                          class="btn-text"
-                          data-back="Get Free Trial"
-                          data-front="Get Free Trial"
-                        ></span>
-                      </a>
-                      <a
-                        href="#"
-                        class="icon-btn sideMenuToggler d-none d-lg-block"
-                        ><img src="assets/img/icon/grid.svg" alt=""
-                      /></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="logo-shape"></div>
-        </div>
-      </div>
-    </header>
+    <!-- Navbar -->
+<?php require_once 'includes/navbar.php'; ?>
 
     <!--==============================
     Breadcumb
@@ -238,7 +30,7 @@ Header Area
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">Popular courses</h1>
           <ul class="breadcumb-menu">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li>Popular courses</li>
           </ul>
         </div>
@@ -272,7 +64,7 @@ cousrse Area
               </div>
               <span class="tags">Noorani Qaida</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=1">Madani Noorani Qaida</a>
+                <a href="course-details.php?id=1">Madani Noorani Qaida</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -290,10 +82,10 @@ cousrse Area
                 <span class="rating"><i class="fa-solid fa-star"></i>4.8</span>
               </div>
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=1"
+                <a class="th-btn border-btn2" href="course-details.php?id=1"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -323,7 +115,7 @@ cousrse Area
               </div>
               <span class="tags">Nazra Quran</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=2">Nazra Quran With Tajweed</a>
+                <a href="course-details.php?id=2">Nazra Quran With Tajweed</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -341,10 +133,10 @@ cousrse Area
                 <span class="rating"><i class="fa-solid fa-star"></i>4.8</span>
               </div>
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=2"
+                <a class="th-btn border-btn2" href="course-details.php?id=2"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -375,7 +167,7 @@ cousrse Area
               </div>
               <span class="tags">Hifz-e-Quran</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=3">Hifz-e-Quran with Tajweed</a>
+                <a href="course-details.php?id=3">Hifz-e-Quran with Tajweed</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -390,10 +182,10 @@ cousrse Area
                 <span class="rating"><i class="fa-solid fa-star"></i>4.8</span>
               </div>
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=3"
+                <a class="th-btn border-btn2" href="course-details.php?id=3"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -423,7 +215,7 @@ cousrse Area
               </div>
               <span class="tags">Tarjmat ul Quran</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=4">Tarjmat ul Quran</a>
+                <a href="course-details.php?id=4">Tarjmat ul Quran</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -442,10 +234,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=4"
+                <a class="th-btn border-btn2" href="course-details.php?id=4"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -475,7 +267,7 @@ cousrse Area
               </div>
               <span class="tags">Tajweed</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=5">Tajweed Course</a>
+                <a href="course-details.php?id=5">Tajweed Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -494,10 +286,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=5"
+                <a class="th-btn border-btn2" href="course-details.php?id=5"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -527,7 +319,7 @@ cousrse Area
               </div>
               <span class="tags">Farz-E-Uloom</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=6">Farz-E-Uloom Course</a>
+                <a href="course-details.php?id=6">Farz-E-Uloom Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -546,10 +338,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=6"
+                <a class="th-btn border-btn2" href="course-details.php?id=6"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -580,7 +372,7 @@ cousrse Area
               </div>
               <span class="tags">The Hadith Course</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=7">The Hadith Course</a>
+                <a href="course-details.php?id=7">The Hadith Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -599,10 +391,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=7"
+                <a class="th-btn border-btn2" href="course-details.php?id=7"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -632,7 +424,7 @@ cousrse Area
               </div>
               <span class="tags">Darse Nizami</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=8">Darse Nizami Short Course</a>
+                <a href="course-details.php?id=8">Darse Nizami Short Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -653,10 +445,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=8"
+                <a class="th-btn border-btn2" href="course-details.php?id=8"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -686,7 +478,7 @@ cousrse Area
               </div>
               <span class="tags">Tafseer Surah</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=9"
+                <a href="course-details.php?id=9"
                   >Tafseer Surah Noor, Nisa, Yusuf</a
                 >
               </h3>
@@ -707,10 +499,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=9"
+                <a class="th-btn border-btn2" href="course-details.php?id=9"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -740,7 +532,7 @@ cousrse Area
               </div>
               <span class="tags">Tafseer Sirat ul Jinan</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=10"
+                <a href="course-details.php?id=10"
                   >Tafseer Sirat ul Jinan Course</a
                 >
               </h3>
@@ -761,10 +553,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=10"
+                <a class="th-btn border-btn2" href="course-details.php?id=10"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -794,7 +586,7 @@ cousrse Area
               </div>
               <span class="tags">Aqaid o Fiqh</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=11">Aqaid-o-Fiqh Course</a>
+                <a href="course-details.php?id=11">Aqaid-o-Fiqh Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -813,10 +605,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=11"
+                <a class="th-btn border-btn2" href="course-details.php?id=11"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -846,7 +638,7 @@ cousrse Area
               </div>
               <span class="tags">Namaz</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=12">Namaz Course</a>
+                <a href="course-details.php?id=12">Namaz Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -865,10 +657,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=12"
+                <a class="th-btn border-btn2" href="course-details.php?id=12"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -898,7 +690,7 @@ cousrse Area
               </div>
               <span class="tags">Sunnat e Nikah</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=13">Sunnat e Nikah Course</a>
+                <a href="course-details.php?id=13">Sunnat e Nikah Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -917,10 +709,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=13"
+                <a class="th-btn border-btn2" href="course-details.php?id=13"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -950,7 +742,7 @@ cousrse Area
               </div>
               <span class="tags">Hajj</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=14"
+                <a href="course-details.php?id=14"
                   >Hajj Short & Complete Course</a
                 >
               </h3>
@@ -971,10 +763,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=14"
+                <a class="th-btn border-btn2" href="course-details.php?id=14"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -1004,7 +796,7 @@ cousrse Area
               </div>
               <span class="tags">Umrah</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=15"
+                <a href="course-details.php?id=15"
                   >Umrah Short & Complete Course</a
                 >
               </h3>
@@ -1025,10 +817,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=15"
+                <a class="th-btn border-btn2" href="course-details.php?id=15"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -1058,7 +850,7 @@ cousrse Area
               </div>
               <span class="tags">Ahkam e Roza</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=16">Ahkam e Roza Course</a>
+                <a href="course-details.php?id=16">Ahkam e Roza Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -1077,10 +869,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=16"
+                <a class="th-btn border-btn2" href="course-details.php?id=16"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -1110,7 +902,7 @@ cousrse Area
               </div>
               <span class="tags">Islamic Life</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=17">Islamic Life Course</a>
+                <a href="course-details.php?id=17">Islamic Life Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -1129,10 +921,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=17"
+                <a class="th-btn border-btn2" href="course-details.php?id=17"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -1162,7 +954,7 @@ cousrse Area
               </div>
               <span class="tags">Seerat e Mustafa</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=18">Seerat e Mustafa Course</a>
+                <a href="course-details.php?id=18">Seerat e Mustafa Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -1180,10 +972,10 @@ cousrse Area
                 <span class="rating"><i class="fa-solid fa-star"></i>4.8</span>
               </div>
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=18"
+                <a class="th-btn border-btn2" href="course-details.php?id=18"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -1213,7 +1005,7 @@ cousrse Area
               </div>
               <span class="tags">Sunnatain & Adab</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=19">Sunnatain & Adab Course</a>
+                <a href="course-details.php?id=19">Sunnatain & Adab Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -1232,10 +1024,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=19"
+                <a class="th-btn border-btn2" href="course-details.php?id=19"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -1265,7 +1057,7 @@ cousrse Area
               </div>
               <span class="tags">Taharat</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=20">Taharat Course</a>
+                <a href="course-details.php?id=20">Taharat Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -1284,10 +1076,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=20"
+                <a class="th-btn border-btn2" href="course-details.php?id=20"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -1317,7 +1109,7 @@ cousrse Area
               </div>
               <span class="tags">Arabic Grammar</span>
               <h3 class="box-title">
-                <a href="course-details.html?id=21">Arabic Grammar Course</a>
+                <a href="course-details.php?id=21">Arabic Grammar Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -1336,10 +1128,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="course-details.html?id=21"
+                <a class="th-btn border-btn2" href="course-details.php?id=21"
                   >Learn More</a
                 >
-                <a href="contact.html" class="th-btn"
+                <a href="contact.php" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -1372,14 +1164,14 @@ cousrse Area
                 <div
                   class="btn-group justify-content-center justify-content-lg-end"
                 >
-                  <a href="contact.html" class="th-btn"
+                  <a href="contact.php" class="th-btn"
                     ><span
                       class="btn-text"
                       data-back="Enroll Now"
                       data-front="Enroll Now"
                     ></span>
                   </a>
-                  <a href="contact.html" class="th-btn style2"
+                  <a href="contact.php" class="th-btn style2"
                     ><span
                       class="btn-text"
                       data-back="Get Free Trial"
@@ -1400,7 +1192,7 @@ cousrse Area
               <div class="widget footer-widget">
                 <div class="th-widget-about">
                   <div class="about-logo">
-                    <a href="index.html"
+                    <a href="index.php"
                       ><img src="assets/img/footer-logo.webp" alt="tawba"
                     /></a>
                   </div>
@@ -1434,14 +1226,14 @@ cousrse Area
                 <h3 class="widget_title">Services</h3>
                 <div class="menu-all-pages-container">
                   <ul class="menu">
-                    <li><a href="service-details.html">Guided Tour</a></li>
-                    <li><a href="service-details.html">Quran Learning</a></li>
-                    <li><a href="service-details.html">Group Packages</a></li>
+                    <li><a href="service-details.php">Guided Tour</a></li>
+                    <li><a href="service-details.php">Quran Learning</a></li>
+                    <li><a href="service-details.php">Group Packages</a></li>
                     <li>
-                      <a href="service-details.html">Travel Arrangements</a>
+                      <a href="service-details.php">Travel Arrangements</a>
                     </li>
                     <li>
-                      <a href="service-details.html">Hajj & Umrah Packages</a>
+                      <a href="service-details.php">Hajj & Umrah Packages</a>
                     </li>
                   </ul>
                 </div>
@@ -1452,11 +1244,11 @@ cousrse Area
                 <h3 class="widget_title">Quick Links</h3>
                 <div class="menu-all-pages-container">
                   <ul class="menu">
-                    <li><a href="service-details.html">Islamic Center</a></li>
-                    <li><a href="service-details.html">Salah Timings</a></li>
-                    <li><a href="service-details.html">Travel & Tours</a></li>
-                    <li><a href="service-details.html">Online Classes</a></li>
-                    <li><a href="contact.html">Term & Conditions</a></li>
+                    <li><a href="service-details.php">Islamic Center</a></li>
+                    <li><a href="service-details.php">Salah Timings</a></li>
+                    <li><a href="service-details.php">Travel & Tours</a></li>
+                    <li><a href="service-details.php">Online Classes</a></li>
+                    <li><a href="contact.php">Term & Conditions</a></li>
                   </ul>
                 </div>
               </div>
@@ -1466,11 +1258,11 @@ cousrse Area
                 <h3 class="widget_title">Support</h3>
                 <div class="menu-all-pages-container">
                   <ul class="menu">
-                    <li><a href="contact.html">Help Center</a></li>
-                    <li><a href="faq.html">FAQs</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="contact.html">Ticket Support</a></li>
-                    <li><a href="contact.html">Live Chat</a></li>
+                    <li><a href="contact.php">Help Center</a></li>
+                    <li><a href="faq.php">FAQs</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="contact.php">Ticket Support</a></li>
+                    <li><a href="contact.php">Live Chat</a></li>
                   </ul>
                 </div>
               </div>
@@ -1564,9 +1356,9 @@ cousrse Area
             <div class="col-lg-7 text-center text-lg-end">
               <div class="footer-links">
                 <ul>
-                  <li><a href="about.html">Terms of service</a></li>
-                  <li><a href="about.html">Privacy policy</a></li>
-                  <li><a href="about.html">Cookies</a></li>
+                  <li><a href="about.php">Terms of service</a></li>
+                  <li><a href="about.php">Privacy policy</a></li>
+                  <li><a href="about.php">Cookies</a></li>
                 </ul>
               </div>
             </div>
@@ -1574,28 +1366,6 @@ cousrse Area
         </div>
       </div>
     </footer>
-
-    <!--********************************
-			Code End  Here 
-	******************************** -->
-    <!-- Scroll To Top -->
-    <div class="scroll-top">
-      <svg
-        class="progress-circle svg-content"
-        width="100%"
-        height="100%"
-        viewBox="-1 -1 102 102"
-      >
-        <path
-          d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-          style="
-            transition: stroke-dashoffset 10ms linear 0s;
-            stroke-dasharray: 307.919, 307.919;
-            stroke-dashoffset: 307.919;
-          "
-        ></path>
-      </svg>
-    </div>
 
     <!--==============================
     All Js File

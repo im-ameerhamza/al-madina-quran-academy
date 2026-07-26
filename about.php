@@ -1,242 +1,28 @@
+<?php
+$pageTitle = "About Us | Al Madinah Quran Academy";
+$pageDescription = "Learn about Al Madinah Quran Academy, our mission, qualified teachers and commitment to providing quality online Quran education worldwide.";
+$pageKeywords = "About Quran Academy, Online Quran Teachers, Islamic Education";
+?>
+
 <!DOCTYPE html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Al Madinah Quran Academy</title>
-    <meta name="author" content="Al Madinah Quran Academy" />
-    <meta
-      name="description"
-      content="Al Madina Quran Academy helps all ages learn the Quran with Tajweed, Hifz and Islamic studies through caring and experienced teachers."
-    />
-    <meta
-      name="keywords"
-      content="Learn Quran Online, Quran Academy, Quran Studies"
-    />
-    <meta name="robots" content="INDEX,FOLLOW" />
-
-    <!-- Mobile Specific Metas -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Favicon -->
-    <link
-      rel="icon"
-      href="assets/img/hero/logo_1.webp"
-      type="image/png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      href="assets/img/hero/logo_1.webp"
-      type="image/png"
-      sizes="192x192"
-    />
-
-    <meta name="theme-color" content="#ffffff" />
-
-    <!--==============================
-	  Google Fonts
-	============================== -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
-
-    <!--==============================
-	    All CSS File
-	============================== -->
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
-    <!-- Swiper Slider -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-
-    <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+   <?php require_once 'includes/head.php'; ?>
   </head>
 
   <body class="body-pattern">
-    <!--********************************
-   		Code Start From Here 
-	******************************** -->
-
-    <!--==============================
-     Preloader
-  ==============================-->
-
-    <!--==============================
-    Mobile Menu
-  ============================== -->
-    <div class="th-menu-wrapper">
-      <div class="th-menu-area text-center">
-        <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-        <div class="mobile-logo">
-          <a href="index.html" class="logo"
-            ><img
-              src="assets/img/hero/Nav_logo.webp"
-              alt="Al Madinah Quran Academy"
-          /></a>
-        </div>
-
-        <div class="th-mobile-menu">
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li><a href="about.html">About Us</a></li>
-
-            <li class="menu-item-has-children">
-              <a href="#">Courses</a>
-              <ul class="sub-menu">
-                <li><a href="popular-courses.html">Popular Courses</a></li>
-                <li><a href="fee-structure.html">Fee Structure</a></li>
-              </ul>
-            </li>
-            <li><a href="educators.html">Educators</a></li>
-
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
     <!--==============================
     Sidemenu
 ============================== -->
-    <div class="sidemenu-wrapper d-none d-lg-block">
-      <div class="sidemenu-content">
-        <button class="closeButton sideMenuCls">
-          <i class="far fa-times"></i>
-        </button>
-        <div class="widget footer-widget">
-          <h3 class="widget_title">Informations</h3>
-          <div class="th-widget-about">
-            <p class="about-text" style="text-align: justify; font-size: large">
-              Welcome to our Online Quran Academy, where learning the Quran is
-              easy and accessible from anywhere. We offer personalized Quran
-              classes for all ages, taught by experienced and qualified
-              teachers. Our lessons cover proper Quran recitation (Tajweed),
-              memorization (Hifz), and understanding the meaning of the Quran in
-              a simple way. With flexible timings and online access, students
-              can learn comfortably from home while gaining a strong connection
-              with the Quran.
-            </p>
-            <div class="th-widget-about">
-              <p class="footer-info">
-                <i class="fa-sharp fa-solid fa-phone"></i>
-                <span
-                  ><a class="text-inherit" href="tel:+923234874809"
-                    >+923234874809</a
-                  ></span
-                >
-              </p>
-              <p class="footer-info">
-                <i class="fa-sharp fa-solid fa-envelope"></i
-                ><span>
-                  <a
-                    class="text-inherit"
-                    href="mailto:info@almadinaquranacademy.or"
-                    >info@almadinaquranacademy.org</a
-                  ></span
-                >
-              </p>
-              <p class="footer-info">
-                <i class="fas fa-map-marker-alt"></i>456 Oak Avenue, Vancouver,
-                BC V5K 3N7 Canada
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="popup-search-box d-none d-lg-block">
-      <button class="searchClose"><i class="fal fa-times"></i></button>
-      <form action="#">
-        <input type="text" placeholder="What are you looking for?" />
-        <button type="submit"><i class="fal fa-search"></i></button>
-      </form>
-    </div>
-    <!--==============================
+<?php require_once 'includes/sidemenu.php'; ?>
+
+<!--==============================
 Header Area
 ==============================-->
-    <header class="th-header header-layout5">
-      <div class="sticky-wrapper">
-        <!-- Main Menu Area -->
-        <div class="menu-area" data-bg-src="assets/img/bg/pattern_bg_2.png">
-          <div class="container">
-            <div class="row align-items-center justify-content-between">
-              <div class="col-auto">
-                <div class="header-logo">
-                  <a href="index.html"
-                    ><img
-                      src="assets/img/hero/Nav_logo.webp"
-                      alt="Al Madinah Quran Academy"
-                      style="height: 110px"
-                  /></a>
-                </div>
-              </div>
-              <div class="col-auto">
-                <div class="row align-items-center">
-                  <div class="col-auto">
-                    <nav class="main-menu d-none d-lg-inline-block">
-                      <ul>
-                        <li>
-                          <a href="index.html">Home</a>
-                        </li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li class="menu-item-has-children">
-                          <a href="#">Courses</a>
-                          <ul class="sub-menu">
-                            <li>
-                              <a href="popular-courses.html">Popular-courses</a>
-                            </li>
-                            <li>
-                              <a href="fee-structure.html">Fee Structure</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li><a href="educators.html">Educators</a></li>
+    <!-- Navbar -->
+<?php require_once 'includes/navbar.php'; ?>
 
-                        <li><a href="contact.html">Contact Us</a></li>
-                      </ul>
-                    </nav>
-                    <button
-                      type="button"
-                      class="th-menu-toggle d-inline-block d-lg-none"
-                    >
-                      <i class="far fa-bars"></i>
-                    </button>
-                  </div>
-                  <div class="col-auto d-none d-xxl-block">
-                    <div class="header-button">
-                      <a href="contact.html" class="th-btn style1 th-icon"
-                        ><span
-                          class="btn-text"
-                          data-back="Get Free Trial"
-                          data-front="Get Free Trial"
-                        ></span>
-                      </a>
-                      <a
-                        href="#"
-                        class="icon-btn sideMenuToggler d-none d-lg-block"
-                        ><img src="assets/img/icon/grid.svg" alt=""
-                      /></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="logo-shape"></div>
-        </div>
-      </div>
-    </header>
+
     <!--==============================
     Breadcumb
 ============================== -->
@@ -248,7 +34,7 @@ Header Area
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">About Us</h1>
           <ul class="breadcumb-menu">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li>About Us</li>
           </ul>
         </div>
@@ -571,7 +357,7 @@ Service Area
                     <img src="assets/img/icon/service_3_1.svg" alt="Icon" />
                   </div>
                   <h3 class="box-title">
-                    <a href="service-details.html">Nazra Quran With Tajweed</a>
+                    <a href="course-details.php?id=2">Nazra Quran With Tajweed</a>
                   </h3>
                   <p class="box-text">
                     The story of Islam begins with the birth of Muhammad ibn
@@ -586,7 +372,7 @@ Service Area
                     <img src="assets/img/icon/service_3_2.svg" alt="Icon" />
                   </div>
                   <h3 class="box-title">
-                    <a href="service-details.html">Hifz-e-Quran with Tajweed</a>
+                    <a href="course-details.php?id=3">Hifz-e-Quran with Tajweed</a>
                   </h3>
                   <p class="box-text">
                     Salah involves specific movements and recitations at set
@@ -601,7 +387,7 @@ Service Area
                     <img src="assets/img/icon/service_3_3.svg" alt="Icon" />
                   </div>
                   <h3 class="box-title">
-                    <a href="service-details.html">Tarjmat ul Quran</a>
+                    <a href="course-details.php?id=4">Tarjmat ul Quran</a>
                   </h3>
                   <p class="box-text">
                     Many mosques offer weekend schools, youth groups, and
@@ -617,7 +403,7 @@ Service Area
                     <img src="assets/img/icon/service_3_4.svg" alt="Icon" />
                   </div>
                   <h3 class="box-title">
-                    <a href="service-details.html">Tajweed Course</a>
+                    <a href="course-details.php?id=5">Tajweed Course</a>
                   </h3>
                   <p class="box-text">
                     Muslims eat Halal (permissible) food and avoid Haram
@@ -1376,354 +1162,16 @@ Testimonial Area
       </div>
     </section>
 
-    <!--==============================
-Footer Area
+   <!--==============================
+	Footer Area
 ==============================-->
-    <footer class="footer-wrapper footer-layout1">
-      <div class="container">
-        <div class="footer-top">
-          <div class="row gy-4 justify-content-between align-items-center">
-            <div class="col-lg-6">
-              <div class="title-area mb-0 text-center text-lg-start">
-                <h5 class="text-anime-style-2">Passionate About Islam?</h5>
-                <h2 class="sec-title text-anime-style-3">
-                  Join Our Academy and Strengthen Your Faith!
-                </h2>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="footer-top-btn">
-                <div
-                  class="btn-group justify-content-center justify-content-lg-end"
-                >
-                  <a href="contact.html" class="th-btn"
-                    ><span
-                      class="btn-text"
-                      data-back="Enroll Now"
-                      data-front="Enroll Now"
-                    ></span>
-                  </a>
-                  <a href="contact.html" class="th-btn style2"
-                    ><span
-                      class="btn-text"
-                      data-back="Get Free Trial"
-                      data-front="Get Free Trial"
-                    ></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="line" />
-      </div>
-      <div class="widget-area">
-        <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-md-6 col-xxl-3 col-xl-4">
-              <div class="widget footer-widget">
-                <div class="th-widget-about">
-                  <div class="about-logo">
-                    <a href="index.html"
-                      ><img
-                        src="assets/img/footer-logo.webp"
-                        alt="Al Madinah Quran Academy Logo"
-                    /></a>
-                  </div>
-                  <p class="about-text">
-                    Al Madina Quran Academy is an online Quran learning platform
-                    dedicated to teaching the Quran with proper Tajweed. We
-                    offer flexible, high-quality instruction for students of all
-                    ages around the world.
-                  </p>
-                  <div class="th-social">
-                    <span class="title">Social Media:</span>
-                    <a href="https://www.facebook.com/Almadinaquranacademy888"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a href="https://www.instagram.com/almadinaquranacademy88/"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                    <a
-                      href="https://www.linkedin.com/in/hafiz-ameer-hamza-773366178/"
-                      ><i class="fab fa-linkedin-in"></i
-                    ></a>
-                    <a href="https://wa.me/+923234874809"
-                      ><i class="fab fa-whatsapp"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-auto">
-              <div class="widget widget_nav_menu footer-widget">
-                <h3 class="widget_title">Popular-Courses</h3>
-                <div class="menu-all-pages-container">
-                  <ul class="menu">
-                    <li>
-                      <a href="course-details.html?id=1"
-                        >Madani Noorani Qaida</a
-                      >
-                    </li>
-                    <li>
-                      <a href="course-details.html?id=2"
-                        >Nazra Quran With Tajweed</a
-                      >
-                    </li>
-                    <li>
-                      <a href="course-details.html?id=3"
-                        >Hifz-e-Quran with Tajweed</a
-                      >
-                    </li>
-                    <li>
-                      <a href="course-details.html?id=4">Tarjmat ul Quran</a>
-                    </li>
-                    <li>
-                      <a href="course-details.html?id=5">Tajweed Course</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-auto">
-              <div class="widget widget_nav_menu footer-widget">
-                <h3 class="widget_title">Quick Links</h3>
-                <div class="menu-all-pages-container">
-                  <ul class="menu">
-                    <li>
-                      <a href="course-details.html?id=6">Farz-E-Uloom Course</a>
-                    </li>
-                    <li>
-                      <a href="course-details.html?id=7">The Hadith Course</a>
-                    </li>
-                    <li>
-                      <a href="course-details.html?id=8"
-                        >Darse Nizami Short Course</a
-                      >
-                    </li>
-                    <li>
-                      <a href="course-details.html?id=12">Namaz Course</a>
-                    </li>
-                    <li>
-                      <a href="course-details.html?id=11"
-                        >Aqaid-o-Fiqh Course</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-auto">
-              <div class="widget widget_nav_menu footer-widget">
-                <h3 class="widget_title">Support</h3>
-                <div class="menu-all-pages-container">
-                  <ul class="menu">
-                    <li><a href="contact.html">Get Free Trial</a></li>
-                    <li><a href="contact.html">Registration</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="contact.html">Query</a></li>
-                    <li><a href="https://wa.me/+923234874809">Live Chat</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-auto">
-              <div class="widget footer-widget">
-                <h3 class="widget_title">Gallery</h3>
-                <div class="sidebar-gallery">
-                  <div class="gallery-thumb">
-                    <img
-                      src="assets/img/gallery/kid-1.webp"
-                      alt="Gallery Image"
-                      style="height: 70px"
-                    />
-                    <a
-                      href="assets/img/gallery/kid-1.webp"
-                      class="gallery-btn popup-image"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                  </div>
-                  <div class="gallery-thumb">
-                    <img
-                      src="assets/img/gallery/kid-4.webp"
-                      alt="Gallery Image"
-                      style="height: 70px"
-                    />
-                    <a
-                      href="assets/img/gallery/kid-4.webp"
-                      class="gallery-btn popup-image"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                  </div>
-                  <div class="gallery-thumb">
-                    <img
-                      src="assets/img/gallery/kid-5.webp"
-                      alt="Gallery Image"
-                      style="height: 70px"
-                    />
-                    <a
-                      href="assets/img/gallery/kid-5.webp"
-                      class="gallery-btn popup-image"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                  </div>
-                  <div class="gallery-thumb">
-                    <img
-                      src="assets/img/gallery/kid-2.webp"
-                      alt="Gallery Image"
-                      style="height: 90px"
-                    />
-                    <a
-                      href="assets/img/gallery/kid-2.webp"
-                      class="gallery-btn popup-image"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                  </div>
-                  <div class="gallery-thumb">
-                    <img
-                      src="assets/img/gallery/kid-3.webp"
-                      alt="Gallery Image"
-                      style="height: 90px"
-                    />
-                    <a
-                      href="assets/img/gallery/kid-3.webp"
-                      class="gallery-btn popup-image"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                  </div>
-                  <div class="gallery-thumb">
-                    <img
-                      src="assets/img/gallery/kid-6.webp"
-                      alt="Gallery Image"
-                      style="height: 90px"
-                    />
-                    <a
-                      href="assets/img/gallery/kid-6.webp"
-                      class="gallery-btn popup-image"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                  </div>
-                  <div class="gallery-thumb">
-                    <img
-                      src="assets/img/gallery/kid-7.webp"
-                      alt="Gallery Image"
-                      style="height: 90px"
-                    />
-                    <a
-                      href="assets/img/gallery/kid-7.webp"
-                      class="gallery-btn popup-image"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                  </div>
-                  <div class="gallery-thumb">
-                    <img
-                      src="assets/img/gallery/kid-8.webp"
-                      alt="Gallery Image"
-                      style="height: 90px"
-                    />
-                    <a
-                      href="assets/img/gallery/kid-8.webp"
-                      class="gallery-btn popup-image"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                  </div>
-                  <div class="gallery-thumb">
-                    <img
-                      src="assets/img/gallery/kid-9.webp"
-                      alt="Gallery Image"
-                      style="height: 90px"
-                    />
-                    <a
-                      href="assets/img/gallery/kid-9.webp"
-                      class="gallery-btn popup-image"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="copyright-wrap">
-          <div class="row gy-2 align-items-center">
-            <div class="col-lg-5">
-              <p class="copyright-text">
-                Copyright <i class="fal fa-copyright"></i> 2025 All Rights
-                Reserved by <a href="index.html">Al Madinah Quran Academy</a>
-              </p>
-            </div>
-            <div class="col-lg-7 text-center text-lg-end">
-              <div class="footer-links">
-                <ul>
-                  <li><a href="about.html">Terms of service</a></li>
-                  <li><a href="educators.html">Privacy policy</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <?php require_once 'includes/footer.php'; ?>
 
-    <!--********************************
-			Code End  Here 
-	******************************** -->
-    <!-- Scroll To Top -->
-    <div class="scroll-top">
-      <svg
-        class="progress-circle svg-content"
-        width="100%"
-        height="100%"
-        viewBox="-1 -1 102 102"
-      >
-        <path
-          d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-          style="
-            transition: stroke-dashoffset 10ms linear 0s;
-            stroke-dasharray: 307.919, 307.919;
-            stroke-dashoffset: 307.919;
-          "
-        ></path>
-      </svg>
-    </div>
 
     <!--==============================
     All Js File
 ============================== -->
-    <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
-    <!-- Swiper Slider -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- Circle Progress -->
-    <script src="assets/js/circle-progress.js"></script>
-    <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
-    <!-- Imagesloadedr -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <!-- isotope -->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- Nice-select -->
-    <script src="assets/js/nice-select.min.js"></script>
+  <?php require_once 'includes/script.php'; ?>
 
-    <!-- gsap area start -->
-    <script src="assets/js/gsap.min.js"></script>
-    <script src="assets/js/ScrollTrigger.min.js"></script>
-    <script src="assets/js/SplitText.js"></script>
-    <!-- gsap area end -->
-    <!-- Lenis Js -->
-    <script src="assets/js/lenis.min.js"></script>
-    <!-- wow -->
-    <script src="assets/js/wow.min.js"></script>
-
-    <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
   </body>
 </html>

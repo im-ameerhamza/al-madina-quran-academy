@@ -36442,4 +36442,64 @@ form[id*=give-form] #give-gateway-radio-list {
   }
 }
 
+.course-loader {
+  min-height: 500px;
+  /* jitni body ki approx height ho */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-spinner {
+  width: 60px;
+  height: 60px;
+  border: 5px solid #e9e9e9;
+  border-top: 5px solid #d4a017;
+  /* academy golden color */
+  border-radius: 50%;
+  animation: courseSpin 0.8s linear infinite;
+  margin-bottom: 20px;
+}
+
+.course-loader p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1b2c52;
+  letter-spacing: .5px;
+}
+
+.course-loader p::after {
+  content: "";
+  animation: dots 1.5s infinite;
+}
+
+@keyframes courseSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dots {
+  0% {
+    content: "";
+  }
+
+  25% {
+    content: ".";
+  }
+
+  50% {
+    content: "..";
+  }
+
+  75% {
+    content: "...";
+  }
+
+  100% {
+    content: "";
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
