@@ -48,7 +48,7 @@ Header Area
          <div id="course-details" class="col-xxl-9 col-lg-8">
   <div class="course-loader">
     <div class="loader-spinner"></div>
-    <p>Loading Course...</p>
+    <p>Loading Course</p>
   </div>
 </div>
 
@@ -111,6 +111,8 @@ Header Area
     All Js File
 ============================== -->
   <?php require_once 'includes/script.php'; ?>
+  <script src="assets/js/blog/blogs.js"></script>
+<script src="assets/js/blog/render.js"></script>
 
   </body>
 </html>
