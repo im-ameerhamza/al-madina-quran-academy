@@ -301,7 +301,7 @@ cousrse Area
           <div
             class="swiper th-slider has-shadow"
             id="cousrseSlide"
-            data-slider-options='{"loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"2"},"1300":{"slidesPerView":"3"}}}'
+            data-slider-options='{"loop":false,"rewind":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"2"},"1300":{"slidesPerView":"3"}}}'
           >
             <div class="swiper-wrapper">
               <!--==============================
