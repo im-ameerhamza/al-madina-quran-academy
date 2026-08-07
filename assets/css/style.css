@@ -13042,6 +13042,25 @@ ul.comment-list .th-comment-item:first-child>.th-post-comment {
   z-index: 3;
 }
 
+/* Keep every slide the same size before and after Swiper is initialized.
+   Without this reservation, a slide with a different amount of text can
+   change the height of the hero and move the page content below it. */
+.hero-2 .hero-inner {
+  min-height: 850px;
+}
+
+@media (max-width: 1199px) {
+  .hero-2 .hero-inner {
+    min-height: 700px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-2 .hero-inner {
+    min-height: 0;
+  }
+}
+
 .hero-2 .th-hero-bg {
   /* -webkit-mask-image: url("../img/hero/hero-shape.png");
   mask-image: url("../img/hero/hero-shape.png"); */
@@ -21429,6 +21448,23 @@ form[id*=give-form] #give-gateway-radio-list {
   -webkit-transform: rotate(var(--rotate-letter));
   -ms-transform: rotate(var(--rotate-letter));
   transform: rotate(var(--rotate-letter));
+}
+
+/* The circular label is a single SVG text path instead of one DOM element per
+   character. This preserves the rotating label while avoiding 36 child nodes. */
+.discount-tag .discount-anime {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.discount-tag .discount-anime text {
+  fill: currentColor;
+  font-family: var(--body-font);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .discount-tag span.char2 {

@@ -4,8 +4,8 @@
       <div class="row gy-4 justify-content-between align-items-center">
         <div class="col-lg-6">
           <div class="title-area mb-0 text-center text-lg-start">
-            <h5 class="text-anime-style-2">Passionate About Islam?</h5>
-            <h2 class="sec-title text-anime-style-3">
+            <h5>Passionate About Islam?</h5>
+            <h2 class="sec-title">
               Join Our Academy and Strengthen Your Faith!
             </h2>
           </div>

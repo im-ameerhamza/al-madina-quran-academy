@@ -245,7 +245,7 @@ require_once 'includes/about-us.php';
                   data-wow-delay=".4s"
                 >
                   <div class="box-icon">
-                    <img src="assets/img/icon/about_2_1.svg" alt="Icon" />
+                    <img src="assets/img/icon/about_2_1.svg" alt="Icon" width="40" height="40" />
                   </div>
                   <div class="media-body">
                     <h3 class="box-title">
