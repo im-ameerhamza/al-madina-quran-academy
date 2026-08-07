@@ -4,8 +4,8 @@
     >
       <div class="container z-index-common">
         <div class="title-area text-center">
-          <span class="sub-title text-anime-style-2">OUR BEST SCHOLARS</span>
-          <h2 class="sec-title text-anime-style-3">Meet Islamic Scholars</h2>
+          <span class="sub-title">OUR BEST SCHOLARS</span>
+          <h2 class="sec-title">Meet Islamic Scholars</h2>
         </div>
         <div class="slider-area">
           <div

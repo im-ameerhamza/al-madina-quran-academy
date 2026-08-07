@@ -78,7 +78,7 @@ Hero Area
                         class="sub-title"
                         data-ani="slideindown"
                         data-ani-delay="0.2s"
-                        ><img src="assets/img/theme-img/sub-title-2.svg" alt="In the name of Allah"
+                        ><img src="assets/img/theme-img/sub-title-2.svg" alt="In the name of Allah" width="201" height="75"
                       /></span>
                       <h1
                         class="hero-title"
@@ -135,7 +135,7 @@ Hero Area
                         class="sub-title"
                         data-ani="slideindown"
                         data-ani-delay="0.2s"
-                        ><img src="assets/img/theme-img/sub-title-2.svg" alt=""
+                        ><img src="assets/img/theme-img/sub-title-2.svg" alt="" width="201" height="75"
                       /></span>
                       <h1
                         class="hero-title"
@@ -201,7 +201,7 @@ Hero Area
                         class="sub-title"
                         data-ani="slideindown"
                         data-ani-delay="0.2s"
-                        ><img src="assets/img/theme-img/sub-title-2.svg" alt=""
+                        ><img src="assets/img/theme-img/sub-title-2.svg" alt="" width="201" height="75"
                       /></span>
                       <h1
                         class="hero-title"
@@ -294,8 +294,8 @@ cousrse Area
     >
       <div class="container">
         <div class="title-area text-center">
-          <span class="sub-title text-anime-style-2">POPULAR COURSES</span>
-          <h2 class="sec-title text-anime-style-3">Online islamic courses</h2>
+          <span class="sub-title">POPULAR COURSES</span>
+          <h2 class="sec-title">Online islamic courses</h2>
         </div>
         <div class="slider-area">
           <div
@@ -624,7 +624,7 @@ Cta Area
     >
       <div class="container">
         <div class="courses-content">
-          <h3 class="box-title text-white text-anime-style-2">
+          <h3 class="box-title text-white">
             Monday To Sunday
           </h3>
           <p class="text text-white">7:00 AM to 10:00 PM</p>
@@ -673,8 +673,8 @@ Service Area
     >
       <div class="container">
         <div class="title-area text-center">
-          <span class="sub-title text-anime-style-2">OUR SERVICES</span>
-          <h2 class="sec-title text-anime-style-3">What We Do Offer</h2>
+          <span class="sub-title">OUR SERVICES</span>
+          <h2 class="sec-title">What We Do Offer</h2>
         </div>
         <div class="row gy-4 justify-content-between align-items-center">
           <div class="col-md-6 col-xl-4">
@@ -687,7 +687,7 @@ Service Area
               </div>
               <div class="box-info">
                 <div class="box-icon">
-                  <img src="assets/img/icon/about_2_1.svg" alt="Icon" />
+                  <img src="assets/img/icon/about_2_1.svg" alt="Icon" width="40" height="40" />
                 </div>
                 <h3 class="box-title">
                   <a href="course-details.php?id=6">Farz-E-Uloom Course</a>
@@ -696,7 +696,7 @@ Service Area
               <div class="box-content">
                 <div class="box-wrapp">
                   <div class="box-icon">
-                    <img src="assets/img/icon/about_2_1.svg" alt="Icon" />
+                    <img src="assets/img/icon/about_2_1.svg" alt="Icon" width="40" height="40" />
                   </div>
                   <h3 class="box-title">
                     <a href="course-details.php?id=6">Farz-E-Uloom Course</a>
@@ -939,8 +939,8 @@ Download Area 1
           <div class="col-xxl-6">
             <div class="download-wrapp mb-40">
               <div class="title-area mb-0 text-center text-md-start">
-                <span class="sub-title text-anime-style-2">LEARN QURAN</span>
-                <h2 class="sec-title text-anime-style-3">Surah of Quran</h2>
+                <span class="sub-title">LEARN QURAN</span>
+                <h2 class="sec-title">Surah of Quran</h2>
               </div>
               <div
                 class="btn-wrap justify-content-center justify-content-md-end wow fadeInUp"

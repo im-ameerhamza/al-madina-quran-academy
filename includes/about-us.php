@@ -10,8 +10,8 @@ $showReadMore = $showReadMore ?? true;
         <div class="row gy-5">
           <div class="col-xxl-6 mb-30 mb-xl-0">
             <div class="title-area pe-xl-5 me-xl-5">
-              <span class="sub-title text-anime-style-2">About us</span>
-              <h2 class="sec-title text-anime-style-3">
+              <span class="sub-title">About us</span>
+              <h2 class="sec-title">
                 Discover the Divine Where Faith Meets Purpose
               </h2>
             </div>
@@ -31,9 +31,10 @@ $showReadMore = $showReadMore ?? true;
                   />
                 </div>
                 <div class="discount-tag">
-                  <span class="discount-anime"
-                    >learn quran everyday * quran learn *</span
-                  >
+                  <svg class="discount-anime" viewBox="0 0 190 190" role="img" aria-label="Learn Quran everyday">
+                    <defs><path id="discount-text-path" d="M 95,95 m -76,0 a 76,76 0 1,1 152,0 a 76,76 0 1,1 -152,0" /></defs>
+                    <text textLength="478" lengthAdjust="spacing"><textPath href="#discount-text-path" startOffset="0">LEARN QURAN EVERYDAY * QURAN LEARN *</textPath></text>
+                  </svg>
                 </div>
               </div>
               <div class="about-quran-area">
@@ -100,7 +101,7 @@ $showReadMore = $showReadMore ?? true;
                   data-wow-delay=".4s"
                 >
                   <div class="box-icon">
-                    <img src="assets/img/icon/about_2_1.svg" alt="Icon" />
+                    <img src="assets/img/icon/about_2_1.svg" alt="Icon" width="40" height="40" />
                   </div>
                   <div class="media-body">
                     <h3 class="box-title">

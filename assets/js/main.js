@@ -714,8 +714,6 @@
     return this;
   };
 
-  $(".discount-anime").lettering();
-
   /*---------- 13. Section Position ----------*/
   // Interger Converter
   function convertInteger(str) {
