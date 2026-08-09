@@ -9,7 +9,7 @@ Mobile Menu
         </button>
 
         <div class="mobile-logo">
-            <a href="index.php" class="logo">
+            <a href="home" class="logo">
                 <img
                     src="assets/img/hero/Nav_logo.webp"
                     alt="Al Madinah Quran Academy"
@@ -44,7 +44,7 @@ Desktop Header
 
                         <div class="header-logo">
 
-                            <a href="index.php">
+                            <a href="home">
 
                                 <img
                                     src="assets/img/hero/Nav_logo.webp"

@@ -43,7 +43,7 @@
           <div class="widget footer-widget">
             <div class="th-widget-about">
               <div class="about-logo">
-                <a href="index.php"
+                <a href="home"
                   ><img
                     src="assets/img/footer-logo.webp"
                     alt="Al Madinah Quran Academy Logo"
@@ -286,7 +286,7 @@
         <div class="col-lg-5">
           <p class="copyright-text">
             Copyright <i class="fal fa-copyright"></i> 2025 All Rights Reserved
-            by <a href="index.php">Al Madinah Quran Academy</a>
+            by <a href="home">Al Madinah Quran Academy</a>
           </p>
         </div>
         <div class="col-lg-7 text-center text-lg-end">
