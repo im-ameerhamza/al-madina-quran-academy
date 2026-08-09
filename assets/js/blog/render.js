@@ -1,10 +1,11 @@
 function renderCourseDetails() {
-  // Get URL parameter (?id=...)
-  const params = new URLSearchParams(window.location.search);
-  const courseId = params.get("id");
+  // Get course slug from URL
+  // Example: /dars-e-nizami
+  const path = window.location.pathname;
+  const slug = path.split("/").filter(Boolean).pop();
 
-  // Find the course by ID
-  const course = courses.find((c) => c.id === courseId);
+  // Find the course by slug
+  const course = courses.find((c) => c.slug === slug);
 
   // Select elements
   const container = document.getElementById("course-details");
@@ -25,6 +26,7 @@ function renderCourseDetails() {
         <a href="popular-courses.php">Popular Courses</a>.
       </p>
     `;
+
     return;
   }
 
@@ -35,12 +37,6 @@ function renderCourseDetails() {
 
   // Render course details
   container.innerHTML = `
-
-  <div class="page-single event-single">
-    <div class="page-img style2 global-img mb-35">
-      <img src="${course.image}" alt="${course.title}" />
-    </div>
-
     <div class="event-wrapp">
       <h2 class="h5 mb-10">${course.title}</h2>
 
@@ -127,8 +123,6 @@ function renderCourseDetails() {
           .join("")}
       </ul>
     </div>
-  </div>
-
   `;
 }
 

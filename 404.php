@@ -31,7 +31,7 @@ Header Area
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">Error page</h1>
           <ul class="breadcumb-menu">
-            <li><a href="home">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li>404 Page</li>
           </ul>
         </div>
@@ -51,7 +51,7 @@ Error Area
           <p class="error-text text-title mb-40">
             Oops! The page you’re looking for doesn’t exist
           </p>
-          <a href="home" class="th-btn th-black"
+          <a href="/" class="th-btn th-black"
             ><i class="fal fa-home me-2"></i>Back To Home</a
           >
         </div>
