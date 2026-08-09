@@ -2,6 +2,7 @@ const courses = [
   {
     id: "1",
     title: "Noorani Qaida",
+    slug: "noorani-qaida",
     enrolled: "500 Enrolled",
     duration: "04 Months Duration",
     days: "As Per Your Choice",
@@ -42,6 +43,7 @@ const courses = [
   {
     id: "2",
     title: "Nazra Quran with Tajweed",
+    slug: "nazra-quran-with-tajweed",
     enrolled: "500 Enrolled",
     duration: "04 Months Duration",
     days: "As Per Your Choice",
@@ -82,6 +84,7 @@ const courses = [
   {
     id: "3",
     title: "Hifz-e-Quran with Tajweed",
+    slug: "hifz-e-quran-with-tajweed",
     enrolled: "500 Enrolled",
     duration: "04 Months Duration",
     days: "As Per Your Choice",
@@ -120,6 +123,7 @@ const courses = [
   {
     id: "4",
     title: "Tarjmat-ul-Quran",
+    slug: "tarjmat-ul-quran",
     enrolled: "500 Enrolled",
     duration: "04 Months Duration",
     days: "As Per Your Choice",
@@ -161,6 +165,7 @@ const courses = [
   {
     id: "5",
     title: "Tajweed",
+    slug: "tajweed",
     enrolled: "500 Enrolled",
     duration: "04 Months Duration",
     days: "As Per Your Choice",
@@ -202,6 +207,7 @@ const courses = [
   {
     id: "6",
     title: "Farz-e-Uloom",
+    slug: "farz-e-uloom",
     enrolled: "500 Enrolled",
     duration: "06 Months Duration",
     days: "As Per Your Choice",
@@ -239,6 +245,7 @@ const courses = [
   {
     id: "7",
     title: "Hadith",
+    slug: "hadith",
     enrolled: "500 Enrolled",
     duration: "Depends of Students (Duration)",
     days: "As Per Your Choice",
@@ -274,7 +281,8 @@ const courses = [
   },
   {
     id: "8",
-    title: "Darse Nizami Short Course",
+    title: "Dars-e-Nizami Short Course",
+    slug: "dars-e-nizami",
     enrolled: "500 Enrolled",
     duration: "04 Years Duration",
     days: "As Per Your Choice",
@@ -308,10 +316,10 @@ const courses = [
       "Helps Muslims live with wisdom and share Islamic teachings with confidence.",
     ],
   },
-
   {
     id: "9",
     title: "Tafseer of Surah Noor, Nisa, and Yusuf",
+    slug: "tafseer-of-surah-noor-nisa-and-yusuf",
     enrolled: "200 Enrolled",
     duration: "03 Months Duration",
     days: "As Per Your Choice",
@@ -349,6 +357,7 @@ const courses = [
   {
     id: "10",
     title: "Tafseer Sirat ul Jinan",
+    slug: "tafseer-sirat-ul-jinan",
     enrolled: "200 Enrolled",
     duration: "12 Months Duration",
     days: "As Per Your Choice",
@@ -386,6 +395,7 @@ const courses = [
   {
     id: "11",
     title: "Aqaid-o-Fiqh",
+    slug: "aqaid-o-fiqh",
     enrolled: "150 Enrolled",
     duration: "02 Years Duration",
     days: "As Per Your Choice",
@@ -423,6 +433,7 @@ const courses = [
   {
     id: "12",
     title: "Namaz (Salah)",
+    slug: "namaz",
     enrolled: "500 Enrolled",
     duration: "01 Month Duration",
     days: "As Per Your Choice",
@@ -459,6 +470,7 @@ const courses = [
   {
     id: "13",
     title: "Sunnat-e-Nikah",
+    slug: "sunnat-e-nikah",
     enrolled: "500 Enrolled",
     duration: "01 Month Duration",
     days: "As Per Your Choice",
@@ -495,6 +507,7 @@ const courses = [
   {
     id: "14",
     title: "Hajj Short & Complete Course",
+    slug: "hajj-course",
     enrolled: "100 Enrolled",
     duration: "02 Months Duration",
     days: "As Per Your Choice",
@@ -531,6 +544,7 @@ const courses = [
   {
     id: "15",
     title: "Umrah Short & Complete Course",
+    slug: "umrah-course",
     enrolled: "200 Enrolled",
     duration: "02 Months Duration",
     days: "As Per Your Choice",
@@ -567,6 +581,7 @@ const courses = [
   {
     id: "16",
     title: "Ahkam-e-Roza",
+    slug: "ahkam-e-roza",
     enrolled: "300 Enrolled",
     duration: "01 Month Duration",
     days: "As Per Your Choice",
@@ -603,6 +618,7 @@ const courses = [
   {
     id: "17",
     title: "Islamic Life",
+    slug: "islamic-life",
     enrolled: "500 Enrolled",
     duration: "01 Month Duration",
     days: "As Per Your Choice",
@@ -639,6 +655,7 @@ const courses = [
   {
     id: "18",
     title: "Seerat-e-Mustafa",
+    slug: "seerat-e-mustafa",
     enrolled: "300 Enrolled",
     duration: "06 Months Duration",
     days: "As Per Your Choice",
@@ -676,6 +693,7 @@ const courses = [
   {
     id: "19",
     title: "Sunnatain & Adab",
+    slug: "sunnatain-and-adab",
     enrolled: "250 Enrolled",
     duration: "01 Month Duration",
     days: "As Per Your Choice",
@@ -712,6 +730,7 @@ const courses = [
   {
     id: "20",
     title: "Taharat",
+    slug: "taharat",
     enrolled: "250 Enrolled",
     duration: "01 Month Duration",
     days: "As Per Your Choice",
@@ -748,6 +767,7 @@ const courses = [
   {
     id: "21",
     title: "Arabic Grammar",
+    slug: "arabic-grammar",
     enrolled: "250 Enrolled",
     duration: "06 Months Duration",
     days: "As Per Your Choice",

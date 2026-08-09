@@ -1,6 +1,8 @@
+```apache
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json application/xml image/svg+xml
 </IfModule>
+
 
 <IfModule mod_expires.c>
     ExpiresActive On
@@ -14,8 +16,80 @@
     ExpiresByType font/woff2 "access plus 1 year"
 </IfModule>
 
+
 <IfModule mod_headers.c>
     <FilesMatch "\.(css|js|webp|svg|png|jpe?g|woff2?)$">
         Header set Cache-Control "public, max-age=31536000, immutable"
     </FilesMatch>
 </IfModule>
+
+
+# ==========================================
+# SEO Friendly Course URLs
+# ==========================================
+
+RewriteEngine On
+
+# Course ID 1
+RewriteRule ^noorani-qaida/?$ course-details.php?id=1 [L,QSA]
+
+# Course ID 2
+RewriteRule ^nazra-quran-with-tajweed/?$ course-details.php?id=2 [L,QSA]
+
+# Course ID 3
+RewriteRule ^hifz-e-quran-with-tajweed/?$ course-details.php?id=3 [L,QSA]
+
+# Course ID 4
+RewriteRule ^tarjmat-ul-quran/?$ course-details.php?id=4 [L,QSA]
+
+# Course ID 5
+RewriteRule ^tajweed/?$ course-details.php?id=5 [L,QSA]
+
+# Course ID 6
+RewriteRule ^farz-e-uloom/?$ course-details.php?id=6 [L,QSA]
+
+# Course ID 7
+RewriteRule ^hadith/?$ course-details.php?id=7 [L,QSA]
+
+# Course ID 8
+RewriteRule ^dars-e-nizami/?$ course-details.php?id=8 [L,QSA]
+
+# Course ID 9
+RewriteRule ^tafseer-of-surah-noor-nisa-and-yusuf/?$ course-details.php?id=9 [L,QSA]
+
+# Course ID 10
+RewriteRule ^tafseer-sirat-ul-jinan/?$ course-details.php?id=10 [L,QSA]
+
+# Course ID 11
+RewriteRule ^aqaid-o-fiqh/?$ course-details.php?id=11 [L,QSA]
+
+# Course ID 12
+RewriteRule ^namaz/?$ course-details.php?id=12 [L,QSA]
+
+# Course ID 13
+RewriteRule ^sunnat-e-nikah/?$ course-details.php?id=13 [L,QSA]
+
+# Course ID 14
+RewriteRule ^hajj-course/?$ course-details.php?id=14 [L,QSA]
+
+# Course ID 15
+RewriteRule ^umrah-course/?$ course-details.php?id=15 [L,QSA]
+
+# Course ID 16
+RewriteRule ^ahkam-e-roza/?$ course-details.php?id=16 [L,QSA]
+
+# Course ID 17
+RewriteRule ^islamic-life/?$ course-details.php?id=17 [L,QSA]
+
+# Course ID 18
+RewriteRule ^seerat-e-mustafa/?$ course-details.php?id=18 [L,QSA]
+
+# Course ID 19
+RewriteRule ^sunnatain-and-adab/?$ course-details.php?id=19 [L,QSA]
+
+# Course ID 20
+RewriteRule ^taharat/?$ course-details.php?id=20 [L,QSA]
+
+# Course ID 21
+RewriteRule ^arabic-grammar/?$ course-details.php?id=21 [L,QSA]
+```

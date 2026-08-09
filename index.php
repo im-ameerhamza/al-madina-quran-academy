@@ -178,15 +178,6 @@ Hero Area
                       </div>
                     </div>
                   </div>
-                  <!-- <div class="col-xl-6">
-                    <div class="hero-video">
-                      <a
-                        href="https://www.youtube.com/watch?v=eIrRj6vDddU"
-                        class="play-btn popup-video"
-                        ><i class="fa-sharp fa-solid fa-play"></i
-                      ></a>
-                    </div>
-                  </div> -->
                 </div>
               </div>
             </div>
@@ -246,15 +237,6 @@ Hero Area
                       </div>
                     </div>
                   </div>
-                  <!-- <div class="col-xl-6">
-                    <div class="hero-video">
-                      <a
-                        href="https://www.youtube.com/watch?v=eIrRj6vDddU"
-                        class="play-btn popup-video"
-                        ><i class="fa-sharp fa-solid fa-play"></i
-                      ></a>
-                    </div>
-                  </div> -->
                 </div>
               </div>
             </div>
