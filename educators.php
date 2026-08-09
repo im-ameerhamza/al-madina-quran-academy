@@ -1,7 +1,9 @@
-<?php
+﻿<?php
 $pageTitle = "Our Educators | Al Madinah Quran Academy";
 $pageDescription = "Meet our experienced male and female Quran teachers dedicated to helping students learn Quran with proper Tajweed and understanding.";
 $pageKeywords = "Quran Teachers, Online Quran Tutors, Islamic Teachers";
+$pagePreloadImage = "assets/img/bg/educators-bg.webp";
+$pageImage = $pagePreloadImage;
 ?>
 
 <!DOCTYPE html>
@@ -28,6 +30,7 @@ Header Area
     <div
       class="breadcumb-wrapper"
       data-bg-src="assets/img/bg/educators-bg.webp"
+      style="background-image: url('assets/img/bg/educators-bg.webp')"
     >
       <div class="container">
         <div class="breadcumb-content">
@@ -54,11 +57,11 @@ Header Area
                 <img
                   src="assets/img/gallery/female-educator.webp"
                   alt="courses Image"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="page-content">
                 <h4 class="mb-25">
-                  🌸 Our Female Teachers – The Heart of Our Learning Community
+                  🌸 Our Female Teachers - The Heart of Our Learning Community
                 </h4>
                 <div class="course-wrapp">
                   <h4 class="box-title m-0">Course Overview</h4>
@@ -86,7 +89,7 @@ Header Area
                     qualified Islamic scholars but also inspiring mentors,
                     bringing
                     <strong
-                      >8–10 years of professional teaching experience</strong
+                      >8-10 years of professional teaching experience</strong
                     >
                     to every class.”
                   </p>
@@ -106,7 +109,7 @@ Header Area
                         class="mb-3 fw-semibold"
                         style="font-family: 'Playfair Display', serif"
                       >
-                        🌟 Why Female Students Love Learning With Us
+                        ðŸŒŸ Why Female Students Love Learning With Us
                       </h5>
                       <ul
                         class="mb-3"
@@ -117,31 +120,31 @@ Header Area
                         "
                       >
                         <li class="mb-2">
-                          <strong>Safe &amp; Supportive Environment</strong> – A
+                         <strong>Safe &amp; Supportive Environment</strong> - A
                           dedicated space where female students can learn
                           confidently, ask questions freely, and grow in their
                           faith.
                         </li>
                         <li class="mb-2">
-                          <strong>Authentic &amp; Practical Knowledge</strong> –
+                          <strong>Authentic &amp; Practical Knowledge</strong> -
                           Every lesson is rooted in the Quran and Sunnah,
                           helping students apply Islamic teachings in everyday
                           life.
                         </li>
                         <li class="mb-2">
-                          <strong>Engaging &amp; Personal</strong> – Our
+                          <strong>Engaging &amp; Personal</strong> - Our
                           teachers are warm, friendly, and passionate about
                           making each class meaningful and inspiring.
                         </li>
 
                         <li class="mb-2">
-                          <strong>Flexible Timings</strong> – Classes are
+                          <strong>Flexible Timings</strong> - Classes are
                           scheduled to fit around daily routines, making
                           learning easy for students and mothers alike.
                         </li>
                         <li class="mb-2">
-                          <strong>Experienced Female Scholars</strong> – Our
-                          teachers are qualified Islamic scholars with 8–10
+                          <strong>Experienced Female Scholars</strong> - Our
+                          teachers are qualified Islamic scholars with 8-10
                           years of teaching experience, ensuring accurate and
                           valuable guidance.
                         </li>
@@ -171,7 +174,7 @@ Header Area
                         class="mb-3 fw-semibold"
                         style="font-family: 'Playfair Display', serif"
                       >
-                        🌸 Meet Our Dedicated Female Teachers
+                        ðŸŒ¸ Meet Our Dedicated Female Teachers
                       </h5>
                       <ul
                         class="mb-3"
@@ -182,33 +185,33 @@ Header Area
                         "
                       >
                         <li class="mb-2">
-                          <strong>Highly Trained Scholars</strong> – Every
+                          <strong>Highly Trained Scholars</strong> - Every
                           teacher has completed advanced Islamic studies and is
                           fully qualified to teach Quran, Tajweed, Fiqh, and
                           more.
                         </li>
                         <li class="mb-2">
-                          <strong>Compassionate Mentors</strong> – They
+                          <strong>Compassionate Mentors</strong> - They
                           understand the unique needs of sisters and provide
                           warm, supportive guidance in every class.
                         </li>
                         <li class="mb-2">
-                          <strong>Interactive Classes</strong> – Sessions
+                          <strong>Interactive Classes</strong> - Sessions
                           include questions, discussions, and practical tips so
                           students stay engaged and motivated.
                         </li>
                         <li class="mb-2">
-                          <strong>Privacy &amp; Comfort</strong> – Female-only
+                          <strong>Privacy &amp; Comfort</strong> - Female-only
                           classes ensure a safe and relaxed space for learning
                           without hesitation.
                         </li>
                         <li class="mb-2">
-                          <strong>Focus on Daily Application</strong> – Lessons
+                          <strong>Focus on Daily Application</strong> - Lessons
                           are designed to help students bring Islamic values
                           into real-life situations with ease and confidence.
                         </li>
                         <li class="mb-2">
-                          <strong>Global Accessibility</strong> – Sisters can
+                          <strong>Global Accessibility</strong> - Sisters can
                           join from anywhere in the world, making quality
                           Islamic education available right at home.
                         </li>
@@ -231,17 +234,16 @@ Header Area
                         class="w-100"
                         src="assets/img/gallery/male-educator.webp"
                         alt="courses"
-                      />
+                       loading="lazy" decoding="async" />
                     </div>
                   </div>
                 </div>
 
                 <h4 class="mt-40">
-                  🌟 Our Male Teachers – Leading with Knowledge, Teaching with
-                  Heart
+                 🌟 Our Male Teachers – Leading with Knowledge, Teaching with Heart
                 </h4>
 
-                <blockquote class="event-blockquote1">
+              <blockquote class="event-blockquote1">
                   <p class="blog-text fs-18">
                     “At <strong>Al Madinah Quran Academy</strong>, we proudly
                     provide an
@@ -272,7 +274,7 @@ Header Area
                       class="mb-3 fw-semibold"
                       style="font-family: 'Playfair Display', serif"
                     >
-                      🌟 Why Male Students Value Learning With Us
+                      ðŸŒŸ Why Male Students Value Learning With Us
                     </h5>
                     <ul
                       class="mb-3"
@@ -283,34 +285,34 @@ Header Area
                       "
                     >
                       <li class="mb-2">
-                        <strong>Authentic Islamic Guidance</strong> – Our male
+                        <strong>Authentic Islamic Guidance</strong> - Our male
                         educators bring deep knowledge of Quran, Hadith, and
                         classical Islamic sciences to every class.
                       </li>
                       <li class="mb-2">
-                        <strong>Practical &amp; Engaging Lessons</strong> –
+                        <strong>Practical &amp; Engaging Lessons</strong> -
                         Teaching connects timeless Islamic wisdom with the
                         challenges of modern life, making every session
                         meaningful and clear.
                       </li>
                       <li class="mb-2">
-                        <strong>Respectful Learning Environment</strong> –
+                        <strong>Respectful Learning Environment</strong> -
                         Classes are run with proper Islamic etiquette,
                         encouraging discipline, respect, and a love for
                         learning.
                       </li>
                       <li class="mb-2">
-                        <strong>Personalized Support</strong> – Teachers give
+                        <strong>Personalized Support</strong> - Teachers give
                         one-on-one guidance so students can grow at their own
                         pace and strengthen both knowledge and character.
                       </li>
                       <li class="mb-2">
-                        <strong>Flexible Class Options</strong> – Lessons are
+                        <strong>Flexible Class Options</strong> - Lessons are
                         scheduled to fit busy routines, allowing students from
                         any country to join and benefit.
                       </li>
                       <li class="mb-2">
-                        <strong>Global Access</strong> – Male students can
+                        <strong>Global Access</strong> - Male students can
                         connect with qualified scholars from anywhere in the
                         world for reliable and inspiring Islamic education.
                       </li>
@@ -339,7 +341,7 @@ Header Area
                       class="mb-3 fw-semibold"
                       style="font-family: 'Playfair Display', serif"
                     >
-                      🎓 Meet Our Dedicated Male Teachers
+                      ðŸŽ“ Meet Our Dedicated Male Teachers
                     </h5>
                     <ul
                       class="mb-3"
@@ -355,7 +357,7 @@ Header Area
                         understanding of the Quran and Sunnah.
                       </li>
                       <li class="mb-2">
-                        <strong>8–10 Years of Experience:</strong> Each teacher
+                        <strong>8-10 Years of Experience:</strong> Each teacher
                         brings years of professional teaching to guide students
                         of all levels.
                       </li>

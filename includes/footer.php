@@ -47,6 +47,8 @@
                   ><img
                     src="assets/img/footer-logo.webp"
                     alt="Al Madinah Quran Academy Logo"
+                    loading="lazy"
+                    decoding="async"
                 /></a>
               </div>
               <p class="about-text">
@@ -150,6 +152,8 @@
                 <img
                   src="assets/img/gallery/kid-1.webp"
                   alt="Gallery Image"
+                  loading="lazy"
+                  decoding="async"
                   style="height: 70px"
                 />
                 <a
@@ -162,6 +166,8 @@
                 <img
                   src="assets/img/gallery/kid-4.webp"
                   alt="Gallery Image"
+                  loading="lazy"
+                  decoding="async"
                   style="height: 70px"
                 />
                 <a
@@ -174,6 +180,8 @@
                 <img
                   src="assets/img/gallery/kid-5.webp"
                   alt="Gallery Image"
+                  loading="lazy"
+                  decoding="async"
                   style="height: 70px"
                 />
                 <a
@@ -186,6 +194,8 @@
                 <img
                   src="assets/img/gallery/kid-2.webp"
                   alt="Gallery Image"
+                  loading="lazy"
+                  decoding="async"
                   style="height: 90px"
                 />
                 <a
@@ -198,6 +208,8 @@
                 <img
                   src="assets/img/gallery/kid-3.webp"
                   alt="Gallery Image"
+                  loading="lazy"
+                  decoding="async"
                   style="height: 90px"
                 />
                 <a
@@ -210,6 +222,8 @@
                 <img
                   src="assets/img/gallery/kid-6.webp"
                   alt="Gallery Image"
+                  loading="lazy"
+                  decoding="async"
                   style="height: 90px"
                 />
                 <a
@@ -222,6 +236,8 @@
                 <img
                   src="assets/img/gallery/kid-7.webp"
                   alt="Gallery Image"
+                  loading="lazy"
+                  decoding="async"
                   style="height: 90px"
                 />
                 <a
@@ -234,6 +250,8 @@
                 <img
                   src="assets/img/gallery/kid-8.webp"
                   alt="Gallery Image"
+                  loading="lazy"
+                  decoding="async"
                   style="height: 90px"
                 />
                 <a
@@ -246,6 +264,8 @@
                 <img
                   src="assets/img/gallery/kid-9.webp"
                   alt="Gallery Image"
+                  loading="lazy"
+                  decoding="async"
                   style="height: 90px"
                 />
                 <a

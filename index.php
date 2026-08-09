@@ -1,7 +1,10 @@
-<?php
+﻿<?php
 $pageTitle = "Al Madinah Quran Academy | Online Quran Classes";
 $pageDescription = "Join Al Madinah Quran Academy for online Quran classes with experienced male and female tutors. Learn Nazra, Tajweed, Hifz and Islamic studies from home.";
 $pageKeywords = "Online Quran Classes, Quran Academy, Learn Quran Online, Tajweed Classes, Hifz Quran";
+$pagePreloadImage = "assets/img/hero/hero-bg-1.webp";
+$pageImage = $pagePreloadImage;
+$enableAdvancedAnimations = true;
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -68,7 +71,7 @@ Hero Area
               <div
                 class="th-hero-bg"
                 data-bg-src="assets/img/hero/hero-bg-1.webp"
-                style="max-height: 850px"
+                style="max-height: 850px; background-image: url('assets/img/hero/hero-bg-1.webp')"
               ></div>
               <div class="container">
                 <div class="row align-items-center">
@@ -78,10 +81,11 @@ Hero Area
                         class="sub-title"
                         data-ani="slideindown"
                         data-ani-delay="0.2s"
-                        ><img src="assets/img/theme-img/sub-title-2.svg" alt="In the name of Allah" width="201" height="75"
+                        ><img src="assets/img/theme-img/sub-title-2.svg" alt="In the name of Allah" width="201" height="75" fetchpriority="high"
                       /></span>
                       <h1
                         class="hero-title"
+                        style="font-size: clamp(40px, 4.3vw, 64px); line-height: 1.208"
                         data-ani="slideinup"
                         data-ani-delay="0.4s"
                       >
@@ -136,14 +140,15 @@ Hero Area
                         data-ani="slideindown"
                         data-ani-delay="0.2s"
                         ><img src="assets/img/theme-img/sub-title-2.svg" alt="" width="201" height="75"
-                      /></span>
-                      <h1
+                       loading="lazy" decoding="async" /></span>
+                      <h2
                         class="hero-title"
+                        style="font-size: clamp(40px, 4.3vw, 64px); line-height: 1.208"
                         data-ani="slideinup"
                         data-ani-delay="0.4s"
                       >
                         A Divine Call to Peace, Unity, Path
-                      </h1>
+                      </h2>
                       <p
                         class="hero-text"
                         data-ani="slideinup"
@@ -202,14 +207,15 @@ Hero Area
                         data-ani="slideindown"
                         data-ani-delay="0.2s"
                         ><img src="assets/img/theme-img/sub-title-2.svg" alt="" width="201" height="75"
-                      /></span>
-                      <h1
+                       loading="lazy" decoding="async" /></span>
+                      <h2
                         class="hero-title"
+                        style="font-size: clamp(40px, 4.3vw, 64px); line-height: 1.208"
                         data-ani="slideinup"
                         data-ani-delay="0.4s"
                       >
                         Awaken Your Heart with the Light of Quran
-                      </h1>
+                      </h2>
                       <p
                         class="hero-text"
                         data-ani="slideinup"
@@ -314,6 +320,8 @@ Career Area
                     <img
                       src="assets/img/cousrse/norani-qaida.webp"
                       alt="Norani Qaida"
+                      loading="lazy"
+                      decoding="async"
                       style="width: 476px; height: 260px"
                     />
                   </div>
@@ -337,6 +345,8 @@ Career Area
                         <img
                           src="assets/img/team/hafiz-ameer-hamza.webp"
                           alt="Avater"
+                          loading="lazy"
+                          decoding="async"
                         />
                       </div>
                       <div class="box-info">
@@ -371,6 +381,8 @@ Career Area
                     <img
                       src="assets/img/cousrse/nazra-quran.webp"
                       alt="Quran Image"
+                      loading="lazy"
+                      decoding="async"
                       style="width: 476px; height: 260px"
                     />
                   </div>
@@ -396,6 +408,8 @@ Career Area
                         <img
                           src="assets/img/team/rizwana-nazir.webp"
                           alt="Avater"
+                          loading="lazy"
+                          decoding="async"
                         />
                       </div>
                       <div class="box-info">
@@ -430,6 +444,8 @@ Career Area
                     <img
                       src="assets/img/cousrse/hafiz-quran.webp"
                       alt="Hafiz Quran"
+                      loading="lazy"
+                      decoding="async"
                       style="width: 476px; height: 260px"
                     />
                   </div>
@@ -455,6 +471,8 @@ Career Area
                         <img
                           src="assets/img/team/ahmad-raza.webp"
                           alt="Avater"
+                          loading="lazy"
+                          decoding="async"
                         />
                       </div>
                       <div class="box-info">
@@ -489,6 +507,8 @@ Career Area
                     <img
                       src="assets/img/cousrse/tarjuma-quran.webp"
                       alt="Quran Picture"
+                      loading="lazy"
+                      decoding="async"
                       style="width: 476px; height: 260px"
                     />
                   </div>
@@ -512,6 +532,8 @@ Career Area
                         <img
                           src="assets/img/team/abdul-quddoos.webp"
                           alt="Avater"
+                          loading="lazy"
+                          decoding="async"
                         />
                       </div>
                       <div class="box-info">
@@ -547,6 +569,8 @@ Career Area
                     <img
                       src="assets/img/cousrse/tajweed-quran.webp"
                       alt="A person reading Quran"
+                      loading="lazy"
+                      decoding="async"
                       style="width: 476px; height: 260px"
                     />
                   </div>
@@ -570,6 +594,8 @@ Career Area
                         <img
                           src="assets/img/team/amina-shehbaz.webp"
                           alt="Avater"
+                          loading="lazy"
+                          decoding="async"
                         />
                       </div>
                       <div class="box-info">
@@ -639,13 +665,13 @@ Cta Area
         <div class="video-call">
           <a href="https://meet.google.com/landing?pli=1"
             ><img src="assets/img/shape/google-meet.png" alt="Google Meet Logo"
-          /></a>
+           loading="lazy" decoding="async" /></a>
           <a href="https://www.zoom.com/"
             ><img src="assets/img/shape/zoom.png" alt="Zoom Logo"
-          /></a>
+           loading="lazy" decoding="async" /></a>
           <a href="https://www.microsoft.com/en-us/"
             ><img src="assets/img/shape/microsoft.png" alt="Microsoft Logo"
-          /></a>
+           loading="lazy" decoding="async" /></a>
         </div>
 
         <div class="cta-button justify-content-center mt-55">
@@ -683,11 +709,11 @@ Service Area
                 <img
                   src="assets/img/cousrse/farz-uloom.webp"
                   alt="Quran Books"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="box-info">
                 <div class="box-icon">
-                  <img src="assets/img/icon/about_2_1.svg" alt="Icon" width="40" height="40" />
+                  <img src="assets/img/icon/about_2_1.svg" alt="Icon" width="40" height="40"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
                   <a href="course-details.php?id=6">Farz-E-Uloom Course</a>
@@ -696,7 +722,7 @@ Service Area
               <div class="box-content">
                 <div class="box-wrapp">
                   <div class="box-icon">
-                    <img src="assets/img/icon/about_2_1.svg" alt="Icon" width="40" height="40" />
+                    <img src="assets/img/icon/about_2_1.svg" alt="Icon" width="40" height="40"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
                     <a href="course-details.php?id=6">Farz-E-Uloom Course</a>
@@ -704,7 +730,7 @@ Service Area
                   <p class="box-text">
                     The Farz-E-Uloom course walks you through the heart of
                     Islam. You'll learn the key foundations of Islam, including
-                    belief, prayer, and daily practices that shape a Muslim’s
+                    belief, prayer, and daily practices that shape a Muslim's
                     life.
                   </p>
                 </div>
@@ -720,11 +746,11 @@ Service Area
           <div class="col-md-6 col-xl-4">
             <div class="service-box2">
               <div class="box-img">
-                <img src="assets/img/cousrse/hadith-course.webp" alt="Icon" />
+                <img src="assets/img/cousrse/hadith-course.webp" alt="Icon"  loading="lazy" decoding="async" />
               </div>
               <div class="box-info">
                 <div class="box-icon">
-                  <img src="assets/img/icon/service_2_9.svg" alt="Icon" />
+                  <img src="assets/img/icon/service_2_9.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
                   <a href="course-details.php?id=7">The Hadith Course</a>
@@ -733,7 +759,7 @@ Service Area
               <div class="box-content">
                 <div class="box-wrapp">
                   <div class="box-icon">
-                    <img src="assets/img/icon/service_2_9.svg" alt="Icon" />
+                    <img src="assets/img/icon/service_2_9.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
                     <a href="course-details.php?id=7">Hadith Course</a>
@@ -759,11 +785,11 @@ Service Area
                 <img
                   src="assets/img/cousrse/darse-nizami.webp"
                   alt="A group people reading quran"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="box-info">
                 <div class="box-icon">
-                  <img src="assets/img/icon/about_2_4.svg" alt="Icon" />
+                  <img src="assets/img/icon/about_2_4.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
                   <a href="course-details.php?id=8"
@@ -774,7 +800,7 @@ Service Area
               <div class="box-content">
                 <div class="box-wrapp">
                   <div class="box-icon">
-                    <img src="assets/img/icon/about_2_4.svg" alt="Icon" />
+                    <img src="assets/img/icon/about_2_4.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
                     <a href="course-details.php?id=8"
@@ -802,11 +828,11 @@ Service Area
                 <img
                   src="assets/img/cousrse/surah-noor-nisa-yusuf.webp"
                   alt="Surah Noor, Nisa, Yusuf"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="box-info">
                 <div class="box-icon">
-                  <img src="assets/img/icon/service_2_4.svg" alt="Icon" />
+                  <img src="assets/img/icon/service_2_4.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
                   <a href="course-details.php?id=9"
@@ -817,7 +843,7 @@ Service Area
               <div class="box-content">
                 <div class="box-wrapp">
                   <div class="box-icon">
-                    <img src="assets/img/icon/service_2_4.svg" alt="Icon" />
+                    <img src="assets/img/icon/service_2_4.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
                     <a href="course-details.php?id=9"
@@ -845,11 +871,11 @@ Service Area
                 <img
                   src="assets/img/cousrse/namaz.webp"
                   alt="A person is offering namaz"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="box-info">
                 <div class="box-icon">
-                  <img src="assets/img/icon/service_2_5.svg" alt="Icon" />
+                  <img src="assets/img/icon/service_2_5.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
                   <a href="course-details.php?id=12">Namaz Course</a>
@@ -858,7 +884,7 @@ Service Area
               <div class="box-content">
                 <div class="box-wrapp">
                   <div class="box-icon">
-                    <img src="assets/img/icon/service_2_5.svg" alt="Icon" />
+                    <img src="assets/img/icon/service_2_5.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
                     <a href="course-details.php?id=12">Namaz Course</a>
@@ -881,11 +907,11 @@ Service Area
           <div class="col-md-6 col-xl-4">
             <div class="service-box2">
               <div class="box-img">
-                <img src="assets/img/cousrse/Sunnat-Nikah.webp" alt="Icon" />
+                <img src="assets/img/cousrse/Sunnat-Nikah.webp" alt="Icon"  loading="lazy" decoding="async" />
               </div>
               <div class="box-info">
                 <div class="box-icon">
-                  <img src="assets/img/icon/service_2_7.svg" alt="Icon" />
+                  <img src="assets/img/icon/service_2_7.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
                   <a href="course-details.php?id=13">Sunnat e Nikah Course</a>
@@ -894,7 +920,7 @@ Service Area
               <div class="box-content">
                 <div class="box-wrapp">
                   <div class="box-icon">
-                    <img src="assets/img/icon/service_2_7.svg" alt="Icon" />
+                    <img src="assets/img/icon/service_2_7.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
                     <a href="course-details.php?id=13"
@@ -961,7 +987,7 @@ Download Area 1
             <div class="surah-wrapp">
               <div class="surah-list">
                 <div class="box-icon">
-                  <img src="assets/img/shape/arabic.png" alt="" />
+                  <img src="assets/img/shape/arabic.png" alt=""  loading="lazy" decoding="async" />
                 </div>
                 <div class="box-content">
                   <h3 class="box-title">Al-Fatihah</h3>
@@ -977,7 +1003,7 @@ Download Area 1
               </div>
               <div class="surah-list">
                 <div class="box-icon">
-                  <img src="assets/img/shape/arabic.png" alt="" />
+                  <img src="assets/img/shape/arabic.png" alt=""  loading="lazy" decoding="async" />
                 </div>
                 <div class="box-content">
                   <h3 class="box-title">Bakarah</h3>
@@ -993,7 +1019,7 @@ Download Area 1
               </div>
               <div class="surah-list">
                 <div class="box-icon">
-                  <img src="assets/img/shape/arabic.png" alt="" />
+                  <img src="assets/img/shape/arabic.png" alt=""  loading="lazy" decoding="async" />
                 </div>
                 <div class="box-content">
                   <h3 class="box-title">Al-imran</h3>
@@ -1009,7 +1035,7 @@ Download Area 1
               </div>
               <div class="surah-list">
                 <div class="box-icon">
-                  <img src="assets/img/shape/arabic.png" alt="" />
+                  <img src="assets/img/shape/arabic.png" alt=""  loading="lazy" decoding="async" />
                 </div>
                 <div class="box-content">
                   <h3 class="box-title">Surah Nisa</h3>
@@ -1025,7 +1051,7 @@ Download Area 1
               </div>
               <div class="surah-list">
                 <div class="box-icon">
-                  <img src="assets/img/shape/arabic.png" alt="" />
+                  <img src="assets/img/shape/arabic.png" alt=""  loading="lazy" decoding="async" />
                 </div>
                 <div class="box-content">
                   <h3 class="box-title">Maidah</h3>
@@ -1041,7 +1067,7 @@ Download Area 1
               </div>
               <div class="surah-list">
                 <div class="box-icon">
-                  <img src="assets/img/shape/arabic.png" alt="" />
+                  <img src="assets/img/shape/arabic.png" alt=""  loading="lazy" decoding="async" />
                 </div>
                 <div class="box-content">
                   <h3 class="box-title">Surah Anam</h3>
@@ -1064,7 +1090,7 @@ Download Area 1
                   src="assets/img/Surah-Quran-img.webp"
                   alt="img"
                   style="width: 700px; height: 645px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
             </div>
           </div>

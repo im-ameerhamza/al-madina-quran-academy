@@ -1,7 +1,9 @@
-<?php
+﻿<?php
 $pageTitle = "Popular Quran Courses | Al Madinah Quran Academy";
 $pageDescription = "Explore our online Quran courses including Nazra, Tajweed, Hifz, Qaida and Islamic studies for children and adults.";
 $pageKeywords = "Quran Courses, Nazra Quran, Tajweed Course, Hifz Quran";
+$pagePreloadImage = "assets/img/bg/courses-bg.webp";
+$pageImage = $pagePreloadImage;
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +27,7 @@ Header Area
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/courses-bg.webp">
+    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/courses-bg.webp" style="background-image: url('assets/img/bg/courses-bg.webp')">
       <div class="container">
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">Popular courses</h1>
@@ -52,7 +54,7 @@ cousrse Area
                   src="assets/img/cousrse/norani-qaida.webp"
                   alt="Norani Qaida"
                   style="width: 476px; height: 260px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -72,7 +74,7 @@ cousrse Area
                     <img
                       src="assets/img/team/hafiz-ameer-hamza.webp"
                       alt="Avater"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Hafiz Ameer Hamza</h3>
@@ -103,7 +105,7 @@ cousrse Area
                   src="assets/img/cousrse/nazra-quran.webp"
                   alt="Quran Image"
                   style="width: 476px; height: 260px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -123,7 +125,7 @@ cousrse Area
                     <img
                       src="assets/img/team/rizwana-nazir.webp"
                       alt="Avater"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Rizwana Nazir</h3>
@@ -154,7 +156,7 @@ cousrse Area
                   src="assets/img/cousrse/hafiz-quran.webp"
                   alt="Hafiz Quran"
                   style="width: 476px; height: 260px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -172,7 +174,7 @@ cousrse Area
               <div class="box-wrapp">
                 <div class="box-profile">
                   <div class="box-author">
-                    <img src="assets/img/team/ahmad-raza.webp" alt="Avater" />
+                    <img src="assets/img/team/ahmad-raza.webp" alt="Avater"  loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Ahmad Raza</h3>
@@ -203,7 +205,7 @@ cousrse Area
                   src="assets/img/cousrse/tarjuma-quran.webp"
                   alt="Quran Picture"
                   style="width: 476px; height: 260px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -223,7 +225,7 @@ cousrse Area
                     <img
                       src="assets/img/team/abdul-quddoos.webp"
                       alt="Avater"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Abdul Quddoos Madni</h3>
@@ -255,7 +257,7 @@ cousrse Area
                   src="assets/img/cousrse/tajweed-quran.webp"
                   alt="A person reading Quran"
                   style="width: 476px; height: 260px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -275,7 +277,7 @@ cousrse Area
                     <img
                       src="assets/img/team/amina-shehbaz.webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Amina Shehbaz</h3>
@@ -307,7 +309,7 @@ cousrse Area
                   src="assets/img/cousrse/farz-uloom.webp"
                   alt="Quran Books"
                   style="width: 476px; height: 260px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -327,7 +329,7 @@ cousrse Area
                     <img
                       src="assets/img/team/maryam-zahid.Webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Maryam Zahid</h3>
@@ -359,7 +361,7 @@ cousrse Area
                   src="assets/img/cousrse/hadith-course1.webp"
                   alt="Quran Books"
                   style="width: 476px; height: 271px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -380,7 +382,7 @@ cousrse Area
                     <img
                       src="assets/img/team/hafiz-ameer-hamza.webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Hafiz Ameer Hamza</h3>
@@ -412,7 +414,7 @@ cousrse Area
                   src="assets/img/cousrse/darse-nizami.webp"
                   alt="A group people reading quran"
                   style="width: 476px; height: 270px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -432,7 +434,7 @@ cousrse Area
                     <img
                       src="assets/img/team/hafiz-ameer-hamza.webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Hafiz Ameer Hamza</h3>
@@ -466,7 +468,7 @@ cousrse Area
                   src="assets/img/cousrse/surah-noor-nisa-yusuf.webp"
                   alt="Surah Noor, Nisa, Yusuf"
                   style="width: 476px; height: 270px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -488,7 +490,7 @@ cousrse Area
                     <img
                       src="assets/img/team/amina-shehbaz.webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Amina Shehbaz</h3>
@@ -520,7 +522,7 @@ cousrse Area
                   src="assets/img/cousrse/tafseer-ul-jinan.webp"
                   alt="Surah Noor, Nisa, Yusuf"
                   style="width: 476px; height: 270px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -542,7 +544,7 @@ cousrse Area
                     <img
                       src="assets/img/team/sana-manzoor.Webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Sana Manzoor</h3>
@@ -574,7 +576,7 @@ cousrse Area
                   src="assets/img/cousrse/aqaid-fiqh.webp"
                   alt="Surah Noor, Nisa, Yusuf"
                   style="width: 476px; height: 270px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -594,7 +596,7 @@ cousrse Area
                     <img
                       src="assets/img/team/abdul-quddoos.webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Abdul Quddoos</h3>
@@ -626,7 +628,7 @@ cousrse Area
                   src="assets/img/cousrse/namaz.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -646,7 +648,7 @@ cousrse Area
                     <img
                       src="assets/img/team/kabir-rafiq.webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Kabir Rafiq</h3>
@@ -678,7 +680,7 @@ cousrse Area
                   src="assets/img/cousrse/Sunnat-Nikah.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -698,7 +700,7 @@ cousrse Area
                     <img
                       src="assets/img/team/rizwana-nazir.webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Rizwana Nazir</h3>
@@ -730,7 +732,7 @@ cousrse Area
                   src="assets/img/gallery/Hajj.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -752,7 +754,7 @@ cousrse Area
                     <img
                       src="assets/img/team/abdul-quddoos.webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Abdul Quddoos</h3>
@@ -784,7 +786,7 @@ cousrse Area
                   src="assets/img/cousrse/umrah.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -806,7 +808,7 @@ cousrse Area
                     <img
                       src="assets/img/team/abdul-quddoos.webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Abdul Quddoos</h3>
@@ -838,7 +840,7 @@ cousrse Area
                   src="assets/img/gallery/Ramadan.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -858,7 +860,7 @@ cousrse Area
                     <img
                       src="assets/img/team/sana-manzoor.Webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Sana Manzoor</h3>
@@ -890,7 +892,7 @@ cousrse Area
                   src="assets/img/cousrse/islamic-life.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -910,7 +912,7 @@ cousrse Area
                     <img
                       src="assets/img/team/kabir-rafiq.webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Kabir Rafiq</h3>
@@ -942,7 +944,7 @@ cousrse Area
                   src="assets/img/cousrse/seerat-e-mustafa.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -962,7 +964,7 @@ cousrse Area
                     <img
                       src="assets/img/team/hafiz-ameer-hamza.webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Hafiz Ameer Hamza</h3>
@@ -993,7 +995,7 @@ cousrse Area
                   src="assets/img/cousrse/sunat-course.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -1013,7 +1015,7 @@ cousrse Area
                     <img
                       src="assets/img/team/ahmad-raza.webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Ahmad Raza</h3>
@@ -1045,7 +1047,7 @@ cousrse Area
                   src="assets/img/cousrse/taharat.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -1065,7 +1067,7 @@ cousrse Area
                     <img
                       src="assets/img/team/abdul-quddoos.webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Abdul Quddoos</h3>
@@ -1097,7 +1099,7 @@ cousrse Area
                   src="assets/img/cousrse/arabic-grammar.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div class="meta">
                 <span class="icon"
@@ -1117,7 +1119,7 @@ cousrse Area
                     <img
                       src="assets/img/team/amina-shehbaz.webp"
                       alt="Islamic Scholar"
-                    />
+                     loading="lazy" decoding="async" />
                   </div>
                   <div class="box-info">
                     <h3 class="box-title">Amina Shehbaz</h3>

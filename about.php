@@ -1,7 +1,10 @@
-<?php
+﻿<?php
 $pageTitle = "About Us | Al Madinah Quran Academy";
 $pageDescription = "Learn about Al Madinah Quran Academy, our mission, qualified teachers and commitment to providing quality online Quran education worldwide.";
 $pageKeywords = "About Quran Academy, Online Quran Teachers, Islamic Education";
+$pagePreloadImage = "assets/img/bg/about-us-header-bg.webp";
+$pageImage = $pagePreloadImage;
+$enableAdvancedAnimations = true;
 ?>
 
 <!DOCTYPE html>
@@ -29,6 +32,7 @@ Header Area
     <div
       class="breadcumb-wrapper"
       data-bg-src="assets/img/bg/about-us-header-bg.webp"
+      style="background-image: url('assets/img/bg/about-us-header-bg.webp')"
     >
       <div class="container">
         <div class="breadcumb-content">
@@ -53,7 +57,7 @@ pillar  Area
             <div class="title-area text-center">
               <span class="sub-title text-anime-style-2">Pillars of Islam</span>
               <h2 class="sec-title text-anime-style-3">
-                Finding Contentment in Allah’s Blessings
+                Finding Contentment in Allah's Blessings
               </h2>
             </div>
           </div>
@@ -62,77 +66,77 @@ pillar  Area
           <div class="pillar-item-wrapp">
             <div class="pillar-item">
               <div class="box-icon">
-                <img src="assets/img/icon/pillar_2_1.svg" alt="" />
+                <img src="assets/img/icon/pillar_2_1.svg" alt=""  loading="lazy" decoding="async" />
               </div>
               <div class="box-img">
                 <img
                   src="assets/img/gallery/Kalma.webp"
                   alt=""
                   style="width: 170px; height: 140px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <h3 class="box-title">
-                Iman <img src="assets/img/icon/icon-1.svg" alt="" />
+                Iman <img src="assets/img/icon/icon-1.svg" alt=""  loading="lazy" decoding="async" />
               </h3>
             </div>
             <div class="pillar-item">
               <div class="box-icon">
-                <img src="assets/img/icon/pillar_2_2.svg" alt="" />
+                <img src="assets/img/icon/pillar_2_2.svg" alt=""  loading="lazy" decoding="async" />
               </div>
               <div class="box-img">
                 <img
                   src="assets/img/gallery/Namaz.webp"
                   alt=""
                   style="width: 170px; height: 140px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <h3 class="box-title">
-                salah <img src="assets/img/icon/icon-2.svg" alt="" />
+                salah <img src="assets/img/icon/icon-2.svg" alt=""  loading="lazy" decoding="async" />
               </h3>
             </div>
             <div class="pillar-item">
               <div class="box-icon">
-                <img src="assets/img/icon/pillar_2_3.svg" alt="" />
+                <img src="assets/img/icon/pillar_2_3.svg" alt=""  loading="lazy" decoding="async" />
               </div>
               <div class="box-img">
                 <img
                   src="assets/img/gallery/Ramadan.webp"
                   alt=""
                   style="width: 170px; height: 140px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <h3 class="box-title">
-                sawam <img src="assets/img/icon/icon-3.svg" alt="" />
+                sawam <img src="assets/img/icon/icon-3.svg" alt=""  loading="lazy" decoding="async" />
               </h3>
             </div>
             <div class="pillar-item">
               <div class="box-icon">
-                <img src="assets/img/icon/pillar_2_4.svg" alt="" />
+                <img src="assets/img/icon/pillar_2_4.svg" alt=""  loading="lazy" decoding="async" />
               </div>
               <div class="box-img">
                 <img
                   src="assets/img/gallery/Zakat.webp"
                   alt=""
                   style="width: 170px; height: 140px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <h3 class="box-title">
-                zakat <img src="assets/img/icon/icon-4.svg" alt="" />
+                zakat <img src="assets/img/icon/icon-4.svg" alt=""  loading="lazy" decoding="async" />
               </h3>
             </div>
             <div class="pillar-item">
               <div class="box-icon">
-                <img src="assets/img/icon/pillar_2_5.svg" alt="" />
+                <img src="assets/img/icon/pillar_2_5.svg" alt=""  loading="lazy" decoding="async" />
               </div>
               <div class="box-img">
                 <img
                   src="assets/img/gallery/Hajj.webp"
                   alt=""
                   style="width: 170px; height: 140px"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <h3 class="box-title">
-                hajj <img src="assets/img/icon/icon-5.svg" alt="" />
+                hajj <img src="assets/img/icon/icon-5.svg" alt=""  loading="lazy" decoding="async" />
               </h3>
             </div>
           </div>
@@ -147,191 +151,6 @@ $showReadMore = false;
 require_once 'includes/about-us.php';
 ?>
 
-    <!-- <div
-      class="overflow-hidden position-relative space"
-      style="background-image: url('assets/img/bg/about-bg-1.webp')"
-    >
-      <div class="container">
-        <div class="row gy-5">
-          <div class="col-xxl-6 mb-30 mb-xl-0">
-            <div class="title-area pe-xl-5 me-xl-5">
-              <span class="sub-title text-anime-style-2">About us</span>
-              <h2 class="sec-title text-anime-style-3">
-                Discover the Divine Where Faith Meets Purpose
-              </h2>
-            </div>
-            <div class="img-box2 pe-xl-5 me-xl-2">
-              <div class="img1">
-                <img
-                  src="assets/img/bg/about-1.webp"
-                  alt="About"
-                  style="width: 524px; height: 540px"
-                />
-              </div>
-              <div class="discount-wrapp">
-                <div class="logo">
-                  <img
-                    src="assets/img/hero/logo_1.webp"
-                    alt="Al-Madina Quran Academy Logo"
-                  />
-                </div>
-                <div class="discount-tag">
-                  <span class="discount-anime"
-                    >learn quran everyday * quran learn *</span
-                  >
-                </div>
-              </div>
-              <div class="about-quran-area">
-                <h2 class="box-title">Listen to quran audio</h2>
-                <div class="about-quran">
-                  <div class="quran-image">
-                    <img
-                      src="assets/img/quran-img.webp"
-                      alt="Quran Image"
-                      style="width: 444px; height: 250px"
-                    />
-                  </div>
-                  <span class="text"
-                    ><img src="assets/img/shape/starting.png" alt=""
-                  /></span>
-                  <audio controls="">
-                    <source src="assets/img/audio.mp3" type="audio/mpeg" />
-                  </audio>
-                </div>
-              </div>
-              <div class="th-experience">
-                <div class="th-experience_content">
-                  <h2 class="experience-year">
-                    <span class="counter-number">10</span>k+
-                  </h2>
-                  <p class="experience-text">Satisfied students worldwide.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xxl-6 mb-30 mb-xl-0">
-            <p
-              class="mt-3 mb-15 fs-18 wow fadeInUp"
-              data-wow-delay=".2s"
-              style="text-align: justify"
-            >
-              The history of the Quran is a journey that spans over 1,400 years,
-              beginning with its revelation to Prophet Muhammad (peace be upon
-              him) in Mecca. This sacred book has guided generations, shaping
-              spiritual, cultural, and social life across the world. From its
-              careful preservation to the development of diverse recitation
-              traditions, the Quran continues to inspire and connect hearts.
-              Explore its timeless wisdom, listen to authentic recitations by
-              renowned Qaris, and deepen your own understanding through guided
-              lessons, all while experiencing the beauty and serenity of Allah’s
-              words.
-            </p>
-            <p
-              class="fs-18 wow fadeInUp"
-              data-wow-delay=".3s"
-              style="text-align: justify"
-            >
-              Over the centuries, the Quran has guided millions with its
-              timeless wisdom and teachings. Its verses inspire compassion,
-              patience, and gratitude, shaping hearts and minds. Listening to
-              authentic recitations and studying its meanings brings peace and
-              understanding. The Quran continues to illuminate lives, offering a
-              path to faith, knowledge, and spiritual connection.
-            </p>
-            <div class="about-wrapper2 mt-40">
-              <div>
-                <div
-                  class="about-feature style3 wow fadeInUp"
-                  data-wow-delay=".4s"
-                >
-                  <div class="box-icon">
-                    <img src="assets/img/icon/about_2_1.svg" alt="Icon" width="40" height="40" />
-                  </div>
-                  <div class="media-body">
-                    <h3 class="box-title">
-                      Finding Contentment in Allah’s Blessings
-                    </h3>
-                    <p class="box-text">
-                      The Quran teaches us to appreciate Allah’s blessings,
-                      guiding us to find peace and contentment in our daily
-                      lives.
-                    </p>
-                  </div>
-                </div>
-                <div
-                  class="about-feature style3 wow fadeInUp"
-                  data-wow-delay=".5s"
-                >
-                  <div class="box-icon">
-                    <img src="assets/img/icon/about_2_2.svg" alt="Icon" />
-                  </div>
-                  <div class="media-body">
-                    <h3 class="box-title">
-                      Connecting with Allah in Every Moment
-                    </h3>
-                    <p class="box-text">
-                      The Quran helps us stay close to Allah and find peace in
-                      every moment.
-                    </p>
-                  </div>
-                </div>
-                <div
-                  class="about-feature style3 wow fadeInUp"
-                  data-wow-delay=".6s"
-                >
-                  <div class="box-icon">
-                    <img src="assets/img/icon/about_2_3.svg" alt="Icon" />
-                  </div>
-                  <div class="media-body">
-                    <h3 class="box-title">The Spiritual Benefits of Ramadan</h3>
-                    <p class="box-text">
-                      The Quran guides us during Ramadan, deepening our faith,
-                      patience, and connection with Allah.
-                    </p>
-                  </div>
-                </div>
-                <div
-                  class="about-feature style3 wow fadeInUp"
-                  data-wow-delay=".7s"
-                >
-                  <div class="box-icon">
-                    <img src="assets/img/icon/about_2_2.svg" alt="Icon" />
-                  </div>
-                  <div class="media-body">
-                    <h3 class="box-title">The Global Ummah and Its Strength</h3>
-                    <p class="box-text">
-                      The Quran unites Muslims around the world, inspiring
-                      faith, solidarity, and shared purpose.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="btn-group mt-30 mb-xxl-0 mb-25 wow fadeInUp"
-              data-wow-delay=".8s"
-            ></div>
-            <div
-              class="video-wrapp style2 wow fadeInRight"
-              data-wow-delay=".9s"
-              data-mask-src="assets/img/shape/about-shape2.png"
-            >
-              <div
-                class="video-image style2"
-                data-bg-src="assets/img/bg/video_bg_2.webp"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=eIrRj6vDddU"
-                  class="play-btn popup-video"
-                >
-                  <i class="fa-solid fa-play"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <!--==============================
 Service Area  
 ==============================-->
@@ -347,7 +166,7 @@ Service Area
                 src="assets/img/bg/frame.webp"
                 alt=""
                 style="width: 550px; height: 700px"
-              />
+               loading="lazy" decoding="async" />
             </div>
           </div>
           <div class="col-xl-7">
@@ -359,7 +178,7 @@ Service Area
               <div class="service-grid wow fadeInUp" data-wow-delay=".3s">
                 <div class="box-content">
                   <div class="box-icon">
-                    <img src="assets/img/icon/service_3_1.svg" alt="Icon" />
+                    <img src="assets/img/icon/service_3_1.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
                     <a href="course-details.php?id=2">Nazra Quran With Tajweed</a>
@@ -374,7 +193,7 @@ Service Area
               <div class="service-grid wow fadeInUp" data-wow-delay=".4s">
                 <div class="box-content">
                   <div class="box-icon">
-                    <img src="assets/img/icon/service_3_2.svg" alt="Icon" />
+                    <img src="assets/img/icon/service_3_2.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
                     <a href="course-details.php?id=3">Hifz-e-Quran with Tajweed</a>
@@ -389,7 +208,7 @@ Service Area
               <div class="service-grid wow fadeInUp" data-wow-delay=".5s">
                 <div class="box-content">
                   <div class="box-icon">
-                    <img src="assets/img/icon/service_3_3.svg" alt="Icon" />
+                    <img src="assets/img/icon/service_3_3.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
                     <a href="course-details.php?id=4">Tarjmat ul Quran</a>
@@ -405,7 +224,7 @@ Service Area
               <div class="service-grid wow fadeInUp" data-wow-delay=".6s">
                 <div class="box-content">
                   <div class="box-icon">
-                    <img src="assets/img/icon/service_3_4.svg" alt="Icon" />
+                    <img src="assets/img/icon/service_3_4.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
                     <a href="course-details.php?id=5">Tajweed Course</a>
@@ -472,7 +291,7 @@ About Area
             <div class="choose-item">
               <div class="box-content">
                 <div class="box-icon">
-                  <img src="assets/img/icon/choose_1_1.svg" alt="Icon" />
+                  <img src="assets/img/icon/choose_1_1.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
                   <a href="educators.php">Expert Quran Tutor</a>
@@ -493,7 +312,7 @@ About Area
             <div class="choose-item">
               <div class="box-content">
                 <div class="box-icon">
-                  <img src="assets/img/icon/choose_1_2.svg" alt="Icon" />
+                  <img src="assets/img/icon/choose_1_2.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
                   <a href="educators.php">One-to-One Classes</a>
@@ -514,7 +333,7 @@ About Area
             <div class="choose-item">
               <div class="box-content">
                 <div class="box-icon">
-                  <img src="assets/img/icon/choose_1_3.svg" alt="Icon" />
+                  <img src="assets/img/icon/choose_1_3.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
                   <a href="educators.php">Any course Flexible Timings</a>
@@ -535,7 +354,7 @@ About Area
             <div class="choose-item">
               <div class="box-content">
                 <div class="box-icon">
-                  <img src="assets/img/icon/choose_1_4.svg" alt="Icon" />
+                  <img src="assets/img/icon/choose_1_4.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
                   <a href="educators.php">Male & female Teachers</a>
@@ -593,7 +412,7 @@ Testimonial Area
                           src="assets/img/testimonial/china-flag.webp"
                           alt=""
                           style="width: 50px; height: 30px"
-                        />
+                         loading="lazy" decoding="async" />
                       </div>
                     </div>
                     <div class="testi-logo">
@@ -601,7 +420,7 @@ Testimonial Area
                         src="assets/img/hero/Nav_logo.webp"
                         alt="Al Madina Quran Academy Logo"
                         style="height: 100px; width: auto"
-                      />
+                       loading="lazy" decoding="async" />
                     </div>
                   </div>
                   <p class="box-text">
@@ -612,7 +431,7 @@ Testimonial Area
                     success.
                   </p>
                   <div class="testi-quote">
-                    <img src="assets/img/icon/quote2.svg" alt="" />
+                    <img src="assets/img/icon/quote2.svg" alt=""  loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -634,7 +453,7 @@ Testimonial Area
                           src="assets/img/testimonial/spain-flag.webp"
                           alt=""
                           style="width: 50px; height: 30px"
-                        />
+                         loading="lazy" decoding="async" />
                       </div>
                     </div>
                     <div class="testi-logo">
@@ -642,7 +461,7 @@ Testimonial Area
                         src="assets/img/hero/Nav_logo.webp"
                         alt="Al Madina Quran Academy Logo"
                         style="height: 100px; width: auto"
-                      />
+                       loading="lazy" decoding="async" />
                     </div>
                   </div>
                   <p class="box-text">
@@ -652,7 +471,7 @@ Testimonial Area
                     perfect choice for busy people in Europe like me.
                   </p>
                   <div class="testi-quote">
-                    <img src="assets/img/icon/quote2.svg" alt="" />
+                    <img src="assets/img/icon/quote2.svg" alt=""  loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -674,7 +493,7 @@ Testimonial Area
                           src="assets/img/testimonial/dubai-flag.webp"
                           alt=""
                           style="width: 50px; height: 30px"
-                        />
+                         loading="lazy" decoding="async" />
                       </div>
                     </div>
                     <div class="testi-logo">
@@ -682,17 +501,17 @@ Testimonial Area
                         src="assets/img/hero/Nav_logo.webp"
                         alt="Al Madina Quran Academy Logo"
                         style="height: 100px; width: auto"
-                      />
+                       loading="lazy" decoding="async" />
                     </div>
                   </div>
                   <p class="box-text">
                     Al Madina Quran Academy really makes the Quran come alive.
                     They combine modern tools with traditional values, creating
-                    a learning experience that’s both effective and deeply
+                    a learning experience that's both effective and deeply
                     moving.
                   </p>
                   <div class="testi-quote">
-                    <img src="assets/img/icon/quote2.svg" alt="" />
+                    <img src="assets/img/icon/quote2.svg" alt=""  loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -714,7 +533,7 @@ Testimonial Area
                           src="assets/img/testimonial/england-flag.webp"
                           alt=""
                           style="width: 50px; height: 30px"
-                        />
+                         loading="lazy" decoding="async" />
                       </div>
                     </div>
                     <div class="testi-logo">
@@ -722,18 +541,18 @@ Testimonial Area
                         src="assets/img/hero/Nav_logo.webp"
                         alt="Al Madina Quran Academy Logo"
                         style="height: 100px; width: auto"
-                      />
+                       loading="lazy" decoding="async" />
                     </div>
                   </div>
                   <p class="box-text">
-                    I’m truly impressed by the professionalism and sincerity
+                    I'm truly impressed by the professionalism and sincerity
                     maintained by Al Madina Quran Academy. The curriculum is
                     well-structured, and the teachers are knowledgeable &
                     spiritually inspiring. Highly recommended for all age
                     groups.
                   </p>
                   <div class="testi-quote">
-                    <img src="assets/img/icon/quote2.svg" alt="" />
+                    <img src="assets/img/icon/quote2.svg" alt=""  loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -755,7 +574,7 @@ Testimonial Area
                           src="assets/img/testimonial/dubai-flag.webp"
                           alt=""
                           style="width: 50px; height: 30px"
-                        />
+                         loading="lazy" decoding="async" />
                       </div>
                     </div>
                     <div class="testi-logo">
@@ -763,17 +582,17 @@ Testimonial Area
                         src="assets/img/hero/Nav_logo.webp"
                         alt="Al Madina Quran Academy Logo"
                         style="height: 100px; width: auto"
-                      />
+                       loading="lazy" decoding="async" />
                     </div>
                   </div>
                   <p class="box-text">
-                    I’ve had a wonderful experience with Al Madina Quran
+                    I've had a wonderful experience with Al Madina Quran
                     Academy. The sincerity and patience of their instructors are
                     unmatched. I highly recommend them to anyone seeking true
                     knowledge of Islam.
                   </p>
                   <div class="testi-quote">
-                    <img src="assets/img/icon/quote2.svg" alt="" />
+                    <img src="assets/img/icon/quote2.svg" alt=""  loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -795,7 +614,7 @@ Testimonial Area
                           src="assets/img/testimonial/india-flag.webp"
                           alt=""
                           style="width: 50px; height: 30px"
-                        />
+                         loading="lazy" decoding="async" />
                       </div>
                     </div>
                     <div class="testi-logo">
@@ -803,17 +622,17 @@ Testimonial Area
                         src="assets/img/hero/Nav_logo.webp"
                         alt="Al Madina Quran Academy Logo"
                         style="height: 100px; width: auto"
-                      />
+                       loading="lazy" decoding="async" />
                     </div>
                   </div>
                   <p class="box-text">
-                    My children – Arhan, Alina, Adil, and Hussain – are learning
+                    My children - Arhan, Alina, Adil, and Hussain - are learning
                     the Quran with excellent tajweed and understanding. I
                     appreciate the teachers' efforts and dedication towards
                     young learners.
                   </p>
                   <div class="testi-quote">
-                    <img src="assets/img/icon/quote2.svg" alt="" />
+                    <img src="assets/img/icon/quote2.svg" alt=""  loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -835,7 +654,7 @@ Testimonial Area
                           src="assets/img/testimonial/saudi-flag.webp"
                           alt=""
                           style="width: 50px; height: 30px"
-                        />
+                         loading="lazy" decoding="async" />
                       </div>
                     </div>
                     <div class="testi-logo">
@@ -843,7 +662,7 @@ Testimonial Area
                         src="assets/img/hero/Nav_logo.webp"
                         alt="Al Madina Quran Academy Logo"
                         style="height: 100px; width: auto"
-                      />
+                       loading="lazy" decoding="async" />
                     </div>
                   </div>
                   <p class="box-text">
@@ -852,7 +671,7 @@ Testimonial Area
                     polite, experienced, and consistent in their teaching.
                   </p>
                   <div class="testi-quote">
-                    <img src="assets/img/icon/quote2.svg" alt="" />
+                    <img src="assets/img/icon/quote2.svg" alt=""  loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -874,7 +693,7 @@ Testimonial Area
                           src="assets/img/testimonial/canada-flag.webp"
                           alt=""
                           style="width: 50px; height: 30px"
-                        />
+                         loading="lazy" decoding="async" />
                       </div>
                     </div>
                     <div class="testi-logo">
@@ -882,7 +701,7 @@ Testimonial Area
                         src="assets/img/hero/Nav_logo.webp"
                         alt="Al Madina Quran Academy Logo"
                         style="height: 100px; width: auto"
-                      />
+                       loading="lazy" decoding="async" />
                     </div>
                   </div>
                   <p class="box-text">
@@ -891,7 +710,7 @@ Testimonial Area
                     children. The team is reliable and professional.
                   </p>
                   <div class="testi-quote">
-                    <img src="assets/img/icon/quote2.svg" alt="" />
+                    <img src="assets/img/icon/quote2.svg" alt=""  loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -913,7 +732,7 @@ Testimonial Area
                           src="assets/img/testimonial/usa-flag.webp"
                           alt=""
                           style="width: 50px; height: 30px"
-                        />
+                         loading="lazy" decoding="async" />
                       </div>
                     </div>
                     <div class="testi-logo">
@@ -921,7 +740,7 @@ Testimonial Area
                         src="assets/img/hero/Nav_logo.webp"
                         alt="Al Madina Quran Academy Logo"
                         style="height: 100px; width: auto"
-                      />
+                       loading="lazy" decoding="async" />
                     </div>
                   </div>
                   <p class="box-text">
@@ -930,7 +749,7 @@ Testimonial Area
                     flexible timings.
                   </p>
                   <div class="testi-quote">
-                    <img src="assets/img/icon/quote2.svg" alt="" />
+                    <img src="assets/img/icon/quote2.svg" alt=""  loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -952,7 +771,7 @@ Testimonial Area
                           src="assets/img/testimonial/pakistan-flag.webp"
                           alt=""
                           style="width: 50px; height: 30px"
-                        />
+                         loading="lazy" decoding="async" />
                       </div>
                     </div>
                     <div class="testi-logo">
@@ -960,7 +779,7 @@ Testimonial Area
                         src="assets/img/hero/Nav_logo.webp"
                         alt="Al Madina Quran Academy Logo"
                         style="height: 100px; width: auto"
-                      />
+                       loading="lazy" decoding="async" />
                     </div>
                   </div>
                   <p class="box-text">
@@ -969,7 +788,7 @@ Testimonial Area
                     and committed to delivering quality Islamic education.
                   </p>
                   <div class="testi-quote">
-                    <img src="assets/img/icon/quote2.svg" alt="" />
+                    <img src="assets/img/icon/quote2.svg" alt=""  loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>

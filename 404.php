@@ -3,6 +3,7 @@ $pageTitle = "404 - Page Not Found | Al Madinah Quran Academy";
 $pageDescription = "The page you are looking for could not be found.";
 $pageKeywords = "";
 $pageRobots = "noindex, nofollow";
+$pagePreloadImage = "assets/img/bg/breadcumb-bg.jpg";
 ?>
 
 <!doctype html>
@@ -25,7 +26,7 @@ Header Area
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg" style="background-image: url('assets/img/bg/breadcumb-bg.jpg')">
       <div class="container">
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">Error page</h1>
