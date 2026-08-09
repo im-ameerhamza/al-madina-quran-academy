@@ -86,7 +86,7 @@ Desktop Header
                                     <a
                                         href="/version2/contact"
                                         class="th-btn style1 th-icon"
-                                    >
+                                     aria-label="Get Free Trial">
 
                                         <span
                                             class="btn-text"

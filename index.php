@@ -106,7 +106,7 @@ Hero Area
                         data-ani-delay="0.8s"
                       >
                         <a href="/version2/courses" class="th-btn"
-                          ><span
+                           aria-label="Find The Course"><span
                             class="btn-text"
                             data-back="Find The Course"
                             data-front="Find The Course"
@@ -163,7 +163,7 @@ Hero Area
                         data-ani-delay="0.8s"
                       >
                         <a href="/version2/courses" class="th-btn"
-                          ><span
+                           aria-label="Find The Course"><span
                             class="btn-text"
                             data-back="Find The Course"
                             data-front="Find The Course"
@@ -222,7 +222,7 @@ Hero Area
                         data-ani-delay="0.8s"
                       >
                         <a href="/version2/courses" class="th-btn"
-                          ><span
+                           aria-label="Find The Course"><span
                             class="btn-text"
                             data-back="Find The Course"
                             data-front="Find The Course"
@@ -347,7 +347,7 @@ Career Area
                       >Learn More</a
                     >
                     <a href="/version2/contact" class="th-btn"
-                      ><span
+                       aria-label="Enroll Now"><span
                         class="btn-text"
                         data-back="Enroll Now"
                         data-front="Enroll Now"
@@ -410,7 +410,7 @@ Career Area
                       >Learn More</a
                     >
                     <a href="/version2/contact" class="th-btn"
-                      ><span
+                       aria-label="Enroll Now"><span
                         class="btn-text"
                         data-back="Enroll Now"
                         data-front="Enroll Now"
@@ -473,7 +473,7 @@ Career Area
                       >Learn More</a
                     >
                     <a href="/version2/contact" class="th-btn"
-                      ><span
+                       aria-label="Enroll Now"><span
                         class="btn-text"
                         data-back="Enroll Now"
                         data-front="Enroll Now"
@@ -535,7 +535,7 @@ Career Area
                       >Learn More</a
                     >
                     <a href="/version2/contact" class="th-btn"
-                      ><span
+                       aria-label="Enroll Now"><span
                         class="btn-text"
                         data-back="Enroll Now"
                         data-front="Enroll Now"
@@ -597,7 +597,7 @@ Career Area
                       >Learn More</a
                     >
                     <a href="/version2/contact" class="th-btn"
-                      ><span
+                       aria-label="Enroll Now"><span
                         class="btn-text"
                         data-back="Enroll Now"
                         data-front="Enroll Now"
@@ -658,7 +658,7 @@ Cta Area
 
         <div class="cta-button justify-content-center mt-55">
           <a href="/version2/contact" class="th-btn style1"
-            ><span
+             aria-label="Get Started"><span
               class="btn-text"
               data-back="Get Started"
               data-front="Get Started"
@@ -958,7 +958,7 @@ Download Area 1
                   href="https://play.google.com/store/apps/details?id=com.quran.labs.androidquran&hl=en"
                   target="_blank"
                   class="th-btn style2"
-                  ><span
+                   aria-label="Download App"><span
                     class="btn-text"
                     data-back="Download App"
                     data-front="Download App"

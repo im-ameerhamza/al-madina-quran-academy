@@ -16,14 +16,14 @@
               class="btn-group justify-content-center justify-content-lg-end"
             >
               <a href="/version2/contact" class="th-btn"
-                ><span
+                 aria-label="Enroll Now"><span
                   class="btn-text"
                   data-back="Enroll Now"
                   data-front="Enroll Now"
                 ></span>
               </a>
               <a href="/version2/contact" class="th-btn style2"
-                ><span
+                 aria-label="Get Free Trial"><span
                   class="btn-text"
                   data-back="Get Free Trial"
                   data-front="Get Free Trial"

@@ -242,14 +242,14 @@ Service Area
               data-wow-delay=".7s"
             >
               <a href="/version2/courses" class="th-btn style2 th-icon"
-                ><span
+                 aria-label="Discover More"><span
                   class="btn-text"
                   data-back="Discover More"
                   data-front="Discover More"
                 ></span>
               </a>
               <a href="/version2/contact" class="th-btn th-icon"
-                ><span
+                 aria-label="Enroll Now"><span
                   class="btn-text"
                   data-back="Enroll Now"
                   data-front="Enroll Now"
