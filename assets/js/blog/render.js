@@ -37,7 +37,12 @@ function renderCourseDetails() {
 
   // Render course details
   container.innerHTML = `
-    <div class="event-wrapp">
+    <div class="page-single event-single">
+      <div class="page-img style2 global-img mb-35">
+        <img src="${course.image}" alt="${course.title}" />
+      </div>
+
+      <div class="event-wrapp">
       <h2 class="h5 mb-10">${course.title}</h2>
 
       <div class="blog-meta d-flex align-items-center">
@@ -122,6 +127,7 @@ function renderCourseDetails() {
           .map((item) => `<li>${item}</li>`)
           .join("")}
       </ul>
+    </div>
     </div>
   `;
 }
