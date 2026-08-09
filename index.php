@@ -105,7 +105,7 @@ Hero Area
                         data-ani="slideinup"
                         data-ani-delay="0.8s"
                       >
-                        <a href="/courses" class="th-btn"
+                        <a href="/version2/courses" class="th-btn"
                           ><span
                             class="btn-text"
                             data-back="Find The Course"
@@ -162,7 +162,7 @@ Hero Area
                         data-ani="slideinup"
                         data-ani-delay="0.8s"
                       >
-                        <a href="/courses" class="th-btn"
+                        <a href="/version2/courses" class="th-btn"
                           ><span
                             class="btn-text"
                             data-back="Find The Course"
@@ -221,7 +221,7 @@ Hero Area
                         data-ani="slideinup"
                         data-ani-delay="0.8s"
                       >
-                        <a href="/courses" class="th-btn"
+                        <a href="/version2/courses" class="th-btn"
                           ><span
                             class="btn-text"
                             data-back="Find The Course"
@@ -319,7 +319,7 @@ Career Area
                   </div>
                   <span class="tags">Noorani Qaida</span>
                   <h3 class="box-title">
-                    <a href="/noorani-qaida">Madani Noorani Qaida</a>
+                    <a href="/version2/noorani-qaida">Madani Noorani Qaida</a>
                   </h3>
                   <div class="box-wrapp">
                     <div class="box-profile">
@@ -343,10 +343,10 @@ Career Area
                   <div class="btn-group justify-content-between">
                     <a
                       class="th-btn border-btn2"
-                      href="/noorani-qaida"
+                      href="/version2/noorani-qaida"
                       >Learn More</a
                     >
-                    <a href="/contact" class="th-btn"
+                    <a href="/version2/contact" class="th-btn"
                       ><span
                         class="btn-text"
                         data-back="Enroll Now"
@@ -380,7 +380,7 @@ Career Area
                   </div>
                   <span class="tags">Nazra Quran</span>
                   <h3 class="box-title">
-                    <a href="/nazra-quran-with-tajweed"
+                    <a href="/version2/nazra-quran-with-tajweed"
                       >Nazra Quran With Tajweed</a
                     >
                   </h3>
@@ -406,10 +406,10 @@ Career Area
                   <div class="btn-group justify-content-between">
                     <a
                       class="th-btn border-btn2"
-                      href="/nazra-quran-with-tajweed"
+                      href="/version2/nazra-quran-with-tajweed"
                       >Learn More</a
                     >
-                    <a href="/contact" class="th-btn"
+                    <a href="/version2/contact" class="th-btn"
                       ><span
                         class="btn-text"
                         data-back="Enroll Now"
@@ -443,7 +443,7 @@ Career Area
                   </div>
                   <span class="tags">Hifz-e-Quran</span>
                   <h3 class="box-title">
-                    <a href="/hifz-e-quran-with-tajweed"
+                    <a href="/version2/hifz-e-quran-with-tajweed"
                       >Hifz-e-Quran with Tajweed</a
                     >
                   </h3>
@@ -469,10 +469,10 @@ Career Area
                   <div class="btn-group justify-content-between">
                     <a
                       class="th-btn border-btn2"
-                      href="/hifz-e-quran-with-tajweed"
+                      href="/version2/hifz-e-quran-with-tajweed"
                       >Learn More</a
                     >
-                    <a href="/contact" class="th-btn"
+                    <a href="/version2/contact" class="th-btn"
                       ><span
                         class="btn-text"
                         data-back="Enroll Now"
@@ -506,7 +506,7 @@ Career Area
                   </div>
                   <span class="tags">Tarjmat ul Quran</span>
                   <h3 class="box-title">
-                    <a href="/tarjmat-ul-quran">Tarjmat ul Quran</a>
+                    <a href="/version2/tarjmat-ul-quran">Tarjmat ul Quran</a>
                   </h3>
                   <div class="box-wrapp">
                     <div class="box-profile">
@@ -531,10 +531,10 @@ Career Area
                   <div class="btn-group justify-content-between">
                     <a
                       class="th-btn border-btn2"
-                      href="/tarjmat-ul-quran"
+                      href="/version2/tarjmat-ul-quran"
                       >Learn More</a
                     >
-                    <a href="/contact" class="th-btn"
+                    <a href="/version2/contact" class="th-btn"
                       ><span
                         class="btn-text"
                         data-back="Enroll Now"
@@ -568,7 +568,7 @@ Career Area
                   </div>
                   <span class="tags">Tajweed</span>
                   <h3 class="box-title">
-                    <a href="/tajweed">Tajweed Course</a>
+                    <a href="/version2/tajweed">Tajweed Course</a>
                   </h3>
                   <div class="box-wrapp">
                     <div class="box-profile">
@@ -593,10 +593,10 @@ Career Area
                   <div class="btn-group justify-content-between">
                     <a
                       class="th-btn border-btn2"
-                      href="/tajweed"
+                      href="/version2/tajweed"
                       >Learn More</a
                     >
-                    <a href="/contact" class="th-btn"
+                    <a href="/version2/contact" class="th-btn"
                       ><span
                         class="btn-text"
                         data-back="Enroll Now"
@@ -638,7 +638,7 @@ Cta Area
           <p class="text text-white">7:00 AM to 10:00 PM</p>
         </div>
         <div class="button">
-          <a class="cta-text" href="/fee-structure"
+          <a class="cta-text" href="/version2/fee-structure"
             >We offer flexible learning: 1 day, 2 days, 3 days, or even 5 days
             every week. <br />
             Pick the plan that suits you best</a
@@ -657,7 +657,7 @@ Cta Area
         </div>
 
         <div class="cta-button justify-content-center mt-55">
-          <a href="/contact" class="th-btn style1"
+          <a href="/version2/contact" class="th-btn style1"
             ><span
               class="btn-text"
               data-back="Get Started"
@@ -698,7 +698,7 @@ Service Area
                   <img src="assets/img/icon/about_2_1.svg" alt="Icon" width="40" height="40"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
-                  <a href="/farz-e-uloom">Farz-E-Uloom Course</a>
+                  <a href="/version2/farz-e-uloom">Farz-E-Uloom Course</a>
                 </h3>
               </div>
               <div class="box-content">
@@ -707,7 +707,7 @@ Service Area
                     <img src="assets/img/icon/about_2_1.svg" alt="Icon" width="40" height="40"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
-                    <a href="/farz-e-uloom">Farz-E-Uloom Course</a>
+                    <a href="/version2/farz-e-uloom">Farz-E-Uloom Course</a>
                   </h3>
                   <p class="box-text">
                     The Farz-E-Uloom course walks you through the heart of
@@ -717,7 +717,7 @@ Service Area
                   </p>
                 </div>
                 <div class="service-btn">
-                  <a href="/farz-e-uloom" class="simple-btn"
+                  <a href="/version2/farz-e-uloom" class="simple-btn"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -735,7 +735,7 @@ Service Area
                   <img src="assets/img/icon/service_2_9.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
-                  <a href="/hadith">The Hadith Course</a>
+                  <a href="/version2/hadith">The Hadith Course</a>
                 </h3>
               </div>
               <div class="box-content">
@@ -744,7 +744,7 @@ Service Area
                     <img src="assets/img/icon/service_2_9.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
-                    <a href="/hadith">Hadith Course</a>
+                    <a href="/version2/hadith">Hadith Course</a>
                   </h3>
                   <p class="box-text">
                     The Hadith Course offers insight into the sayings and
@@ -753,7 +753,7 @@ Service Area
                   </p>
                 </div>
                 <div class="service-btn">
-                  <a href="/hadith" class="simple-btn"
+                  <a href="/version2/hadith" class="simple-btn"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -774,7 +774,7 @@ Service Area
                   <img src="assets/img/icon/about_2_4.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
-                  <a href="/dars-e-nizami"
+                  <a href="/version2/dars-e-nizami"
                     >Darse Nizami Short Course</a
                   >
                 </h3>
@@ -785,7 +785,7 @@ Service Area
                     <img src="assets/img/icon/about_2_4.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
-                    <a href="/dars-e-nizami"
+                    <a href="/version2/dars-e-nizami"
                       >Darse Nizami Short Course</a
                     >
                   </h3>
@@ -796,7 +796,7 @@ Service Area
                   </p>
                 </div>
                 <div class="service-btn">
-                  <a href="/dars-e-nizami" class="simple-btn"
+                  <a href="/version2/dars-e-nizami" class="simple-btn"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -817,7 +817,7 @@ Service Area
                   <img src="assets/img/icon/service_2_4.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
-                  <a href="/tafseer-of-surah-noor-nisa-and-yusuf"
+                  <a href="/version2/tafseer-of-surah-noor-nisa-and-yusuf"
                     >Tafseer Surah Noor, Nisa, Yusuf</a
                   >
                 </h3>
@@ -828,7 +828,7 @@ Service Area
                     <img src="assets/img/icon/service_2_4.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
-                    <a href="/tafseer-of-surah-noor-nisa-and-yusuf"
+                    <a href="/version2/tafseer-of-surah-noor-nisa-and-yusuf"
                       >Tafseer Surah Noor, Nisa, Yusuf</a
                     >
                   </h3>
@@ -839,7 +839,7 @@ Service Area
                   </p>
                 </div>
                 <div class="service-btn">
-                  <a href="/tafseer-of-surah-noor-nisa-and-yusuf" class="simple-btn"
+                  <a href="/version2/tafseer-of-surah-noor-nisa-and-yusuf" class="simple-btn"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -860,7 +860,7 @@ Service Area
                   <img src="assets/img/icon/service_2_5.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
-                  <a href="/namaz">Namaz Course</a>
+                  <a href="/version2/namaz">Namaz Course</a>
                 </h3>
               </div>
               <div class="box-content">
@@ -869,7 +869,7 @@ Service Area
                     <img src="assets/img/icon/service_2_5.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
-                    <a href="/namaz">Namaz Course</a>
+                    <a href="/version2/namaz">Namaz Course</a>
                   </h3>
                   <p class="box-text">
                     The Namaz Course provides complete guidance on Salah,
@@ -878,7 +878,7 @@ Service Area
                   </p>
                 </div>
                 <div class="service-btn">
-                  <a href="/namaz" class="simple-btn"
+                  <a href="/version2/namaz" class="simple-btn"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -896,7 +896,7 @@ Service Area
                   <img src="assets/img/icon/service_2_7.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
-                  <a href="/sunnat-e-nikah">Sunnat e Nikah Course</a>
+                  <a href="/version2/sunnat-e-nikah">Sunnat e Nikah Course</a>
                 </h3>
               </div>
               <div class="box-content">
@@ -905,7 +905,7 @@ Service Area
                     <img src="assets/img/icon/service_2_7.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
-                    <a href="/sunnat-e-nikah"
+                    <a href="/version2/sunnat-e-nikah"
                       >Sunnat e Nikah Course</a
                     >
                   </h3>
@@ -916,7 +916,7 @@ Service Area
                   </p>
                 </div>
                 <div class="service-btn">
-                  <a href="/sunnat-e-nikah" class="simple-btn"
+                  <a href="/version2/sunnat-e-nikah" class="simple-btn"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>

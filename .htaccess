@@ -31,7 +31,7 @@ RewriteEngine On
 
 # Use the custom 404 page for any URL that doesn't match a real
 # file/directory or one of the rewrite rules below.
-ErrorDocument 404 /404.php
+ErrorDocument 404 /version2/404.php
 
 # ------------------------------------------
 # Main pages (clean URLs)
@@ -44,22 +44,22 @@ RewriteRule ^contact/?$ contact.php [L,QSA]
 
 # Old .php URLs redirect to the new clean URL (avoids duplicate-content issues)
 RewriteCond %{THE_REQUEST} \s/index\.php[\s?] [NC]
-RewriteRule ^index\.php$ / [L,R=301]
+RewriteRule ^index\.php$ /version2/ [L,R=301]
 
 RewriteCond %{THE_REQUEST} \s/about\.php[\s?] [NC]
-RewriteRule ^about\.php$ /about-us [L,R=301]
+RewriteRule ^about\.php$ /version2/about-us [L,R=301]
 
 RewriteCond %{THE_REQUEST} \s/popular-courses\.php[\s?] [NC]
-RewriteRule ^popular-courses\.php$ /courses [L,R=301]
+RewriteRule ^popular-courses\.php$ /version2/courses [L,R=301]
 
 RewriteCond %{THE_REQUEST} \s/fee-structure\.php[\s?] [NC]
-RewriteRule ^fee-structure\.php$ /fee-structure [L,R=301]
+RewriteRule ^fee-structure\.php$ /version2/fee-structure [L,R=301]
 
 RewriteCond %{THE_REQUEST} \s/educators\.php[\s?] [NC]
-RewriteRule ^educators\.php$ /educators [L,R=301]
+RewriteRule ^educators\.php$ /version2/educators [L,R=301]
 
 RewriteCond %{THE_REQUEST} \s/contact\.php[\s?] [NC]
-RewriteRule ^contact\.php$ /contact [L,R=301]
+RewriteRule ^contact\.php$ /version2/contact [L,R=301]
 
 # ------------------------------------------
 # Course detail pages (slug -> id lookup)
@@ -130,44 +130,44 @@ RewriteRule ^arabic-grammar/?$ course-details.php?id=21 [L,QSA]
 
 # Old course-details.php?id=X links redirect to the pretty slug URL
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=1(&|\s) [NC]
-RewriteRule ^course-details\.php$ /noorani-qaida [L,R=301]
+RewriteRule ^course-details\.php$ /version2/noorani-qaida [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=2(&|\s) [NC]
-RewriteRule ^course-details\.php$ /nazra-quran-with-tajweed [L,R=301]
+RewriteRule ^course-details\.php$ /version2/nazra-quran-with-tajweed [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=3(&|\s) [NC]
-RewriteRule ^course-details\.php$ /hifz-e-quran-with-tajweed [L,R=301]
+RewriteRule ^course-details\.php$ /version2/hifz-e-quran-with-tajweed [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=4(&|\s) [NC]
-RewriteRule ^course-details\.php$ /tarjmat-ul-quran [L,R=301]
+RewriteRule ^course-details\.php$ /version2/tarjmat-ul-quran [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=5(&|\s) [NC]
-RewriteRule ^course-details\.php$ /tajweed [L,R=301]
+RewriteRule ^course-details\.php$ /version2/tajweed [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=6(&|\s) [NC]
-RewriteRule ^course-details\.php$ /farz-e-uloom [L,R=301]
+RewriteRule ^course-details\.php$ /version2/farz-e-uloom [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=7(&|\s) [NC]
-RewriteRule ^course-details\.php$ /hadith [L,R=301]
+RewriteRule ^course-details\.php$ /version2/hadith [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=8(&|\s) [NC]
-RewriteRule ^course-details\.php$ /dars-e-nizami [L,R=301]
+RewriteRule ^course-details\.php$ /version2/dars-e-nizami [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=9(&|\s) [NC]
-RewriteRule ^course-details\.php$ /tafseer-of-surah-noor-nisa-and-yusuf [L,R=301]
+RewriteRule ^course-details\.php$ /version2/tafseer-of-surah-noor-nisa-and-yusuf [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=10(&|\s) [NC]
-RewriteRule ^course-details\.php$ /tafseer-sirat-ul-jinan [L,R=301]
+RewriteRule ^course-details\.php$ /version2/tafseer-sirat-ul-jinan [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=11(&|\s) [NC]
-RewriteRule ^course-details\.php$ /aqaid-o-fiqh [L,R=301]
+RewriteRule ^course-details\.php$ /version2/aqaid-o-fiqh [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=12(&|\s) [NC]
-RewriteRule ^course-details\.php$ /namaz [L,R=301]
+RewriteRule ^course-details\.php$ /version2/namaz [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=13(&|\s) [NC]
-RewriteRule ^course-details\.php$ /sunnat-e-nikah [L,R=301]
+RewriteRule ^course-details\.php$ /version2/sunnat-e-nikah [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=14(&|\s) [NC]
-RewriteRule ^course-details\.php$ /hajj-course [L,R=301]
+RewriteRule ^course-details\.php$ /version2/hajj-course [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=15(&|\s) [NC]
-RewriteRule ^course-details\.php$ /umrah-course [L,R=301]
+RewriteRule ^course-details\.php$ /version2/umrah-course [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=16(&|\s) [NC]
-RewriteRule ^course-details\.php$ /ahkam-e-roza [L,R=301]
+RewriteRule ^course-details\.php$ /version2/ahkam-e-roza [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=17(&|\s) [NC]
-RewriteRule ^course-details\.php$ /islamic-life [L,R=301]
+RewriteRule ^course-details\.php$ /version2/islamic-life [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=18(&|\s) [NC]
-RewriteRule ^course-details\.php$ /seerat-e-mustafa [L,R=301]
+RewriteRule ^course-details\.php$ /version2/seerat-e-mustafa [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=19(&|\s) [NC]
-RewriteRule ^course-details\.php$ /sunnatain-and-adab [L,R=301]
+RewriteRule ^course-details\.php$ /version2/sunnatain-and-adab [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=20(&|\s) [NC]
-RewriteRule ^course-details\.php$ /taharat [L,R=301]
+RewriteRule ^course-details\.php$ /version2/taharat [L,R=301]
 RewriteCond %{THE_REQUEST} \s/course-details\.php\?id=21(&|\s) [NC]
-RewriteRule ^course-details\.php$ /arabic-grammar [L,R=301]
+RewriteRule ^course-details\.php$ /version2/arabic-grammar [L,R=301]

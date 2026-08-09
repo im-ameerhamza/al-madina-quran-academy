@@ -32,7 +32,7 @@ Header Area
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">Popular courses</h1>
           <ul class="breadcumb-menu">
-            <li><a href="/">Home</a></li>
+            <li><a href="/version2/">Home</a></li>
             <li>Popular courses</li>
           </ul>
         </div>
@@ -66,7 +66,7 @@ cousrse Area
               </div>
               <span class="tags">Noorani Qaida</span>
               <h3 class="box-title">
-                <a href="/noorani-qaida">Madani Noorani Qaida</a>
+                <a href="/version2/noorani-qaida">Madani Noorani Qaida</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -84,10 +84,10 @@ cousrse Area
                 <span class="rating"><i class="fa-solid fa-star"></i>4.8</span>
               </div>
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/noorani-qaida"
+                <a class="th-btn border-btn2" href="/version2/noorani-qaida"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -117,7 +117,7 @@ cousrse Area
               </div>
               <span class="tags">Nazra Quran</span>
               <h3 class="box-title">
-                <a href="/nazra-quran-with-tajweed">Nazra Quran With Tajweed</a>
+                <a href="/version2/nazra-quran-with-tajweed">Nazra Quran With Tajweed</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -135,10 +135,10 @@ cousrse Area
                 <span class="rating"><i class="fa-solid fa-star"></i>4.8</span>
               </div>
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/nazra-quran-with-tajweed"
+                <a class="th-btn border-btn2" href="/version2/nazra-quran-with-tajweed"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -169,7 +169,7 @@ cousrse Area
               </div>
               <span class="tags">Hifz-e-Quran</span>
               <h3 class="box-title">
-                <a href="/hifz-e-quran-with-tajweed">Hifz-e-Quran with Tajweed</a>
+                <a href="/version2/hifz-e-quran-with-tajweed">Hifz-e-Quran with Tajweed</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -184,10 +184,10 @@ cousrse Area
                 <span class="rating"><i class="fa-solid fa-star"></i>4.8</span>
               </div>
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/hifz-e-quran-with-tajweed"
+                <a class="th-btn border-btn2" href="/version2/hifz-e-quran-with-tajweed"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -217,7 +217,7 @@ cousrse Area
               </div>
               <span class="tags">Tarjmat ul Quran</span>
               <h3 class="box-title">
-                <a href="/tarjmat-ul-quran">Tarjmat ul Quran</a>
+                <a href="/version2/tarjmat-ul-quran">Tarjmat ul Quran</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -236,10 +236,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/tarjmat-ul-quran"
+                <a class="th-btn border-btn2" href="/version2/tarjmat-ul-quran"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -269,7 +269,7 @@ cousrse Area
               </div>
               <span class="tags">Tajweed</span>
               <h3 class="box-title">
-                <a href="/tajweed">Tajweed Course</a>
+                <a href="/version2/tajweed">Tajweed Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -288,10 +288,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/tajweed"
+                <a class="th-btn border-btn2" href="/version2/tajweed"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -321,7 +321,7 @@ cousrse Area
               </div>
               <span class="tags">Farz-E-Uloom</span>
               <h3 class="box-title">
-                <a href="/farz-e-uloom">Farz-E-Uloom Course</a>
+                <a href="/version2/farz-e-uloom">Farz-E-Uloom Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -340,10 +340,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/farz-e-uloom"
+                <a class="th-btn border-btn2" href="/version2/farz-e-uloom"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -374,7 +374,7 @@ cousrse Area
               </div>
               <span class="tags">The Hadith Course</span>
               <h3 class="box-title">
-                <a href="/hadith">The Hadith Course</a>
+                <a href="/version2/hadith">The Hadith Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -393,10 +393,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/hadith"
+                <a class="th-btn border-btn2" href="/version2/hadith"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -426,7 +426,7 @@ cousrse Area
               </div>
               <span class="tags">Darse Nizami</span>
               <h3 class="box-title">
-                <a href="/dars-e-nizami">Darse Nizami Short Course</a>
+                <a href="/version2/dars-e-nizami">Darse Nizami Short Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -447,10 +447,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/dars-e-nizami"
+                <a class="th-btn border-btn2" href="/version2/dars-e-nizami"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -480,7 +480,7 @@ cousrse Area
               </div>
               <span class="tags">Tafseer Surah</span>
               <h3 class="box-title">
-                <a href="/tafseer-of-surah-noor-nisa-and-yusuf"
+                <a href="/version2/tafseer-of-surah-noor-nisa-and-yusuf"
                   >Tafseer Surah Noor, Nisa, Yusuf</a
                 >
               </h3>
@@ -501,10 +501,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/tafseer-of-surah-noor-nisa-and-yusuf"
+                <a class="th-btn border-btn2" href="/version2/tafseer-of-surah-noor-nisa-and-yusuf"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -534,7 +534,7 @@ cousrse Area
               </div>
               <span class="tags">Tafseer Sirat ul Jinan</span>
               <h3 class="box-title">
-                <a href="/tafseer-sirat-ul-jinan"
+                <a href="/version2/tafseer-sirat-ul-jinan"
                   >Tafseer Sirat ul Jinan Course</a
                 >
               </h3>
@@ -555,10 +555,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/tafseer-sirat-ul-jinan"
+                <a class="th-btn border-btn2" href="/version2/tafseer-sirat-ul-jinan"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -588,7 +588,7 @@ cousrse Area
               </div>
               <span class="tags">Aqaid o Fiqh</span>
               <h3 class="box-title">
-                <a href="/aqaid-o-fiqh">Aqaid-o-Fiqh Course</a>
+                <a href="/version2/aqaid-o-fiqh">Aqaid-o-Fiqh Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -607,10 +607,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/aqaid-o-fiqh"
+                <a class="th-btn border-btn2" href="/version2/aqaid-o-fiqh"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -640,7 +640,7 @@ cousrse Area
               </div>
               <span class="tags">Namaz</span>
               <h3 class="box-title">
-                <a href="/namaz">Namaz Course</a>
+                <a href="/version2/namaz">Namaz Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -659,10 +659,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/namaz"
+                <a class="th-btn border-btn2" href="/version2/namaz"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -692,7 +692,7 @@ cousrse Area
               </div>
               <span class="tags">Sunnat e Nikah</span>
               <h3 class="box-title">
-                <a href="/sunnat-e-nikah">Sunnat e Nikah Course</a>
+                <a href="/version2/sunnat-e-nikah">Sunnat e Nikah Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -711,10 +711,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/sunnat-e-nikah"
+                <a class="th-btn border-btn2" href="/version2/sunnat-e-nikah"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -744,7 +744,7 @@ cousrse Area
               </div>
               <span class="tags">Hajj</span>
               <h3 class="box-title">
-                <a href="/hajj-course"
+                <a href="/version2/hajj-course"
                   >Hajj Short & Complete Course</a
                 >
               </h3>
@@ -765,10 +765,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/hajj-course"
+                <a class="th-btn border-btn2" href="/version2/hajj-course"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -798,7 +798,7 @@ cousrse Area
               </div>
               <span class="tags">Umrah</span>
               <h3 class="box-title">
-                <a href="/umrah-course"
+                <a href="/version2/umrah-course"
                   >Umrah Short & Complete Course</a
                 >
               </h3>
@@ -819,10 +819,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/umrah-course"
+                <a class="th-btn border-btn2" href="/version2/umrah-course"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -852,7 +852,7 @@ cousrse Area
               </div>
               <span class="tags">Ahkam e Roza</span>
               <h3 class="box-title">
-                <a href="/ahkam-e-roza">Ahkam e Roza Course</a>
+                <a href="/version2/ahkam-e-roza">Ahkam e Roza Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -871,10 +871,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/ahkam-e-roza"
+                <a class="th-btn border-btn2" href="/version2/ahkam-e-roza"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -904,7 +904,7 @@ cousrse Area
               </div>
               <span class="tags">Islamic Life</span>
               <h3 class="box-title">
-                <a href="/islamic-life">Islamic Life Course</a>
+                <a href="/version2/islamic-life">Islamic Life Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -923,10 +923,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/islamic-life"
+                <a class="th-btn border-btn2" href="/version2/islamic-life"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -956,7 +956,7 @@ cousrse Area
               </div>
               <span class="tags">Seerat e Mustafa</span>
               <h3 class="box-title">
-                <a href="/seerat-e-mustafa">Seerat e Mustafa Course</a>
+                <a href="/version2/seerat-e-mustafa">Seerat e Mustafa Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -974,10 +974,10 @@ cousrse Area
                 <span class="rating"><i class="fa-solid fa-star"></i>4.8</span>
               </div>
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/seerat-e-mustafa"
+                <a class="th-btn border-btn2" href="/version2/seerat-e-mustafa"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -1007,7 +1007,7 @@ cousrse Area
               </div>
               <span class="tags">Sunnatain & Adab</span>
               <h3 class="box-title">
-                <a href="/sunnatain-and-adab">Sunnatain & Adab Course</a>
+                <a href="/version2/sunnatain-and-adab">Sunnatain & Adab Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -1026,10 +1026,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/sunnatain-and-adab"
+                <a class="th-btn border-btn2" href="/version2/sunnatain-and-adab"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -1059,7 +1059,7 @@ cousrse Area
               </div>
               <span class="tags">Taharat</span>
               <h3 class="box-title">
-                <a href="/taharat">Taharat Course</a>
+                <a href="/version2/taharat">Taharat Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -1078,10 +1078,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/taharat"
+                <a class="th-btn border-btn2" href="/version2/taharat"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"
@@ -1111,7 +1111,7 @@ cousrse Area
               </div>
               <span class="tags">Arabic Grammar</span>
               <h3 class="box-title">
-                <a href="/arabic-grammar">Arabic Grammar Course</a>
+                <a href="/version2/arabic-grammar">Arabic Grammar Course</a>
               </h3>
               <div class="box-wrapp">
                 <div class="box-profile">
@@ -1130,10 +1130,10 @@ cousrse Area
               </div>
 
               <div class="btn-group justify-content-between">
-                <a class="th-btn border-btn2" href="/arabic-grammar"
+                <a class="th-btn border-btn2" href="/version2/arabic-grammar"
                   >Learn More</a
                 >
-                <a href="/contact" class="th-btn"
+                <a href="/version2/contact" class="th-btn"
                   ><span
                     class="btn-text"
                     data-back="Enroll Now"

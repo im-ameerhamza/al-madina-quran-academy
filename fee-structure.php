@@ -32,7 +32,7 @@ Header Area
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">Fee Structure</h1>
           <ul class="breadcumb-menu">
-            <li><a href="/courses">Popular Courses</a></li>
+            <li><a href="/version2/courses">Popular Courses</a></li>
             <li>Fee Structure</li>
           </ul>
         </div>
