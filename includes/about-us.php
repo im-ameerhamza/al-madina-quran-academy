@@ -169,7 +169,7 @@ $showReadMore = $showReadMore ?? true;
   class="btn-group mt-30 mb-xxl-0 mb-25 wow fadeInUp"
   data-wow-delay=".8s"
 >
-  <a href="/version2/about-us" class="th-btn" aria-label="Read More">
+  <a href="/about-us" class="th-btn" aria-label="Read More">
     <span
       class="btn-text"
       data-back="Read More"

@@ -36,7 +36,7 @@ Header Area
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">Our Educators</h1>
           <ul class="breadcumb-menu">
-            <li><a href="/version2/">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li>Educators</li>
           </ul>
         </div>
@@ -403,41 +403,41 @@ Header Area
                 <h3 class="widget_title">Popular courses</h3>
                 <ul>
                   <li>
-                    <a href="/version2/noorani-qaida">Madani Noorani Qaida</a>
+                    <a href="/noorani-qaida">Madani Noorani Qaida</a>
                   </li>
                   <li>
-                    <a href="/version2/nazra-quran-with-tajweed"
+                    <a href="/nazra-quran-with-tajweed"
                       >Nazra Quran With Tajweed</a
                     >
                   </li>
                   <li>
-                    <a href="/version2/hifz-e-quran-with-tajweed"
+                    <a href="/hifz-e-quran-with-tajweed"
                       >Hifz-e-Quran with Tajweed</a
                     >
                   </li>
                   <li>
-                    <a href="/version2/tarjmat-ul-quran">Tarjmat ul Quran</a>
+                    <a href="/tarjmat-ul-quran">Tarjmat ul Quran</a>
                   </li>
                   <li>
-                    <a href="/version2/tajweed">Tajweed Course</a>
+                    <a href="/tajweed">Tajweed Course</a>
                   </li>
 
                   <li>
-                    <a href="/version2/farz-e-uloom">Farz-E-Uloom Course</a>
+                    <a href="/farz-e-uloom">Farz-E-Uloom Course</a>
                   </li>
                   <li>
-                    <a href="/version2/hadith">The Hadith Course</a>
+                    <a href="/hadith">The Hadith Course</a>
                   </li>
                   <li>
-                    <a href="/version2/dars-e-nizami"
+                    <a href="/dars-e-nizami"
                       >Darse Nizami Short Course</a
                     >
                   </li>
                   <li>
-                    <a href="/version2/namaz">Namaz Course</a>
+                    <a href="/namaz">Namaz Course</a>
                   </li>
                   <li>
-                    <a href="/version2/aqaid-o-fiqh">Aqaid-o-Fiqh Course</a>
+                    <a href="/aqaid-o-fiqh">Aqaid-o-Fiqh Course</a>
                   </li>
                 </ul>
               </div>

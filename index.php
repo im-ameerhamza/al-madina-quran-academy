@@ -252,7 +252,7 @@ Hero Area
         </div>
       </div>
       <div class="scroll-down d-none d-md-block">
-        <a href="#about-sec" class="hero-scroll-wrap"><span></span></a>
+        <a href="#about-sec" class="hero-scroll-wrap" aria-label="Scroll down to About section"><span></span></a>
       </div>
       <div class="social-links">
         <a href="https://www.instagram.com/ameerhamzaattari88/"
