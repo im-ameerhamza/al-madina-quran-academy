@@ -38,7 +38,7 @@ Header Area
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">About Us</h1>
           <ul class="breadcumb-menu">
-            <li><a href="/version2/">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li>About Us</li>
           </ul>
         </div>
@@ -181,7 +181,7 @@ Service Area
                     <img src="assets/img/icon/service_3_1.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
-                    <a href="/version2/nazra-quran-with-tajweed">Nazra Quran With Tajweed</a>
+                    <a href="/nazra-quran-with-tajweed">Nazra Quran With Tajweed</a>
                   </h3>
                   <p class="box-text">
                     The story of Islam begins with the birth of Muhammad ibn
@@ -196,7 +196,7 @@ Service Area
                     <img src="assets/img/icon/service_3_2.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
-                    <a href="/version2/hifz-e-quran-with-tajweed">Hifz-e-Quran with Tajweed</a>
+                    <a href="/hifz-e-quran-with-tajweed">Hifz-e-Quran with Tajweed</a>
                   </h3>
                   <p class="box-text">
                     Salah involves specific movements and recitations at set
@@ -211,7 +211,7 @@ Service Area
                     <img src="assets/img/icon/service_3_3.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
-                    <a href="/version2/tarjmat-ul-quran">Tarjmat ul Quran</a>
+                    <a href="/tarjmat-ul-quran">Tarjmat ul Quran</a>
                   </h3>
                   <p class="box-text">
                     Many mosques offer weekend schools, youth groups, and
@@ -227,7 +227,7 @@ Service Area
                     <img src="assets/img/icon/service_3_4.svg" alt="Icon"  loading="lazy" decoding="async" />
                   </div>
                   <h3 class="box-title">
-                    <a href="/version2/tajweed">Tajweed Course</a>
+                    <a href="/tajweed">Tajweed Course</a>
                   </h3>
                   <p class="box-text">
                     Muslims eat Halal (permissible) food and avoid Haram
@@ -241,14 +241,14 @@ Service Area
               class="btn-group justify-content-center justify-content-md-start mt-50 wow fadeInUp"
               data-wow-delay=".7s"
             >
-              <a href="/version2/courses" class="th-btn style2 th-icon"
+              <a href="/courses" class="th-btn style2 th-icon"
                  aria-label="Discover More"><span
                   class="btn-text"
                   data-back="Discover More"
                   data-front="Discover More"
                 ></span>
               </a>
-              <a href="/version2/contact" class="th-btn th-icon"
+              <a href="/contact" class="th-btn th-icon"
                  aria-label="Enroll Now"><span
                   class="btn-text"
                   data-back="Enroll Now"
@@ -294,7 +294,7 @@ About Area
                   <img src="assets/img/icon/choose_1_1.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
-                  <a href="/version2/educators">Expert Quran Tutor</a>
+                  <a href="/educators">Expert Quran Tutor</a>
                 </h3>
                 <p class="box-text">
                   All the classes of online Quran teaching are conducted by well
@@ -302,7 +302,7 @@ About Area
                 </p>
               </div>
               <div class="choose-btn">
-                <a href="/version2/educators" class="icon-btn">
+                <a href="/educators" class="icon-btn">
                   <i class="fa-regular fa-arrow-right"></i>
                 </a>
               </div>
@@ -315,7 +315,7 @@ About Area
                   <img src="assets/img/icon/choose_1_2.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
-                  <a href="/version2/educators">One-to-One Classes</a>
+                  <a href="/educators">One-to-One Classes</a>
                 </h3>
                 <p class="box-text">
                   One-to-one classes that give you full attention, personalized
@@ -323,7 +323,7 @@ About Area
                 </p>
               </div>
               <div class="choose-btn">
-                <a href="/version2/educators" class="icon-btn">
+                <a href="/educators" class="icon-btn">
                   <i class="fa-regular fa-arrow-right"></i>
                 </a>
               </div>
@@ -336,7 +336,7 @@ About Area
                   <img src="assets/img/icon/choose_1_3.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
-                  <a href="/version2/educators">Any course Flexible Timings</a>
+                  <a href="/educators">Any course Flexible Timings</a>
                 </h3>
                 <p class="box-text">
                   Pick any course and study at the time that suits you best,
@@ -344,7 +344,7 @@ About Area
                 </p>
               </div>
               <div class="choose-btn">
-                <a href="/version2/educators" class="icon-btn">
+                <a href="/educators" class="icon-btn">
                   <i class="fa-regular fa-arrow-right"></i>
                 </a>
               </div>
@@ -357,7 +357,7 @@ About Area
                   <img src="assets/img/icon/choose_1_4.svg" alt="Icon"  loading="lazy" decoding="async" />
                 </div>
                 <h3 class="box-title">
-                  <a href="/version2/educators">Male & female Teachers</a>
+                  <a href="/educators">Male & female Teachers</a>
                 </h3>
                 <p class="box-text">
                   Our female teachers provides comfortable learning environment
@@ -365,7 +365,7 @@ About Area
                 </p>
               </div>
               <div class="choose-btn">
-                <a href="/version2/educators" class="icon-btn">
+                <a href="/educators" class="icon-btn">
                   <i class="fa-regular fa-arrow-right"></i>
                 </a>
               </div>

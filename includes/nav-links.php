@@ -1,13 +1,13 @@
 <ul>
-    <li><a href="/version2/">Home</a></li>
+    <li><a href="/">Home</a></li>
 
-    <li><a href="/version2/about-us">About Us</a></li>
+    <li><a href="/about-us">About Us</a></li>
 
-    <li><a href="/version2/courses">Courses</a></li>
+    <li><a href="/courses">Courses</a></li>
 
-    <li><a href="/version2/fee-structure">Fee Structure</a></li>
+    <li><a href="/fee-structure">Fee Structure</a></li>
 
-    <li><a href="/version2/educators">Educators</a></li>
+    <li><a href="/educators">Educators</a></li>
 
-    <li><a href="/version2/contact">Contact Us</a></li>
+    <li><a href="/contact">Contact Us</a></li>
 </ul>

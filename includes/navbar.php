@@ -9,7 +9,7 @@ Mobile Menu
         </button>
 
         <div class="mobile-logo">
-            <a href="/version2/" class="logo">
+            <a href="/" class="logo">
                 <img
                     src="assets/img/hero/Nav_logo.webp"
                     alt="Al Madinah Quran Academy"
@@ -44,7 +44,7 @@ Desktop Header
 
                         <div class="header-logo">
 
-                            <a href="/version2/">
+                            <a href="/">
 
                                 <img
                                     src="assets/img/hero/Nav_logo.webp"
@@ -84,7 +84,7 @@ Desktop Header
                                 <div class="header-button">
 
                                     <a
-                                        href="/version2/contact"
+                                        href="/contact"
                                         class="th-btn style1 th-icon"
                                      aria-label="Get Free Trial">
 
