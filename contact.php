@@ -1,7 +1,9 @@
-<?php
+﻿<?php
 $pageTitle = "Contact Us | Al Madinah Quran Academy";
 $pageDescription = "Contact Al Madinah Quran Academy for admissions, free trial classes and any questions regarding our online Quran courses.";
 $pageKeywords = "Contact Quran Academy, Free Trial Quran Class, Quran Admission";
+$pagePreloadImage = "assets/img/bg/contact-us-banner.webp";
+$pageImage = $pagePreloadImage;
 ?>
 
 <!DOCTYPE html>
@@ -27,6 +29,7 @@ Header Area
     <div
       class="breadcumb-wrapper"
       data-bg-src="assets/img/bg/contact-us-banner.webp"
+      style="background-image: url('assets/img/bg/contact-us-banner.webp')"
     >
       <div class="container">
         <div class="breadcumb-content">
@@ -192,7 +195,7 @@ Contact Area
                 <img
                   src="assets/img/bg/contact-us-side.webp"
                   alt="contact us img"
-                />
+                 loading="lazy" decoding="async" />
               </div>
             </div>
           </div>
@@ -209,7 +212,7 @@ Map Area
             loading="lazy"
           ></iframe>
           <div class="contact-icon">
-            <img src="assets/img/icon/location-dot.svg" alt="Location Icon" />
+            <img src="assets/img/icon/location-dot.svg" alt="Location Icon"  loading="lazy" decoding="async" />
           </div>
         </div>
       </div>

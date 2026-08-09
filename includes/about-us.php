@@ -50,7 +50,7 @@ $showReadMore = $showReadMore ?? true;
                   <span class="text"
                     ><img src="assets/img/shape/starting.png" alt=""
                   /></span>
-                  <audio controls="">
+                  <audio controls="" preload="none">
                     <source src="assets/img/audio.mp3" type="audio/mpeg" />
                   </audio>
                 </div>

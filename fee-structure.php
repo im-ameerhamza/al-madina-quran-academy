@@ -2,6 +2,8 @@
 $pageTitle = "Fee Structure | Al Madinah Quran Academy";
 $pageDescription = "View the affordable fee structure for all online Quran courses offered by Al Madinah Quran Academy.";
 $pageKeywords = "Quran Course Fees, Online Quran Fee Structure";
+$pagePreloadImage = "assets/img/bg/fee-bg.webp";
+$pageImage = $pagePreloadImage;
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +27,7 @@ Header Area
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/fee-bg.webp">
+    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/fee-bg.webp" style="background-image: url('assets/img/bg/fee-bg.webp')">
       <div class="container">
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">Fee Structure</h1>

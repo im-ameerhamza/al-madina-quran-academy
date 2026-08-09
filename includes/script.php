@@ -7,13 +7,13 @@
     <!-- Counter Up -->
     <script src="assets/js/jquery.counterup.min.js"></script>
 
-    <!-- gsap area start -->
+    <?php if (!empty($enableAdvancedAnimations)): ?>
+    <!-- Advanced animation and desktop smooth-scroll scripts -->
     <script src="assets/js/gsap.min.js"></script>
     <script src="assets/js/ScrollTrigger.min.js"></script>
     <script src="assets/js/SplitText.js"></script>
-    <!-- gsap area end -->
-    <!-- Lenis Js -->
     <script src="assets/js/lenis.min.js"></script>
+    <?php endif; ?>
     <!-- wow -->
     <script src="assets/js/wow.min.js"></script>
 

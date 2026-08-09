@@ -2,6 +2,8 @@
 $pageTitle = "Course Details | Al Madinah Quran Academy";
 $pageDescription = "Explore our online Quran courses including Noorani Qaida, Nazra Quran, Tajweed, Hifz, Tarjmat-ul-Quran, Hadith and Islamic studies with experienced teachers.";
 $pageKeywords = "Online Quran Courses, Noorani Qaida, Nazra Quran, Hifz Quran, Tajweed Course, Islamic Studies";
+$pagePreloadImage = "assets/img/bg/courses-bg.webp";
+$pageImage = $pagePreloadImage;
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +27,7 @@ Header Area
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/courses-bg.webp">
+    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/courses-bg.webp" style="background-image: url('assets/img/bg/courses-bg.webp')">
       <div class="container">
         <div class="breadcumb-content">
           <h1 id="course-title" class="breadcumb-title">Course Details</h1>

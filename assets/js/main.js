@@ -166,7 +166,6 @@
     updateProgress();
     $(window).scroll(updateProgress);
     var offset = 50;
-    var duration = 750;
     jQuery(window).on("scroll", function () {
       if (jQuery(this).scrollTop() > offset) {
         jQuery(scrollTopbtn).addClass("show");
@@ -176,23 +175,54 @@
     });
     jQuery(scrollTopbtn).on("click", function (event) {
       event.preventDefault();
-      jQuery("html, body").animate(
-        {
-          scrollTop: 0,
-        },
-        duration,
-      );
+
+      jQuery("html, body").stop(true);
+
+      if (typeof lenis !== "undefined" && lenis) {
+        lenis.scrollTo(0, { lerp: 0.07 });
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+
       return false;
     });
   }
 
   /*---------- 06. Set Background Image Color & Mask ----------*/
   if ($("[data-bg-src]").length > 0) {
-    $("[data-bg-src]").each(function () {
-      var src = $(this).attr("data-bg-src");
-      $(this).css("background-image", "url(" + src + ")");
-      $(this).removeAttr("data-bg-src").addClass("background-image");
-    });
+    var loadBackground = function (element) {
+      var $element = $(element);
+      var src = $element.attr("data-bg-src");
+
+      if (!src) return;
+
+      $element
+        .css("background-image", "url(" + src + ")")
+        .removeAttr("data-bg-src")
+        .addClass("background-image");
+    };
+
+    if ("IntersectionObserver" in window) {
+      var backgroundObserver = new IntersectionObserver(
+        function (entries, observer) {
+          entries.forEach(function (entry) {
+            if (!entry.isIntersecting) return;
+
+            loadBackground(entry.target);
+            observer.unobserve(entry.target);
+          });
+        },
+        { rootMargin: "300px 0px" },
+      );
+
+      $("[data-bg-src]").each(function () {
+        backgroundObserver.observe(this);
+      });
+    } else {
+      $("[data-bg-src]").each(function () {
+        loadBackground(this);
+      });
+    }
   }
 
   if ($("[data-bg-color]").length > 0) {
@@ -625,7 +655,6 @@
     $(this).addClass("item-active");
   });
 
-
   /*----------- 15. Counter Up ----------*/
   $(".counter-number").counterUp({
     delay: 10,
@@ -706,7 +735,11 @@
   new WOW().init();
 
   /* Image Reveal Animation */
-  if ($(".reveal").length) {
+  if (
+    $(".reveal").length &&
+    typeof gsap !== "undefined" &&
+    typeof ScrollTrigger !== "undefined"
+  ) {
     gsap.registerPlugin(ScrollTrigger);
     let revealContainers = document.querySelectorAll(".reveal");
     revealContainers.forEach((container) => {
@@ -734,7 +767,11 @@
   }
 
   /* Text Effect Animation */
-  if ($(".text-anime-style-1").length) {
+  if (
+    $(".text-anime-style-1").length &&
+    typeof gsap !== "undefined" &&
+    typeof SplitText !== "undefined"
+  ) {
     let staggerAmount = 0.05,
       delayValue = 0.5,
       animatedTextElements = document.querySelectorAll(".text-anime-style-1");
@@ -752,7 +789,11 @@
     });
   }
 
-  if ($(".text-anime-style-2").length) {
+  if (
+    $(".text-anime-style-2").length &&
+    typeof gsap !== "undefined" &&
+    typeof SplitText !== "undefined"
+  ) {
     let staggerAmount = 0.03,
       translateXValue = 20,
       delayValue = 0.1,
@@ -773,7 +814,11 @@
     });
   }
 
-  if ($(".text-anime-style-3").length) {
+  if (
+    $(".text-anime-style-3").length &&
+    typeof gsap !== "undefined" &&
+    typeof SplitText !== "undefined"
+  ) {
     let animatedTextElements = document.querySelectorAll(".text-anime-style-3");
 
     animatedTextElements.forEach((element) => {
@@ -808,54 +853,58 @@
   }
 
   // ---------- Smooth Scroll ----------
-  gsap.registerPlugin(ScrollTrigger);
-
   let lenis;
 
-  const prefersReducedMotion = window.matchMedia(
-    "(prefers-reduced-motion: reduce)",
-  ).matches;
+  if (
+    typeof gsap !== "undefined" &&
+    typeof ScrollTrigger !== "undefined" &&
+    typeof Lenis !== "undefined"
+  ) {
+    gsap.registerPlugin(ScrollTrigger);
 
-  function initializeLenis() {
-    lenis = new Lenis({
-      lerp: 0.07, // Smoothing factor
-    });
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
 
-    lenis.on("scroll", ScrollTrigger.update);
-
-    // Use GSAP's ticker to sync with animations
-    gsap.ticker.add((time) => {
-      lenis.raf(time * 1000);
-    });
-
-    // Allow native scroll inside specified elements
-    document.querySelectorAll(".mega-scroll").forEach((el) => {
-      el.addEventListener("wheel", (e) => e.stopPropagation(), {
-        passive: true,
+    function initializeLenis() {
+      lenis = new Lenis({
+        lerp: 0.07, // Smoothing factor
       });
-      el.addEventListener("touchmove", (e) => e.stopPropagation(), {
-        passive: true,
+
+      lenis.on("scroll", ScrollTrigger.update);
+
+      // Use GSAP's ticker to sync with animations
+      gsap.ticker.add((time) => {
+        lenis.raf(time * 1000);
       });
-    });
-  }
 
-  function enableOrDisableLenis() {
-    if (prefersReducedMotion) return;
+      // Allow native scroll inside specified elements
+      document.querySelectorAll(".mega-scroll").forEach((el) => {
+        el.addEventListener("wheel", (e) => e.stopPropagation(), {
+          passive: true,
+        });
+        el.addEventListener("touchmove", (e) => e.stopPropagation(), {
+          passive: true,
+        });
+      });
+    }
 
-    if (window.innerWidth > 991) {
-      if (!lenis) initializeLenis();
-      lenis.start();
-    } else {
-      if (lenis) {
+    function enableOrDisableLenis() {
+      if (prefersReducedMotion) return;
+
+      if (window.innerWidth > 991) {
+        if (!lenis) initializeLenis();
+        lenis.start();
+      } else if (lenis) {
         lenis.stop();
         lenis = null;
       }
     }
-  }
 
-  // Initial call
-  enableOrDisableLenis();
-  window.addEventListener("resize", enableOrDisableLenis);
+    // Initial call
+    enableOrDisableLenis();
+    window.addEventListener("resize", enableOrDisableLenis);
+  }
 
   /* Main js */
   /* -----------------*/
