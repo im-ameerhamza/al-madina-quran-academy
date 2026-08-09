@@ -32,7 +32,7 @@ Header Area
         <div class="breadcumb-content">
           <h1 id="course-title" class="breadcumb-title">Course Details</h1>
           <ul class="breadcumb-menu">
-            <li><a href="popular-courses.php">Popular Courses</a></li>
+            <li><a href="/courses">Popular Courses</a></li>
             <li>Popular courses</li>
           </ul>
         </div>
@@ -60,41 +60,41 @@ Header Area
                 <h3 class="widget_title">Popular Courses</h3>
                 <ul>
                   <li>
-                    <a href="course-details.php?id=1">Madani Noorani Qaida</a>
+                    <a href="/noorani-qaida">Madani Noorani Qaida</a>
                   </li>
                   <li>
-                    <a href="course-details.php?id=2"
+                    <a href="/nazra-quran-with-tajweed"
                       >Nazra Quran With Tajweed</a
                     >
                   </li>
                   <li>
-                    <a href="course-details.php?id=3"
+                    <a href="/hifz-e-quran-with-tajweed"
                       >Hifz-e-Quran with Tajweed</a
                     >
                   </li>
                   <li>
-                    <a href="course-details.php?id=4">Tarjmat ul Quran</a>
+                    <a href="/tarjmat-ul-quran">Tarjmat ul Quran</a>
                   </li>
                   <li>
-                    <a href="course-details.php?id=5">Tajweed Course</a>
+                    <a href="/tajweed">Tajweed Course</a>
                   </li>
 
                   <li>
-                    <a href="course-details.php?id=6">Farz-E-Uloom Course</a>
+                    <a href="/farz-e-uloom">Farz-E-Uloom Course</a>
                   </li>
                   <li>
-                    <a href="course-details.php?id=7">The Hadith Course</a>
+                    <a href="/hadith">The Hadith Course</a>
                   </li>
                   <li>
-                    <a href="course-details.php?id=8"
+                    <a href="/dars-e-nizami"
                       >Darse Nizami Short Course</a
                     >
                   </li>
                   <li>
-                    <a href="course-details.php?id=12">Namaz Course</a>
+                    <a href="/namaz">Namaz Course</a>
                   </li>
                   <li>
-                    <a href="course-details.php?id=11">Aqaid-o-Fiqh Course</a>
+                    <a href="/aqaid-o-fiqh">Aqaid-o-Fiqh Course</a>
                   </li>
                 </ul>
               </div>
