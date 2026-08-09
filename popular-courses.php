@@ -88,7 +88,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -139,7 +139,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -188,7 +188,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -240,7 +240,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -292,7 +292,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -344,7 +344,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -397,7 +397,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -451,7 +451,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -505,7 +505,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -559,7 +559,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -611,7 +611,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -663,7 +663,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -715,7 +715,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -769,7 +769,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -823,7 +823,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -875,7 +875,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -927,7 +927,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -978,7 +978,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -1030,7 +1030,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -1082,7 +1082,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"
@@ -1134,7 +1134,7 @@ cousrse Area
                   >Learn More</a
                 >
                 <a href="/version2/contact" class="th-btn"
-                  ><span
+                   aria-label="Enroll Now"><span
                     class="btn-text"
                     data-back="Enroll Now"
                     data-front="Enroll Now"

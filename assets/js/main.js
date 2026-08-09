@@ -305,7 +305,7 @@
             return (
               '<span class="' +
               className +
-              '" aria-label="Go to Slide ' +
+              '" role="button" aria-label="Go to Slide ' +
               formattedNumber +
               '"></span>'
             );
