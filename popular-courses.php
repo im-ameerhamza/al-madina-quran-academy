@@ -32,7 +32,7 @@ Header Area
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">Popular courses</h1>
           <ul class="breadcumb-menu">
-            <li><a href="index.php">Home</a></li>
+            <li><a href="home">Home</a></li>
             <li>Popular courses</li>
           </ul>
         </div>
