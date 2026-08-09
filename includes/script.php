@@ -2,22 +2,10 @@
     <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
     <!-- Swiper Slider -->
     <script src="assets/js/swiper-bundle.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
     <!-- Magnific Popup -->
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- Circle Progress -->
-    <script src="assets/js/circle-progress.js"></script>
     <!-- Counter Up -->
     <script src="assets/js/jquery.counterup.min.js"></script>
-    <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
-    <!-- Imagesloadedr -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <!-- isotope -->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- Nice-select -->
-    <script src="assets/js/nice-select.min.js"></script>
 
     <!-- gsap area start -->
     <script src="assets/js/gsap.min.js"></script>
