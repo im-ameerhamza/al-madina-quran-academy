@@ -42,6 +42,18 @@ RewriteRule ^fee-structure/?$ fee-structure.php [L,QSA]
 RewriteRule ^educators/?$ educators.php [L,QSA]
 RewriteRule ^contact/?$ contact.php [L,QSA]
 
+# ------------------------------------------
+# Fee Structure "Select Plan" links (clean URLs, no query string)
+# ------------------------------------------
+RewriteRule ^contact/student-basic/?$ contact.php [L,QSA]
+RewriteRule ^contact/student-standard/?$ contact.php [L,QSA]
+RewriteRule ^contact/student-premium/?$ contact.php [L,QSA]
+RewriteRule ^contact/student-professional/?$ contact.php [L,QSA]
+RewriteRule ^contact/family-basic/?$ contact.php [L,QSA]
+RewriteRule ^contact/family-standard/?$ contact.php [L,QSA]
+RewriteRule ^contact/family-premium/?$ contact.php [L,QSA]
+RewriteRule ^contact/family-professional/?$ contact.php [L,QSA]
+
 # Old .php URLs redirect to the new clean URL (avoids duplicate-content issues)
 RewriteCond %{THE_REQUEST} \s/index\.php[\s?] [NC]
 RewriteRule ^index\.php$ / [L,R=301]

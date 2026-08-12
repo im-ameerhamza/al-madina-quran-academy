@@ -228,5 +228,35 @@ Map Area
   <?php require_once 'includes/script.php'; ?>
     <!-- form-data -->
     <script src="assets/js/form-data.js"></script>
+
+    <!-- Pre-fill contact form from Fee Structure "Select Plan" links -->
+    <script>
+      (() => {
+        const planData = {
+          "student-basic": { package: "Student", plan: "Basic", price: "$20/month" },
+          "student-standard": { package: "Student", plan: "Standard", price: "$25/month" },
+          "student-premium": { package: "Student", plan: "Premium", price: "$45/month" },
+          "student-professional": { package: "Student", plan: "Professional", price: "$35/month" },
+          "family-basic": { package: "Family", plan: "Basic", price: "$40/month" },
+          "family-standard": { package: "Family", plan: "Standard", price: "$45/month" },
+          "family-premium": { package: "Family", plan: "Premium", price: "$85/month" },
+          "family-professional": { package: "Family", plan: "Professional", price: "$70/month" },
+        };
+
+        const slug = window.location.pathname.split("/").filter(Boolean).pop();
+        const info = planData[slug];
+
+        if (!info) return;
+
+        const subjectEl = document.getElementById("subject");
+        const messageEl = document.getElementById("message");
+
+        if (subjectEl) subjectEl.value = "Registration";
+
+        if (messageEl) {
+          messageEl.value = `I'm interested in the ${info.package} Package - ${info.plan} Plan (${info.price}). Please share the next steps for enrollment.`;
+        }
+      })();
+    </script>
   </body>
 </html>
