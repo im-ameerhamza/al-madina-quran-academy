@@ -2,14 +2,9 @@
   "use strict";
 
   /*---------- 01. On Load Function ----------*/
-  var hidePreloader = function () {
+  $(window).on("load", function () {
     $(".preloader").fadeOut();
-  };
-  if (document.readyState === "complete") {
-    hidePreloader();
-  } else {
-    $(window).one("load", hidePreloader);
-  }
+  });
 
   /*---------- 02. Preloader ----------*/
   if ($(".preloader").length > 0) {
