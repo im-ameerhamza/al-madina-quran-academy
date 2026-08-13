@@ -4,6 +4,8 @@ $pageDescription = "The page you are looking for could not be found.";
 $pageKeywords = "";
 $pageRobots = "noindex, nofollow";
 $pagePreloadImage = "assets/img/bg/breadcumb-bg.jpg";
+$enableSwiper = false;
+$enableCounter = false;
 ?>
 
 <!doctype html>
