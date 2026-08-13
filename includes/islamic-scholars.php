@@ -22,6 +22,10 @@
                     <img
                       src="assets/img/team/hafiz-ameer-hamza.webp"
                       alt="Islamic Scholar"
+                      width="562"
+                      height="490"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <div class="box-content">
@@ -39,6 +43,10 @@
                     <img
                       src="assets/img/team/kabir-rafiq.webp"
                       alt="Islamic Scholar"
+                      width="514"
+                      height="360"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <div class="box-content">
@@ -56,6 +64,10 @@
                     <img
                       src="assets/img/team/abdul-quddoos.webp"
                       alt="Islamic Scholar"
+                      width="1303"
+                      height="980"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <div class="box-content">
@@ -73,6 +85,10 @@
                     <img
                       src="assets/img/team/ahmad-raza.webp"
                       alt="Islamic Scholar"
+                      width="1307"
+                      height="980"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <div class="box-content">
@@ -90,6 +106,10 @@
                     <img
                       src="assets/img/team/maryam-zahid.Webp"
                       alt="Islamic Scholar"
+                      width="778"
+                      height="775"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <div class="box-content">
@@ -107,6 +127,10 @@
                     <img
                       src="assets/img/team/sana-manzoor.Webp"
                       alt="Islamic Scholar"
+                      width="640"
+                      height="640"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <div class="box-content">
@@ -124,6 +148,10 @@
                     <img
                       src="assets/img/team/amina-shehbaz.webp"
                       alt="Islamic Scholar"
+                      width="1307"
+                      height="980"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <div class="box-content">
@@ -141,6 +169,10 @@
                     <img
                       src="assets/img/team/rizwana-nazir.webp"
                       alt="Islamic Scholar"
+                      width="740"
+                      height="740"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <div class="box-content">

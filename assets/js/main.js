@@ -628,28 +628,88 @@
   );
 
   /*----------- 12. Magnific Popup ----------*/
-  /* magnificPopup img view */
-  $(".popup-image").magnificPopup({
-    type: "image",
-    mainClass: "mfp-zoom-in",
-    removalDelay: 260,
-    gallery: {
-      enabled: true,
+  var popupAssetsPromise;
+  var popupsInitialized = false;
+
+  function loadPopupAssets() {
+    if (popupAssetsPromise) return popupAssetsPromise;
+
+    popupAssetsPromise = new Promise(function (resolve, reject) {
+      var css = document.createElement("link");
+      var script = document.createElement("script");
+      var loadedAssets = 0;
+
+      function assetLoaded() {
+        loadedAssets += 1;
+        if (loadedAssets === 2) resolve();
+      }
+
+      css.rel = "stylesheet";
+      css.href = "assets/css/magnific-popup.min.css";
+      css.onload = assetLoaded;
+      css.onerror = reject;
+
+      script.src = "assets/js/jquery.magnific-popup.min.js";
+      script.onload = assetLoaded;
+      script.onerror = reject;
+
+      document.head.appendChild(css);
+      document.body.appendChild(script);
+    });
+
+    return popupAssetsPromise;
+  }
+
+  function initializePopups() {
+    if (popupsInitialized || !$.fn.magnificPopup) return;
+
+    $(".popup-image").magnificPopup({
+      type: "image",
+      mainClass: "mfp-zoom-in",
+      removalDelay: 260,
+      gallery: { enabled: true },
+    });
+    $(".popup-video").magnificPopup({
+      type: "iframe",
+      mainClass: "mfp-zoom-in",
+      removalDelay: 260,
+    });
+    $(".popup-content").magnificPopup({
+      type: "inline",
+      midClick: true,
+    });
+
+    popupsInitialized = true;
+  }
+
+  $(document).on(
+    "click.lazyMagnific",
+    ".popup-image, .popup-video, .popup-content",
+    function (event) {
+      if (popupsInitialized) return;
+
+      event.preventDefault();
+      var target = this;
+      var selector = $(target).hasClass("popup-image")
+        ? ".popup-image"
+        : $(target).hasClass("popup-video")
+          ? ".popup-video"
+          : ".popup-content";
+
+      loadPopupAssets()
+        .then(function () {
+          initializePopups();
+          var $items = $(selector);
+          $items.magnificPopup("open", $items.index(target));
+        })
+        .catch(function () {
+          var fallbackUrl = target.getAttribute("href");
+          if (fallbackUrl && fallbackUrl.charAt(0) !== "#") {
+            window.location.href = fallbackUrl;
+          }
+        });
     },
-  });
-
-  /* magnificPopup video view */
-  $(".popup-video").magnificPopup({
-    type: "iframe",
-    mainClass: "mfp-zoom-in",
-    removalDelay: 260,
-  });
-
-  /* magnificPopup video view */
-  $(".popup-content").magnificPopup({
-    type: "inline",
-    midClick: true,
-  });
+  );
 
   if ($("[data-theme-color]").length > 0) {
     $("[data-theme-color]").each(function () {
@@ -666,7 +726,11 @@
   });
 
   /*----------- 15. Counter Up ----------*/
-  if ($.fn.counterUp && $(".counter-number").length) {
+  if (
+    window.matchMedia("(min-width: 992px)").matches &&
+    $.fn.counterUp &&
+    $(".counter-number").length
+  ) {
     $(".counter-number").counterUp({
       delay: 10,
       time: 1000,
@@ -737,14 +801,18 @@
   /* ==================================================
 			# Wow Init
 		 ===============================================*/
-  var wow = new WOW({
-    boxClass: "wow",
-    animateClass: "animated",
-    offset: 0,
-    mobile: true,
-    live: true,
-  });
-  new WOW().init();
+  if (
+    window.matchMedia("(min-width: 992px)").matches &&
+    typeof WOW !== "undefined"
+  ) {
+    new WOW({
+      boxClass: "wow",
+      animateClass: "animated",
+      offset: 0,
+      mobile: false,
+      live: true,
+    }).init();
+  }
 
   /* Image Reveal Animation */
   if (
