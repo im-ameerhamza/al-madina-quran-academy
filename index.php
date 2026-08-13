@@ -68,11 +68,24 @@ Hero Area
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="hero-inner">
+              <?php if ($isMobileVisitor): ?>
+              <picture class="th-hero-bg" style="max-height: 850px">
+                <img
+                  src="assets/img/hero/hero-bg-1.webp"
+                  alt=""
+                  width="712"
+                  height="720"
+                  fetchpriority="high"
+                  decoding="async"
+                />
+              </picture>
+              <?php else: ?>
               <div
                 class="th-hero-bg"
                 data-bg-src="assets/img/hero/hero-bg-1.webp"
                 style="max-height: 850px; background-image: url('assets/img/hero/hero-bg-1.webp')"
               ></div>
+              <?php endif; ?>
               <div class="container">
                 <div class="row align-items-center">
                   <div class="col-xl-6">

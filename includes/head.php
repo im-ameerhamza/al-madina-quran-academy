@@ -7,6 +7,11 @@
     $pageImageUrl = preg_match('#^https?://#i', $pageImage)
         ? $pageImage
         : $siteUrl . '/' . ltrim($pageImage, '/');
+    $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+    $isMobileVisitor = (bool) preg_match(
+        '/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile/i',
+        $userAgent
+    );
 ?>
     <meta charset="utf-8">
     <!-- Keep relative assets rooted at the site on multi-segment clean URLs. -->
@@ -81,9 +86,18 @@
     <link rel="preload" as="image" href="<?= htmlspecialchars($pagePreloadImage, ENT_QUOTES, 'UTF-8'); ?>" fetchpriority="high">
     <?php endif; ?>
 
-    <!-- Keep layout CSS render-blocking so raw HTML is never painted first. -->
+    <!-- Mobile gets the complete critical CSS in the document, avoiding both
+         extra render-blocking round trips and an unstyled first paint. -->
+    <?php if ($isMobileVisitor): ?>
+    <style id="mobile-critical-css">
+<?php readfile(__DIR__ . '/../assets/css/bootstrap.min.css'); ?>
+<?php readfile(__DIR__ . '/../assets/css/style.css'); ?>
+    </style>
+    <?php else: ?>
+    <!-- Desktop keeps cacheable stylesheets and its existing rendering path. -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <?php endif; ?>
 
     <!-- Plugin styles are not needed to calculate the initial page layout. -->
     <link rel="preload" as="style" href="assets/css/fontawesome.min.css" onload="this.onload=null;this.rel='stylesheet'">
