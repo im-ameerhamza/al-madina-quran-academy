@@ -28,7 +28,7 @@ $showReadMore = $showReadMore ?? true;
               <div class="discount-wrapp">
                 <div class="logo">
                   <img
-                    src="assets/img/hero/logo_1-272-v3.webp"
+                    src="assets/img/hero/logo_1-272.webp"
                     width="272"
                     height="275"
                     alt="Al-Madina Quran Academy Logo"
@@ -46,9 +46,9 @@ $showReadMore = $showReadMore ?? true;
                 <div class="about-quran">
                   <div class="quran-image">
                     <img
-                      src="assets/img/quran-img-500-v3.webp"
-                      width="500"
-                      height="469"
+                      src="assets/img/quran-img-552.webp"
+                      width="552"
+                      height="518"
                       alt="Quran Image"
                       style="width: 444px; height: 250px"
                     />
