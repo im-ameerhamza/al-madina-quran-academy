@@ -10,12 +10,12 @@ $showReadMore = $showReadMore ?? true;
         <div class="row gy-5">
           <div class="col-xxl-6 mb-30 mb-xl-0">
             <div class="title-area pe-xl-5 me-xl-5">
-              <span class="sub-title">About us</span>
+              <span class="sub-title">About The Quran</span>
               <h2 class="sec-title">
                 Discover the Divine Where Faith Meets Purpose
               </h2>
             </div>
-            <div class="img-box2 pe-xl-5 me-xl-2">
+            <div class="img-box2 pe-xl-5 me-xl-2 d-none d-lg-block">
               <div class="img1">
                 <img
                   src="assets/img/bg/about-1-480.webp"

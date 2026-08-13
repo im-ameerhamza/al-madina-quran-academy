@@ -204,7 +204,7 @@ Contact Area
       <!--==============================
 Map Area  
 ==============================-->
-      <div class="">
+      <div class="d-none d-lg-block">
         <div class="contact-map">
           <iframe
             src="https://www.google.com/maps?q=456+Oak+Avenue,+Vancouver,+BC+V5K+3N7,+Canada&output=embed"

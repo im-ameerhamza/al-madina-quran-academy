@@ -1087,7 +1087,7 @@ Download Area 1
             </div>
           </div>
           <div class="col-xxl-6">
-            <div class="img-box3">
+            <div class="img-box3 d-none d-lg-block">
               <div class="img1">
                 <img
                   src="assets/img/Surah-Quran-img.webp"
