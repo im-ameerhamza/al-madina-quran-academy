@@ -22,6 +22,8 @@ $showReadMore = $showReadMore ?? true;
                   width="480"
                   height="633"
                   alt="About"
+                  loading="lazy"
+                  decoding="async"
                   style="width: 524px; height: 540px"
                 />
               </div>
@@ -32,6 +34,8 @@ $showReadMore = $showReadMore ?? true;
                     width="272"
                     height="275"
                     alt="Al-Madina Quran Academy Logo"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div class="discount-tag">
@@ -50,6 +54,8 @@ $showReadMore = $showReadMore ?? true;
                       width="552"
                       height="518"
                       alt="Quran Image"
+                      loading="lazy"
+                      decoding="async"
                       style="width: 444px; height: 250px"
                     />
                   </div>

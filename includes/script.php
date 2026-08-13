@@ -4,11 +4,14 @@
     <!-- Swiper Slider -->
     <script defer src="assets/js/swiper-bundle.min.js"></script>
     <?php endif; ?>
-    <!-- Magnific Popup -->
-    <script defer src="assets/js/jquery.magnific-popup.min.js"></script>
     <?php if (($enableCounter ?? true) !== false): ?>
-    <!-- Counter Up -->
-    <script defer src="assets/js/jquery.counterup.min.js"></script>
+    <!-- The visible counter composition is desktop-only. Keep the plugin out
+         of the mobile request graph while preserving deferred desktop order. -->
+    <script>
+      if (window.matchMedia("(min-width: 992px)").matches) {
+        document.write('<script defer src="assets/js/jquery.counterup.min.js"><\/script>');
+      }
+    </script>
     <?php endif; ?>
 
     <?php if (!empty($enableAdvancedAnimations)): ?>
@@ -22,8 +25,13 @@
       }
     </script>
     <?php endif; ?>
-    <!-- wow -->
-    <script defer src="assets/js/wow.min.js"></script>
+    <!-- Mobile CSS intentionally suppresses WOW effects, so only desktop
+         downloads and executes the animation library. -->
+    <script>
+      if (window.matchMedia("(min-width: 992px)").matches) {
+        document.write('<script defer src="assets/js/wow.min.js"><\/script>');
+      }
+    </script>
 
     <!-- Main Js File -->
     <script defer src="assets/js/main.min.js"></script>
