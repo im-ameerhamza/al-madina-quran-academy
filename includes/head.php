@@ -64,6 +64,11 @@
 
     <meta name="theme-color" content="#ffffff">
 
+    <!-- Discover the page's LCP image before optional fonts and plugin styles. -->
+    <?php if (!empty($pagePreloadImage)): ?>
+    <link rel="preload" as="image" type="image/webp" href="<?= htmlspecialchars($pagePreloadImage, ENT_QUOTES, 'UTF-8'); ?>" fetchpriority="high">
+    <?php endif; ?>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,21 +79,31 @@
         rel="preload"
         as="style"
         href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        fetchpriority="low"
         onload="this.onload=null;this.rel='stylesheet'"
     >
-
-    <?php if (!empty($pagePreloadImage)): ?>
-    <link rel="preload" as="image" href="<?= htmlspecialchars($pagePreloadImage, ENT_QUOTES, 'UTF-8'); ?>" fetchpriority="high">
-    <?php endif; ?>
 
     <!-- Keep layout CSS render-blocking so raw HTML is never painted first. -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Plugin styles are not needed to calculate the initial page layout. -->
-    <link rel="preload" as="style" href="assets/css/fontawesome.min.css" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" as="style" href="assets/css/magnific-popup.min.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" as="style" href="assets/css/fontawesome.min.css" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" as="style" href="assets/css/magnific-popup.min.css" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" as="style" href="assets/css/swiper-bundle.min.css" onload="this.onload=null;this.rel='stylesheet'">
+
+    <!-- Mobile paints content immediately; only decorative entrance motion is skipped. -->
+    <style>
+      @media (max-width: 991px) {
+        [data-ani], .wow {
+          animation: none !important;
+          transition-delay: 0s !important;
+          opacity: 1 !important;
+          visibility: visible !important;
+          transform: none !important;
+        }
+      }
+    </style>
 
     <noscript>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap">
