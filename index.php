@@ -346,6 +346,7 @@ Career Area
                     <a
                       class="th-btn border-btn2"
                       href="/noorani-qaida"
+                       aria-label="Learn More About Noorani Qaida"
                       >Learn More</a
                     >
                     <a href="/contact" class="th-btn"
@@ -411,6 +412,7 @@ Career Area
                     <a
                       class="th-btn border-btn2"
                       href="/nazra-quran-with-tajweed"
+                       aria-label="Learn More About Nazra Quran With Tajweed"
                       >Learn More</a
                     >
                     <a href="/contact" class="th-btn"
@@ -476,6 +478,7 @@ Career Area
                     <a
                       class="th-btn border-btn2"
                       href="/hifz-e-quran-with-tajweed"
+                      aria-label="Learn More About Hifz-e-Quran With Tajweed"
                       >Learn More</a
                     >
                     <a href="/contact" class="th-btn"
@@ -540,6 +543,7 @@ Career Area
                     <a
                       class="th-btn border-btn2"
                       href="/tarjmat-ul-quran"
+                      aria-label="Learn More About Tarjmat ul Quran"
                       >Learn More</a
                     >
                     <a href="/contact" class="th-btn"
@@ -604,6 +608,7 @@ Career Area
                     <a
                       class="th-btn border-btn2"
                       href="/tajweed"
+                      aria-label="Learn More About Tajweed"
                       >Learn More</a
                     >
                     <a href="/contact" class="th-btn"
@@ -728,6 +733,7 @@ Service Area
                 </div>
                 <div class="service-btn">
                   <a href="/farz-e-uloom" class="simple-btn"
+                  aria-label="Read More about Farz e Uloom"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -764,6 +770,7 @@ Service Area
                 </div>
                 <div class="service-btn">
                   <a href="/hadith" class="simple-btn"
+                  aria-label="Read More about Hadith Course"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -807,6 +814,7 @@ Service Area
                 </div>
                 <div class="service-btn">
                   <a href="/dars-e-nizami" class="simple-btn"
+                  aria-label="Read More about Dars e Nizami"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -850,6 +858,7 @@ Service Area
                 </div>
                 <div class="service-btn">
                   <a href="/tafseer-of-surah-noor-nisa-and-yusuf" class="simple-btn"
+                  aria-label="Read More about Tasfseer of surah noor"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -889,6 +898,7 @@ Service Area
                 </div>
                 <div class="service-btn">
                   <a href="/namaz" class="simple-btn"
+                  aria-label="Read More about namaz"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -927,6 +937,7 @@ Service Area
                 </div>
                 <div class="service-btn">
                   <a href="/sunnat-e-nikah" class="simple-btn"
+                  aria-label="Read More about Sunat e Nikah"
                     >Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                   </a>
                 </div>
