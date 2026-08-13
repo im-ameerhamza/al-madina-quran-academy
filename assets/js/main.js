@@ -465,25 +465,27 @@
     });
   }
 
-  var swiper = new Swiper(".cubeSwiper", {
-    effect: "cube",
-    grabCursor: true,
-    pauseOnMouseEnter: true,
-    speed: 2000,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
-    cubeEffect: {
-      shadow: false,
-      slideShadows: true,
-      shadowOffset: 20,
-      shadowScale: 0.94,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-    },
-  });
+  if (typeof Swiper !== "undefined" && document.querySelector(".cubeSwiper")) {
+    var swiper = new Swiper(".cubeSwiper", {
+      effect: "cube",
+      grabCursor: true,
+      pauseOnMouseEnter: true,
+      speed: 2000,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      cubeEffect: {
+        shadow: false,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  }
   /*----------- 09. Ajax Contact Form ----------*/
   var form = ".ajax-contact";
   var invalidCls = "is-invalid";
@@ -664,10 +666,12 @@
   });
 
   /*----------- 15. Counter Up ----------*/
-  $(".counter-number").counterUp({
-    delay: 10,
-    time: 1000,
-  });
+  if ($.fn.counterUp && $(".counter-number").length) {
+    $(".counter-number").counterUp({
+      delay: 10,
+      time: 1000,
+    });
+  }
 
   /*----------- 17. Shape Mockup ----------*/
   $.fn.shapeMockup = function () {

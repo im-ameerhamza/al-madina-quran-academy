@@ -1,11 +1,15 @@
   <!-- Jquery -->
     <script defer src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <?php if (($enableSwiper ?? true) !== false): ?>
     <!-- Swiper Slider -->
     <script defer src="assets/js/swiper-bundle.min.js"></script>
+    <?php endif; ?>
     <!-- Magnific Popup -->
     <script defer src="assets/js/jquery.magnific-popup.min.js"></script>
+    <?php if (($enableCounter ?? true) !== false): ?>
     <!-- Counter Up -->
     <script defer src="assets/js/jquery.counterup.min.js"></script>
+    <?php endif; ?>
 
     <?php if (!empty($enableAdvancedAnimations)): ?>
     <!-- Advanced animation and smooth-scroll scripts are desktop-only. -->
