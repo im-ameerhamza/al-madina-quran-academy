@@ -26,4 +26,4 @@
     <script defer src="assets/js/wow.min.js"></script>
 
     <!-- Main Js File -->
-    <script defer src="assets/js/main.js"></script>
+    <script defer src="assets/js/main.min.js"></script>
