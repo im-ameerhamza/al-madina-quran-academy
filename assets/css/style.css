@@ -82,8 +82,6 @@ Version: 1.0.0
    01. Theme Base
 ==================================*/
 /*------------------- 1.1. Mixin -------------------*/
-@use "sass:math";
-
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
 :root {
@@ -555,7 +553,6 @@ select {
   display: block;
   width: 100%;
   line-height: 1.5;
-  vertical-align: middle;
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3E%3C/svg%3E");
   background-position: right 26px center;
   background-repeat: no-repeat;
@@ -621,6 +618,7 @@ input::-webkit-inner-spin-button {
 
 /* Firefox */
 input[type="number"] {
+  appearance: textfield;
   -moz-appearance: textfield;
 }
 
@@ -1295,7 +1293,6 @@ input[type=time]::-webkit-calendar-picker-indicator {
   height: 25px;
   line-height: 25px;
   margin-top: -12.5px;
-  display: inline-block;
   text-align: center;
   background-color: var(--smoke-color);
   color: var(--title-color);
@@ -3823,6 +3820,28 @@ input[type=time]::-webkit-calendar-picker-indicator {
   transform: translate(-50%, -50%);
 }
 
+/* Footer gallery interaction is desktop-only. Touch/mobile layouts show the
+   original images without the hover overlay or Instagram icon. */
+@media (max-width: 991px) {
+  .footer-widget .sidebar-gallery .gallery-thumb:before {
+    display: none !important;
+  }
+
+  .footer-widget .sidebar-gallery .gallery-btn {
+    display: block !important;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+  }
+
+  .footer-widget .sidebar-gallery .gallery-btn i {
+    display: none !important;
+  }
+}
+
 .sidebar-area.style2 {
   margin-left: 15px;
   /* Medium devices */
@@ -4246,10 +4265,6 @@ input[type=time]::-webkit-calendar-picker-indicator {
   .main-menu>ul>li>a {
     padding: 37px 0;
   }
-}
-
-.header-button .th-btn {
-  /* Medium Large devices */
 }
 
 @media (max-width: 1399px) {
@@ -5376,12 +5391,6 @@ blockquote.event-blockquote:after {
 .hero-style2 .sub-title {
   margin-bottom: 30px;
   padding: 0;
-}
-
-.hero-style2 .hero-title {
-  /* Large devices */
-  /* Small devices */
-  /* Extra small devices */
 }
 
 @media (max-width: 1199px) {
@@ -6694,10 +6703,6 @@ blockquote.event-blockquote:after {
   }
 }
 
-.cousrse-card .meta .icon {
-  /* Medium Large devices */
-}
-
 .cousrse-card .meta .icon i {
   margin-right: 8px;
   color: var(--theme-color);
@@ -6820,10 +6825,6 @@ blockquote.event-blockquote:after {
     -ms-flex-direction: column;
     flex-direction: column;
   }
-}
-
-.course-single .meta .icon {
-  /* Medium Large devices */
 }
 
 .course-single .meta .icon i {
@@ -7473,10 +7474,6 @@ blockquote.event-blockquote:after {
   }
 }
 
-.about-wrapper2.style2 {
-  /* Medium Large devices */
-}
-
 @media (max-width: 1399px) {
   .about-wrapper2.style2 {
     -webkit-box-orient: vertical;
@@ -7550,10 +7547,6 @@ blockquote.event-blockquote:after {
   align-items: center;
   gap: 4px;
   margin-left: 48px;
-}
-
-.surah-list.style2 .box-content {
-  /* Medium Large devices */
 }
 
 @media (max-width: 1399px) {
@@ -7965,6 +7958,35 @@ blockquote.event-blockquote:after {
   }
 }
 
+/* Keep every scholar card the same height on mobile, regardless of the
+   source portrait's aspect ratio or the scholar name length. */
+@media (max-width: 991px) {
+  .team-sec #teamSlider2 .swiper-wrapper {
+    align-items: stretch;
+  }
+
+  .team-sec #teamSlider2 .swiper-slide {
+    height: auto;
+  }
+
+  .team-sec #teamSlider2 .team-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .team-sec #teamSlider2 .team-card .box-img img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  .team-sec #teamSlider2 .team-card .box-content {
+    min-height: 58px;
+  }
+}
+
 .team-card.style2 {
   max-width: 310px;
   padding: 0;
@@ -8121,18 +8143,10 @@ blockquote.event-blockquote:after {
   font-weight: 400;
 }
 
-.testiSlide1 .slider-arrow {
-  /* Extra large devices */
-}
-
 @media (max-width: 1500px) {
   .testiSlide1 .slider-arrow {
     display: block !important;
   }
-}
-
-.testiSlide2 .slider-arrow {
-  /* Extra large devices */
 }
 
 @media (max-width: 1500px) {
@@ -8683,10 +8697,6 @@ blockquote.event-blockquote:after {
 
 /*donation-area3 -----------------------*/
 
-.cousrseSlide .slider-arrow {
-  /* Extra large devices */
-}
-
 @media (max-width: 1500px) {
   .cousrseSlide .slider-arrow {
     display: block !important;
@@ -9077,10 +9087,6 @@ blockquote.event-blockquote:after {
   transform: rotateY(180deg);
 }
 
-.service-image {
-  /* Large devices */
-}
-
 @media (max-width: 1199px) {
   .service-image {
     display: none;
@@ -9402,10 +9408,6 @@ blockquote.event-blockquote:after {
   margin-top: 31px;
   margin-bottom: 60px;
   /* Extra small devices */
-}
-
-.pricing-tabs.style3 {
-  /* Small devices */
 }
 
 @media (max-width: 767px) {
