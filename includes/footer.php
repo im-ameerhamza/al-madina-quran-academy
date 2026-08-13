@@ -60,17 +60,17 @@
               <div class="th-social">
                 <span class="title">Social Media:</span>
                 <a href="https://www.facebook.com/Almadinaquranacademy888"
-                  ><i class="fab fa-facebook-f"></i
+                  aria-label="Facebook"><i class="fab fa-facebook-f"></i
                 ></a>
                 <a href="https://www.instagram.com/almadinaquranacademy88/"
-                  ><i class="fab fa-instagram"></i
+                   aria-label="Instagram"><i class="fab fa-instagram"></i
                 ></a>
                 <a
                   href="https://www.linkedin.com/in/hafiz-ameer-hamza-773366178/"
-                  ><i class="fab fa-linkedin-in"></i
+                   aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i
                 ></a>
                 <a href="https://wa.me/+923234874809"
-                  ><i class="fab fa-whatsapp"></i
+                  aria-label="Whatsapp"><i class="fab fa-whatsapp"></i
                 ></a>
               </div>
             </div>
@@ -159,6 +159,7 @@
                 <a
                   href="assets/img/gallery/kid-1.webp"
                   class="gallery-btn popup-image"
+                  aria-label="View gallery image"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </div>
@@ -173,6 +174,7 @@
                 <a
                   href="assets/img/gallery/kid-4.webp"
                   class="gallery-btn popup-image"
+                  aria-label="View gallery image"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </div>
@@ -187,6 +189,7 @@
                 <a
                   href="assets/img/gallery/kid-5.webp"
                   class="gallery-btn popup-image"
+                  aria-label="View gallery image"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </div>
@@ -201,6 +204,7 @@
                 <a
                   href="assets/img/gallery/kid-2.webp"
                   class="gallery-btn popup-image"
+                  aria-label="View gallery image"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </div>
@@ -215,6 +219,7 @@
                 <a
                   href="assets/img/gallery/kid-3.webp"
                   class="gallery-btn popup-image"
+                  aria-label="View gallery image"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </div>
@@ -229,6 +234,7 @@
                 <a
                   href="assets/img/gallery/kid-6.webp"
                   class="gallery-btn popup-image"
+                  aria-label="View gallery image"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </div>
@@ -243,6 +249,7 @@
                 <a
                   href="assets/img/gallery/kid-7.webp"
                   class="gallery-btn popup-image"
+                  aria-label="View gallery image"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </div>
@@ -257,6 +264,7 @@
                 <a
                   href="assets/img/gallery/kid-8.webp"
                   class="gallery-btn popup-image"
+                  aria-label="View gallery image"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </div>
@@ -271,6 +279,7 @@
                 <a
                   href="assets/img/gallery/kid-9.webp"
                   class="gallery-btn popup-image"
+                  aria-label="View gallery image"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </div>
