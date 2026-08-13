@@ -1,11 +1,11 @@
   <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script defer src="assets/js/vendor/jquery-3.7.1.min.js"></script>
     <!-- Swiper Slider -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script defer src="assets/js/swiper-bundle.min.js"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script defer src="assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script defer src="assets/js/jquery.counterup.min.js"></script>
 
     <?php if (!empty($enableAdvancedAnimations)): ?>
     <!-- Advanced animation and smooth-scroll scripts are desktop-only. -->
@@ -19,7 +19,7 @@
     </script>
     <?php endif; ?>
     <!-- wow -->
-    <script src="assets/js/wow.min.js"></script>
+    <script defer src="assets/js/wow.min.js"></script>
 
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script defer src="assets/js/main.js"></script>
