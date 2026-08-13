@@ -325,7 +325,9 @@ Career Area
                     <div class="box-profile">
                       <div class="box-author">
                         <img
-                          src="assets/img/team/hafiz-ameer-hamza.webp"
+                          src="assets/img/team/hafiz-ameer-hamza-96.webp"
+                          width="96"
+                          height="84"
                           alt="Avater"
                           loading="lazy"
                           decoding="async"
@@ -388,7 +390,9 @@ Career Area
                     <div class="box-profile">
                       <div class="box-author">
                         <img
-                          src="assets/img/team/rizwana-nazir.webp"
+                          src="assets/img/team/rizwana-nazir-96.webp"
+                          width="96"
+                          height="96"
                           alt="Avater"
                           loading="lazy"
                           decoding="async"
@@ -451,7 +455,9 @@ Career Area
                     <div class="box-profile">
                       <div class="box-author">
                         <img
-                          src="assets/img/team/ahmad-raza.webp"
+                          src="assets/img/team/ahmad-raza-96.webp"
+                          width="96"
+                          height="72"
                           alt="Avater"
                           loading="lazy"
                           decoding="async"
@@ -512,7 +518,9 @@ Career Area
                     <div class="box-profile">
                       <div class="box-author">
                         <img
-                          src="assets/img/team/abdul-quddoos.webp"
+                          src="assets/img/team/abdul-quddoos-96.webp"
+                          width="96"
+                          height="72"
                           alt="Avater"
                           loading="lazy"
                           decoding="async"
@@ -574,7 +582,9 @@ Career Area
                     <div class="box-profile">
                       <div class="box-author">
                         <img
-                          src="assets/img/team/amina-shehbaz.webp"
+                          src="assets/img/team/amina-shehbaz-96.webp"
+                          width="96"
+                          height="72"
                           alt="Avater"
                           loading="lazy"
                           decoding="async"

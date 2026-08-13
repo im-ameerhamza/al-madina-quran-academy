@@ -11,7 +11,9 @@ Mobile Menu
         <div class="mobile-logo">
             <a href="/" class="logo">
                 <img
-                    src="assets/img/hero/Nav_logo.webp"
+                    src="assets/img/hero/Nav_logo-300.webp"
+                    width="300"
+                    height="141"
                     alt="Al Madinah Quran Academy"
                 >
             </a>
@@ -47,7 +49,9 @@ Desktop Header
                             <a href="/">
 
                                 <img
-                                    src="assets/img/hero/Nav_logo.webp"
+                                    src="assets/img/hero/Nav_logo-300.webp"
+                                    width="300"
+                                    height="141"
                                     alt="Al Madinah Quran Academy"
                                     style="height:110px"
                                 >

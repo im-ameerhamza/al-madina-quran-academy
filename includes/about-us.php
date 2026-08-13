@@ -18,7 +18,9 @@ $showReadMore = $showReadMore ?? true;
             <div class="img-box2 pe-xl-5 me-xl-2">
               <div class="img1">
                 <img
-                  src="assets/img/bg/about-1.webp"
+                  src="assets/img/bg/about-1-480.webp"
+                  width="480"
+                  height="633"
                   alt="About"
                   style="width: 524px; height: 540px"
                 />
@@ -26,7 +28,9 @@ $showReadMore = $showReadMore ?? true;
               <div class="discount-wrapp">
                 <div class="logo">
                   <img
-                    src="assets/img/hero/logo_1.webp"
+                    src="assets/img/hero/logo_1-272.webp"
+                    width="272"
+                    height="275"
                     alt="Al-Madina Quran Academy Logo"
                   />
                 </div>
@@ -42,7 +46,9 @@ $showReadMore = $showReadMore ?? true;
                 <div class="about-quran">
                   <div class="quran-image">
                     <img
-                      src="assets/img/quran-img.webp"
+                      src="assets/img/quran-img-552.webp"
+                      width="552"
+                      height="518"
                       alt="Quran Image"
                       style="width: 444px; height: 250px"
                     />
