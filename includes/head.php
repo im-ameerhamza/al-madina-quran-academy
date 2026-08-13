@@ -9,6 +9,9 @@
         : $siteUrl . '/' . ltrim($pageImage, '/');
 ?>
     <meta charset="utf-8">
+    <!-- Keep relative assets rooted at the site on multi-segment clean URLs. -->
+    <base href="/">
+
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title><?= htmlspecialchars($pageTitle) ?></title>
