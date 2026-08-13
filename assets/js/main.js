@@ -146,7 +146,7 @@
 
   /*---------- 05. Scroll To Top ----------*/
   // progressAvtivation
-  if ($(".scroll-top")) {
+  if ($(".scroll-top").length) {
     var scrollTopbtn = document.querySelector(".scroll-top");
     var progressPath = document.querySelector(".scroll-top path");
     var pathLength = progressPath.getTotalLength();
@@ -154,25 +154,33 @@
       "none";
     progressPath.style.strokeDasharray = pathLength + " " + pathLength;
     progressPath.style.strokeDashoffset = pathLength;
-    progressPath.getBoundingClientRect();
-    progressPath.style.transition = progressPath.style.WebkitTransition =
-      "stroke-dashoffset 10ms linear";
+    requestAnimationFrame(function () {
+      progressPath.style.transition = progressPath.style.WebkitTransition =
+        "stroke-dashoffset 10ms linear";
+    });
+    var progressTicking = false;
     var updateProgress = function () {
-      var scroll = $(window).scrollTop();
-      var height = $(document).height() - $(window).height();
-      var progress = pathLength - (scroll * pathLength) / height;
+      var scroll = window.scrollY || document.documentElement.scrollTop;
+      var height =
+        document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var progress = height > 0
+        ? pathLength - (scroll * pathLength) / height
+        : pathLength;
       progressPath.style.strokeDashoffset = progress;
+      scrollTopbtn.classList.toggle("show", scroll > 50);
+      progressTicking = false;
     };
     updateProgress();
-    $(window).scroll(updateProgress);
-    var offset = 50;
-    jQuery(window).on("scroll", function () {
-      if (jQuery(this).scrollTop() > offset) {
-        jQuery(scrollTopbtn).addClass("show");
-      } else {
-        jQuery(scrollTopbtn).removeClass("show");
-      }
-    });
+    window.addEventListener(
+      "scroll",
+      function () {
+        if (!progressTicking) {
+          progressTicking = true;
+          requestAnimationFrame(updateProgress);
+        }
+      },
+      { passive: true },
+    );
     jQuery(scrollTopbtn).on("click", function (event) {
       event.preventDefault();
 
