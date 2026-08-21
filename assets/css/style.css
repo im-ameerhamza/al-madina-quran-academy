@@ -1,4 +1,5 @@
 ﻿@charset "UTF-8";
+
 /*
 Template Name: tawba
 Template URL: http://themeholy.com/html/tawba
@@ -9447,75 +9448,6 @@ blockquote.event-blockquote:after {
   }
 }
 
-/* Price card start -------------------------*/
-
-/* Price card end -------------------------*/
-/*price-card  start --------------------------*/
-
-/* price grid -------------------------------*/
-
-/* price item start ------------------------*/
-
-/* price item end ------------------------*/
-/* price-area ----------------------------------*/
-
-/*------------------- 4.00. Gallery -------------------*/
-/* Galler 1 ----------------------------------*/
-
-/*------------------- 4.00. Project -------------------*/
-/* project-box start ---------------------------*/
-
-/* project-box end ---------------------------*/
-/* project item start -------------------------*/
-
-/* project item end -------------------------*/
-/* project item start -------------------------*/
-
-/* project card start ----------------------------*/
-
-/* project start --------------------*/
-
-/* project details -------------------------*/
-
-/* project card start ----------------------------*/
-
-/* projectSlider4 start ----------------*/
-
-/*------------------- 4.00. Skill -------------------*/
-/*------------------- 4.00. Marquee -------------------*/
-/* Marquee 1---------------------------------- */
-
-/* marquee-area end -----------------------------*/
-/*------------------- 4.00. Megamenu -------------------*/
-/*Mega menu area*********************/
-
-/*Mega menu area end*********************/
-/*------------------- 4.00. Process -------------------*/
-/* Processs area ------------------------*/
-
-/* process area end ---------------------------*/
-/* process area start ---------------------------*/
-
-/* Medium devices */
-
-/* Small devices */
-
-/* process area start ---------------------------*/
-/* process grid area start -------------------------*/
-
-/* process grid area end -------------------------*/
-/* process area start ---------------------------*/
-
-/*------------------- 4.00. Particle -------------------*/
-
-/*------------------- 4.00. Feature -------------------*/
-/* pillar card start -------------------------*/
-
-/* pillar-card2 start ---------------------------*/
-
-/* pillar-card2 end ---------------------------*/
-/* feature item start ------------------------*/
-
 /*------------------- 4.00. Screenshot -------------------*/
 /*------------------- 4.00. Color Scheme -------------------*/
 /* color scheme ---------------------------------- */
@@ -9571,31 +9503,12 @@ blockquote.event-blockquote:after {
   transform: translate(100%, 0);
 }
 
-/*=================================
-    05. Spacing
-==================================*/
-/*-- Padding Left And Right --*/
-
-/*-- Padding Top And Bottom --*/
-
-/*-- Padding Top --*/
-
-/*-- Padding Bottom --*/
-
-/*-- Padding Left --*/
-
-/*-- Padding Right --*/
-
 .fs-18 {
   font-size: 18px;
   line-height: 1.7;
   letter-spacing: 0.02em;
   font-weight: 500;
 }
-
-/*-- margin Left And Right --*/
-
-/*-- margin Top And Bottom --*/
 
 /*-- margin Top --*/
 .mt-5 {
@@ -9643,9 +9556,6 @@ blockquote.event-blockquote:after {
   margin-bottom: 40px;
 }
 
-/*-- margin Left --*/
-
-/*-- margin Right --*/
 
 .mt-55 {
   margin-top: 55px;
@@ -9743,4 +9653,40 @@ blockquote.event-blockquote:after {
   100% {
     content: "";
   }
+}
+
+@media (max-width: 767px) {
+
+  /* Row ki vertical gap kam karein */
+  .row.gy-5 {
+    --bs-gutter-y: 1rem !important;
+    /* Yahan 1rem ya 0px set karein */
+  }
+
+  /* Pehle col ki height mobile par reset karein */
+  .col-xxl-6 {
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /* Agar header ke foran baad space hai */
+  .space {
+    padding-top: 40px !important;
+  }
+}
+
+.copyright-text a,
+.footer-links a {
+  color: #ffffff !important;
+  /* Text color ko white ya bright kar dein */
+  text-decoration: underline !important;
+  /* Link par underline lazmi karein */
+  font-weight: 500;
+}
+
+/* Hover effect */
+.copyright-text a:hover,
+.footer-links ahover {
+  color: #ffd700 !important;
+  /* Hover par contrasting color (jaise gold) */
 }

@@ -1,6 +1,23 @@
 <!--==============================
 Mobile Menu
 ==============================-->
+<style>
+    /* Desktop ke liye default height */
+    .header-logo img {
+        height: 130px;
+        width: auto;
+    }
+
+    /* Mobile screens ke liye (jab screen choti ho) */
+    @media (max-width: 991px) {
+        .header-logo img {
+            height: 90px;
+            /* Yahan mobile wali marzi ki height set kar lein */
+            width: auto;
+        }
+    }
+</style>
+
 <div class="th-menu-wrapper">
     <div class="th-menu-area text-center">
 
@@ -14,8 +31,7 @@ Mobile Menu
                     src="assets/img/hero/Nav_logo-300.webp"
                     width="300"
                     height="141"
-                    alt="Al Madinah Quran Academy"
-                >
+                    alt="Al Madinah Quran Academy">
             </a>
         </div>
 
@@ -35,8 +51,7 @@ Desktop Header
 
         <div
             class="menu-area"
-            data-bg-src="assets/img/bg/pattern_bg_2.png"
-        >
+            data-bg-src="assets/img/bg/pattern_bg_2.png">
 
             <div class="container">
 
@@ -53,8 +68,7 @@ Desktop Header
                                     width="300"
                                     height="141"
                                     alt="Al Madinah Quran Academy"
-                                    style="height:110px"
-                                >
+                                    class="header-logo">
 
                             </a>
 
@@ -76,8 +90,7 @@ Desktop Header
 
                                 <button
                                     type="button"
-                                    class="th-menu-toggle d-inline-block d-lg-none"
-                                >
+                                    class="th-menu-toggle d-inline-block d-lg-none">
                                     <i class="far fa-bars"></i>
                                 </button>
 
@@ -90,27 +103,23 @@ Desktop Header
                                     <a
                                         href="/contact"
                                         class="th-btn style1 th-icon"
-                                     aria-label="Get Free Trial">
+                                        aria-label="Get Free Trial">
 
                                         <span
                                             class="btn-text"
                                             data-back="Get Free Trial"
-                                            data-front="Get Free Trial"
-                                        ></span>
+                                            data-front="Get Free Trial"></span>
 
                                     </a>
 
-                                    <a
-                                        href="#"
+                                    <button
+                                        type="button"
                                         class="icon-btn sideMenuToggler d-none d-lg-block"
-                                    >
-
+                                        aria-label="Open menu">
                                         <img
                                             src="assets/img/icon/grid.svg"
-                                            alt=""
-                                        >
-
-                                    </a>
+                                            alt="Open menu">
+                                    </button>
 
                                 </div>
 
