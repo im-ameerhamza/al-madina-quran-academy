@@ -90,7 +90,8 @@ Desktop Header
 
                                 <button
                                     type="button"
-                                    class="th-menu-toggle d-inline-block d-lg-none">
+                                    class="th-menu-toggle d-inline-block d-lg-none"
+                                    aria-label="Open Mobile Menu">
                                     <i class="far fa-bars"></i>
                                 </button>
 
