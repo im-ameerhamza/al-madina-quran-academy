@@ -1,0 +1,17 @@
+{
+  "name": "al-madina-quran-academy-build",
+  "private": true,
+  "description": "Builds the minified CSS/JS bundles and the Font Awesome subset used by the site.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "csso": "^5.0.5",
+    "esbuild": "^0.25.0",
+    "purgecss": "^7.0.2",
+    "subset-font": "^2.4.0",
+    "swiper": "11.1.15",
+    "terser": "^5.39.0"
+  }
+}

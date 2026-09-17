@@ -15,20 +15,10 @@ $enableAdvancedAnimations = true;
       .hero-section {
         position: relative;
         width: 100%;
-        height: 700px; /* or use height: 100vh; for full screen */
+        height: 700px;
         overflow: hidden;
-      }
-      .hero-section {
-        background-size: cover; /* image always covers parent */
-        background-position: center; /* center the image */
-      }
-      .hero-section img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; /* keeps image aspect ratio while filling parent */
-        position: absolute; /* if overlapping images for slider */
-        top: 0;
-        left: 0;
+        background-size: cover;
+        background-position: center;
       }
       .hero-section img {
         position: absolute;
@@ -81,7 +71,7 @@ Hero Area
                         class="sub-title"
                         data-ani="slideindown"
                         data-ani-delay="0.2s"
-                        ><img src="assets/img/theme-img/sub-title-2.svg" alt="In the name of Allah" width="201" height="75" fetchpriority="high"
+                        ><img src="assets/img/theme-img/sub-title-2.svg" alt="In the name of Allah" width="201" height="75"
                       /></span>
                       <h1
                         class="hero-title"
@@ -278,7 +268,7 @@ cousrse Area
     <div
       id="about-sec"
       class="space overflow-hidden positive-relative overflow-hidden"
-      data-bg-src="assets/img/bg/bg-img-1.jpg"
+      data-bg-src="assets/img/bg/bg-img-1.webp"
     >
       <div class="container">
         <div class="title-area text-center">
@@ -300,7 +290,7 @@ Career Area
                 <div class="cousrse-card">
                   <div class="box-img global-img">
                     <img
-                      src="assets/img/cousrse/norani-qaida.webp"
+                      src="assets/img/cousrse/norani-qaida-720.webp"
                       alt="Norani Qaida"
                       loading="lazy"
                       decoding="async"
@@ -364,7 +354,7 @@ Career Area
                 <div class="cousrse-card">
                   <div class="box-img global-img">
                     <img
-                      src="assets/img/cousrse/nazra-quran.webp"
+                      src="assets/img/cousrse/nazra-quran-720.webp"
                       alt="Quran Image"
                       loading="lazy"
                       decoding="async"
@@ -430,7 +420,7 @@ Career Area
                 <div class="cousrse-card">
                   <div class="box-img global-img">
                     <img
-                      src="assets/img/cousrse/hafiz-quran.webp"
+                      src="assets/img/cousrse/hafiz-quran-720.webp"
                       alt="Hafiz Quran"
                       loading="lazy"
                       decoding="async"
@@ -496,7 +486,7 @@ Career Area
                 <div class="cousrse-card">
                   <div class="box-img global-img">
                     <img
-                      src="assets/img/cousrse/tarjuma-quran.webp"
+                      src="assets/img/cousrse/tarjuma-quran-720.webp"
                       alt="Quran Picture"
                       loading="lazy"
                       decoding="async"
@@ -561,7 +551,7 @@ Career Area
                 <div class="cousrse-card">
                   <div class="box-img global-img">
                     <img
-                      src="assets/img/cousrse/tajweed-quran.webp"
+                      src="assets/img/cousrse/tajweed-quran-720.webp"
                       alt="A person reading Quran"
                       loading="lazy"
                       decoding="async"
@@ -644,6 +634,7 @@ Cta Area
     <section
       class="cta-area space overflow-hidden"
       data-bg-src="assets/img/bg/blue-bg.webp"
+      data-bg-src-mobile="assets/img/bg/blue-bg-mobile.webp"
     >
       <div class="container">
         <div class="courses-content">
@@ -661,13 +652,13 @@ Cta Area
         </div>
         <div class="video-call">
           <a href="https://meet.google.com/landing?pli=1"
-            ><img src="assets/img/shape/google-meet.png" alt="Google Meet Logo"
+            ><img src="assets/img/shape/google-meet.webp" alt="Google Meet Logo"
            loading="lazy" decoding="async" /></a>
           <a href="https://www.zoom.com/"
-            ><img src="assets/img/shape/zoom.png" alt="Zoom Logo"
+            ><img src="assets/img/shape/zoom.webp" alt="Zoom Logo"
            loading="lazy" decoding="async" /></a>
           <a href="https://www.microsoft.com/en-us/"
-            ><img src="assets/img/shape/microsoft.png" alt="Microsoft Logo"
+            ><img src="assets/img/shape/microsoft.webp" alt="Microsoft Logo"
            loading="lazy" decoding="async" /></a>
         </div>
 
@@ -688,7 +679,6 @@ Service Area
     <section
       class="overflow-hidden space"
       style="
-        background-image: url(&quot;assets/img/bg/bg-img-3.webp&quot;);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -744,7 +734,7 @@ Service Area
           <div class="col-md-6 col-xl-4">
             <div class="service-box2">
               <div class="box-img">
-                <img src="assets/img/cousrse/hadith-course.webp" alt="Icon"  loading="lazy" decoding="async" />
+                <img src="assets/img/cousrse/hadith-course-720.webp" alt="Icon"  loading="lazy" decoding="async" />
               </div>
               <div class="box-info">
                 <div class="box-icon">
@@ -782,7 +772,7 @@ Service Area
             <div class="service-box2">
               <div class="box-img">
                 <img
-                  src="assets/img/cousrse/darse-nizami.webp"
+                  src="assets/img/cousrse/darse-nizami-720.webp"
                   alt="A group people reading quran"
                  loading="lazy" decoding="async" />
               </div>
@@ -826,7 +816,7 @@ Service Area
             <div class="service-box2">
               <div class="box-img">
                 <img
-                  src="assets/img/cousrse/surah-noor-nisa-yusuf.webp"
+                  src="assets/img/cousrse/surah-noor-nisa-yusuf-720.webp"
                   alt="Surah Noor, Nisa, Yusuf"
                  loading="lazy" decoding="async" />
               </div>
@@ -870,7 +860,7 @@ Service Area
             <div class="service-box2">
               <div class="box-img">
                 <img
-                  src="assets/img/cousrse/namaz.webp"
+                  src="assets/img/cousrse/namaz-720.webp"
                   alt="A person is offering namaz"
                  loading="lazy" decoding="async" />
               </div>
@@ -909,7 +899,7 @@ Service Area
           <div class="col-md-6 col-xl-4">
             <div class="service-box2">
               <div class="box-img">
-                <img src="assets/img/cousrse/Sunnat-Nikah.webp" alt="Icon"  loading="lazy" decoding="async" />
+                <img src="assets/img/cousrse/Sunnat-Nikah-720.webp" alt="Icon"  loading="lazy" decoding="async" />
               </div>
               <div class="box-info">
                 <div class="box-icon">
@@ -957,7 +947,6 @@ Download Area 1
     <section
       class="space"
       style="
-        background-image: url(&quot;assets/img/bg/bg-img-3.webp&quot;);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -990,7 +979,7 @@ Download Area 1
             <div class="surah-wrapp">
               <div class="surah-list">
                 <div class="box-icon">
-                  <img src="assets/img/shape/arabic.png" alt=""  loading="lazy" decoding="async" />
+                  <img src="assets/img/shape/arabic.webp" alt=""  loading="lazy" decoding="async" />
                 </div>
                 <div class="box-content">
                   <h3 class="box-title">Al-Fatihah</h3>
@@ -1006,7 +995,7 @@ Download Area 1
               </div>
               <div class="surah-list">
                 <div class="box-icon">
-                  <img src="assets/img/shape/arabic.png" alt=""  loading="lazy" decoding="async" />
+                  <img src="assets/img/shape/arabic.webp" alt=""  loading="lazy" decoding="async" />
                 </div>
                 <div class="box-content">
                   <h3 class="box-title">Bakarah</h3>
@@ -1022,7 +1011,7 @@ Download Area 1
               </div>
               <div class="surah-list">
                 <div class="box-icon">
-                  <img src="assets/img/shape/arabic.png" alt=""  loading="lazy" decoding="async" />
+                  <img src="assets/img/shape/arabic.webp" alt=""  loading="lazy" decoding="async" />
                 </div>
                 <div class="box-content">
                   <h3 class="box-title">Al-imran</h3>
@@ -1038,7 +1027,7 @@ Download Area 1
               </div>
               <div class="surah-list">
                 <div class="box-icon">
-                  <img src="assets/img/shape/arabic.png" alt=""  loading="lazy" decoding="async" />
+                  <img src="assets/img/shape/arabic.webp" alt=""  loading="lazy" decoding="async" />
                 </div>
                 <div class="box-content">
                   <h3 class="box-title">Surah Nisa</h3>
@@ -1054,7 +1043,7 @@ Download Area 1
               </div>
               <div class="surah-list">
                 <div class="box-icon">
-                  <img src="assets/img/shape/arabic.png" alt=""  loading="lazy" decoding="async" />
+                  <img src="assets/img/shape/arabic.webp" alt=""  loading="lazy" decoding="async" />
                 </div>
                 <div class="box-content">
                   <h3 class="box-title">Maidah</h3>
@@ -1070,7 +1059,7 @@ Download Area 1
               </div>
               <div class="surah-list">
                 <div class="box-icon">
-                  <img src="assets/img/shape/arabic.png" alt=""  loading="lazy" decoding="async" />
+                  <img src="assets/img/shape/arabic.webp" alt=""  loading="lazy" decoding="async" />
                 </div>
                 <div class="box-content">
                   <h3 class="box-title">Surah Anam</h3>

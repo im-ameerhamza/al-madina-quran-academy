@@ -3,6 +3,8 @@ $pageTitle = "Contact Us | Al Madinah Quran Academy";
 $pageDescription = "Contact Al Madinah Quran Academy for admissions, free trial classes and any questions regarding our online Quran courses.";
 $pageKeywords = "Contact Quran Academy, Free Trial Quran Class, Quran Admission";
 $pagePreloadImage = "assets/img/bg/contact-us-banner.webp";
+$pageBanner = true;
+$pagePreloadImageMobile = "assets/img/bg/contact-us-banner-mobile.webp";
 $pageImage = $pagePreloadImage;
 ?>
 
@@ -27,10 +29,7 @@ Header Area
     Breadcumb
 ============================== -->
     <div
-      class="breadcumb-wrapper"
-      data-bg-src="assets/img/bg/contact-us-banner.webp"
-      style="background-image: url('assets/img/bg/contact-us-banner.webp')"
-    >
+      class="breadcumb-wrapper">
       <div class="container">
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">Contact info</h1>
@@ -226,8 +225,6 @@ Map Area
     All Js File
 ============================== -->
   <?php require_once 'includes/script.php'; ?>
-    <!-- form-data -->
-    <script src="assets/js/form-data.js"></script>
 
     <!-- Pre-fill contact form from Fee Structure "Select Plan" links -->
     <script>

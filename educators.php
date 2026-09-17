@@ -3,6 +3,7 @@ $pageTitle = "Our Educators | Al Madinah Quran Academy";
 $pageDescription = "Meet our experienced male and female Quran teachers dedicated to helping students learn Quran with proper Tajweed and understanding.";
 $pageKeywords = "Quran Teachers, Online Quran Tutors, Islamic Teachers";
 $pagePreloadImage = "assets/img/bg/educators-bg.webp";
+$pageBanner = true;
 $pageImage = $pagePreloadImage;
 ?>
 
@@ -28,10 +29,7 @@ Header Area
     Breadcumb
 ============================== -->
     <div
-      class="breadcumb-wrapper"
-      data-bg-src="assets/img/bg/educators-bg.webp"
-      style="background-image: url('assets/img/bg/educators-bg.webp')"
-    >
+      class="breadcumb-wrapper">
       <div class="container">
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">Our Educators</h1>

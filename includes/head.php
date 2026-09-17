@@ -1,5 +1,14 @@
 
 <?php
+    if (!function_exists('asset')) {
+        // Append the file's modification time so long-cached assets refresh after a deploy.
+        function asset($path)
+        {
+            $file = __DIR__ . '/../' . ltrim($path, '/');
+            return is_file($file) ? $path . '?v=' . filemtime($file) : $path;
+        }
+    }
+
     $siteUrl = 'https://almadinaquranacademy.org';
     $requestPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
     $canonicalUrl = $siteUrl . $requestPath;
@@ -59,39 +68,28 @@
     </script>
 
     <!-- Favicon -->
-    <link rel="icon" href="assets/img/hero/logo_1.webp" type="image/webp" sizes="32x32">
-    <link rel="icon" href="assets/img/hero/logo_1.webp" type="image/webp" sizes="192x192">
+    <link rel="icon" href="<?= asset('assets/img/hero/logo_1-192.webp'); ?>" type="image/webp" sizes="192x192">
 
     <meta name="theme-color" content="#ffffff">
 
-    <!-- Discover the page's LCP image before optional fonts and plugin styles. -->
+    <!-- Discover the page's LCP image before fonts and styles. Pages with a
+         smaller mobile banner preload only the file that viewport will use. -->
     <?php if (!empty($pagePreloadImage)): ?>
+    <?php if (!empty($pagePreloadImageMobile)): ?>
+    <link rel="preload" as="image" type="image/webp" href="<?= htmlspecialchars($pagePreloadImageMobile, ENT_QUOTES, 'UTF-8'); ?>" media="(max-width: 767px)" fetchpriority="high">
+    <link rel="preload" as="image" type="image/webp" href="<?= htmlspecialchars($pagePreloadImage, ENT_QUOTES, 'UTF-8'); ?>" media="(min-width: 768px)" fetchpriority="high">
+    <?php else: ?>
     <link rel="preload" as="image" type="image/webp" href="<?= htmlspecialchars($pagePreloadImage, ENT_QUOTES, 'UTF-8'); ?>" fetchpriority="high">
     <?php endif; ?>
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- Load web fonts without holding up the first paint. The font URL uses
-         display=swap, so the system fallback remains visible until it arrives. -->
-    <link
-        rel="preload"
-        as="style"
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-        fetchpriority="low"
-        onload="this.onload=null;this.rel='stylesheet'"
-    >
-
-    <!-- Keep layout CSS render-blocking so raw HTML is never painted first. -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- Plugin styles are not needed to calculate the initial page layout. -->
-    <link rel="preload" as="style" href="assets/css/fontawesome.min.css" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
-    <?php if (($enableSwiper ?? true) !== false): ?>
-    <link rel="preload" as="style" href="assets/css/swiper-bundle.min.css" onload="this.onload=null;this.rel='stylesheet'">
     <?php endif; ?>
+
+    <!-- Self-hosted fonts: no extra connections to Google before text can render. -->
+    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/google/inter-latin.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/google/playfair-display-latin.woff2" crossorigin>
+
+    <!-- One render-blocking stylesheet, built by tools/build.mjs from
+         bootstrap, style.css, Font Awesome, Swiper and fonts.css. -->
+    <link rel="stylesheet" href="<?= asset('assets/css/app.min.css'); ?>">
 
     <!-- Mobile paints content immediately; only decorative entrance motion is skipped. -->
     <style>
@@ -106,10 +104,20 @@
       }
     </style>
 
-    <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap">
-        <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-        <?php if (($enableSwiper ?? true) !== false): ?>
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        <?php endif; ?>
-    </noscript>
+    <?php if (!empty($pageBanner) && !empty($pagePreloadImage)): ?>
+    <style>
+      .breadcumb-wrapper {
+        background-image: url("/<?= htmlspecialchars($pagePreloadImage, ENT_QUOTES, 'UTF-8'); ?>");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+      <?php if (!empty($pagePreloadImageMobile)): ?>
+      @media (max-width: 767px) {
+        .breadcumb-wrapper {
+          background-image: url("/<?= htmlspecialchars($pagePreloadImageMobile, ENT_QUOTES, 'UTF-8'); ?>");
+        }
+      }
+      <?php endif; ?>
+    </style>
+    <?php endif; ?>

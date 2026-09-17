@@ -3,6 +3,8 @@ $pageTitle = "Popular Quran Courses | Al Madinah Quran Academy";
 $pageDescription = "Explore our online Quran courses including Nazra, Tajweed, Hifz, Qaida and Islamic studies for children and adults.";
 $pageKeywords = "Quran Courses, Nazra Quran, Tajweed Course, Hifz Quran";
 $pagePreloadImage = "assets/img/bg/courses-bg.webp";
+$pageBanner = true;
+$pagePreloadImageMobile = "assets/img/bg/courses-bg-mobile.webp";
 $pageImage = $pagePreloadImage;
 ?>
 
@@ -27,7 +29,7 @@ Header Area
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/courses-bg.webp" style="background-image: url('assets/img/bg/courses-bg.webp')">
+    <div class="breadcumb-wrapper">
       <div class="container">
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">Popular courses</h1>
@@ -51,7 +53,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/norani-qaida.webp"
+                  src="assets/img/cousrse/norani-qaida-720.webp"
                   alt="Norani Qaida"
                   style="width: 476px; height: 260px"
                  loading="lazy" decoding="async" />
@@ -102,7 +104,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/nazra-quran.webp"
+                  src="assets/img/cousrse/nazra-quran-720.webp"
                   alt="Quran Image"
                   style="width: 476px; height: 260px"
                  loading="lazy" decoding="async" />
@@ -153,7 +155,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/hafiz-quran.webp"
+                  src="assets/img/cousrse/hafiz-quran-720.webp"
                   alt="Hafiz Quran"
                   style="width: 476px; height: 260px"
                  loading="lazy" decoding="async" />
@@ -202,7 +204,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/tarjuma-quran.webp"
+                  src="assets/img/cousrse/tarjuma-quran-720.webp"
                   alt="Quran Picture"
                   style="width: 476px; height: 260px"
                  loading="lazy" decoding="async" />
@@ -254,7 +256,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/tajweed-quran.webp"
+                  src="assets/img/cousrse/tajweed-quran-720.webp"
                   alt="A person reading Quran"
                   style="width: 476px; height: 260px"
                  loading="lazy" decoding="async" />
@@ -327,7 +329,7 @@ cousrse Area
                 <div class="box-profile">
                   <div class="box-author">
                     <img
-                      src="assets/img/team/maryam-zahid.Webp"
+                      src="assets/img/team/maryam-zahid.webp"
                       alt="Islamic Scholar"
                      loading="lazy" decoding="async" />
                   </div>
@@ -358,7 +360,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/hadith-course1.webp"
+                  src="assets/img/cousrse/hadith-course1-720.webp"
                   alt="Quran Books"
                   style="width: 476px; height: 271px"
                  loading="lazy" decoding="async" />
@@ -411,7 +413,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/darse-nizami.webp"
+                  src="assets/img/cousrse/darse-nizami-720.webp"
                   alt="A group people reading quran"
                   style="width: 476px; height: 270px"
                  loading="lazy" decoding="async" />
@@ -465,7 +467,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/surah-noor-nisa-yusuf.webp"
+                  src="assets/img/cousrse/surah-noor-nisa-yusuf-720.webp"
                   alt="Surah Noor, Nisa, Yusuf"
                   style="width: 476px; height: 270px"
                  loading="lazy" decoding="async" />
@@ -519,7 +521,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/tafseer-ul-jinan.webp"
+                  src="assets/img/cousrse/tafseer-ul-jinan-720.webp"
                   alt="Surah Noor, Nisa, Yusuf"
                   style="width: 476px; height: 270px"
                  loading="lazy" decoding="async" />
@@ -542,7 +544,7 @@ cousrse Area
                 <div class="box-profile">
                   <div class="box-author">
                     <img
-                      src="assets/img/team/sana-manzoor.Webp"
+                      src="assets/img/team/sana-manzoor.webp"
                       alt="Islamic Scholar"
                      loading="lazy" decoding="async" />
                   </div>
@@ -573,7 +575,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/aqaid-fiqh.webp"
+                  src="assets/img/cousrse/aqaid-fiqh-720.webp"
                   alt="Surah Noor, Nisa, Yusuf"
                   style="width: 476px; height: 270px"
                  loading="lazy" decoding="async" />
@@ -625,7 +627,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/namaz.webp"
+                  src="assets/img/cousrse/namaz-720.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
                  loading="lazy" decoding="async" />
@@ -677,7 +679,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/Sunnat-Nikah.webp"
+                  src="assets/img/cousrse/Sunnat-Nikah-720.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
                  loading="lazy" decoding="async" />
@@ -729,7 +731,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/gallery/Hajj.webp"
+                  src="assets/img/gallery/Hajj-720.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
                  loading="lazy" decoding="async" />
@@ -783,7 +785,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/umrah.webp"
+                  src="assets/img/cousrse/umrah-720.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
                  loading="lazy" decoding="async" />
@@ -837,7 +839,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/gallery/Ramadan.webp"
+                  src="assets/img/gallery/Ramadan-720.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
                  loading="lazy" decoding="async" />
@@ -858,7 +860,7 @@ cousrse Area
                 <div class="box-profile">
                   <div class="box-author">
                     <img
-                      src="assets/img/team/sana-manzoor.Webp"
+                      src="assets/img/team/sana-manzoor.webp"
                       alt="Islamic Scholar"
                      loading="lazy" decoding="async" />
                   </div>
@@ -889,7 +891,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/islamic-life.webp"
+                  src="assets/img/cousrse/islamic-life-720.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
                  loading="lazy" decoding="async" />
@@ -992,7 +994,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/sunat-course.webp"
+                  src="assets/img/cousrse/sunat-course-720.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
                  loading="lazy" decoding="async" />
@@ -1044,7 +1046,7 @@ cousrse Area
             <div class="cousrse-card style2">
               <div class="box-img global-img">
                 <img
-                  src="assets/img/cousrse/taharat.webp"
+                  src="assets/img/cousrse/taharat-720.webp"
                   alt="A person is offering namaz"
                   style="width: 476px; height: 270px"
                  loading="lazy" decoding="async" />

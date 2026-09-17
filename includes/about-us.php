@@ -59,7 +59,7 @@ $showReadMore = $showReadMore ?? true;
                   decoding="async"
                   style="width: 444px; height: 250px" />
               </div>
-              <span class="text"><img src="assets/img/shape/starting.png" alt="" /></span>
+              <span class="text"><img src="assets/img/shape/starting.webp" alt="" /></span>
               <audio controls="" preload="none">
                 <source src="assets/img/audio.mp3" type="audio/mpeg" />
               </audio>
@@ -184,7 +184,7 @@ $showReadMore = $showReadMore ?? true;
         <div
           class="video-wrapp style2 wow fadeInRight d-none d-md-block"
           data-wow-delay=".9s"
-          data-mask-src="assets/img/shape/about-shape2.png">
+          data-mask-src="assets/img/shape/about-shape2.webp">
           <div
             class="video-image style2"
             data-bg-src="assets/img/bg/video_bg_2.webp">
