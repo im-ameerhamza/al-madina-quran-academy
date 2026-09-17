@@ -197,18 +197,42 @@
   }
 
   /*---------- 06. Set Background Image Color & Mask ----------*/
+  var loadBackground = function (element) {
+    var $element = $(element);
+    var src = $element.attr("data-bg-src");
+    var mobileSrc = $element.attr("data-bg-src-mobile");
+
+    if (!src) return;
+
+    if (mobileSrc && window.matchMedia("(max-width: 767px)").matches) {
+      src = mobileSrc;
+    }
+
+    $element
+      .css("background-image", "url(" + src + ")")
+      .removeAttr("data-bg-src data-bg-src-mobile")
+      .addClass("background-image");
+  };
+
   if ($("[data-bg-src]").length > 0) {
-    var loadBackground = function (element) {
-      var $element = $(element);
-      var src = $element.attr("data-bg-src");
-
-      if (!src) return;
-
-      $element
-        .css("background-image", "url(" + src + ")")
-        .removeAttr("data-bg-src")
-        .addClass("background-image");
+    // Hidden hero slides share the first slide's position, so an observer would
+    // fetch them immediately. Load them once the page has finished loading.
+    var $deferredBackgrounds = $(".hero-slider-2 .swiper-slide")
+      .slice(1)
+      .find("[data-bg-src]");
+    var loadDeferredBackgrounds = function () {
+      setTimeout(function () {
+        $deferredBackgrounds.each(function () {
+          loadBackground(this);
+        });
+      }, 1000);
     };
+
+    if (document.readyState === "complete") {
+      loadDeferredBackgrounds();
+    } else {
+      $(window).on("load", loadDeferredBackgrounds);
+    }
 
     if ("IntersectionObserver" in window) {
       var backgroundObserver = new IntersectionObserver(
@@ -223,9 +247,11 @@
         { rootMargin: "300px 0px" },
       );
 
-      $("[data-bg-src]").each(function () {
-        backgroundObserver.observe(this);
-      });
+      $("[data-bg-src]")
+        .not($deferredBackgrounds)
+        .each(function () {
+          backgroundObserver.observe(this);
+        });
     } else {
       $("[data-bg-src]").each(function () {
         loadBackground(this);
@@ -337,13 +363,21 @@
 
       on: {
         slideChange: function () {
+          // Show the incoming slide's background even if it was deferred.
+          $(this.slides[this.activeIndex]).find("[data-bg-src]").each(function () {
+            loadBackground(this);
+          });
           setTimeout(function () {
-            swiper.params.mousewheel.releaseOnEdges = false;
+            if (swiper.params.mousewheel) {
+              swiper.params.mousewheel.releaseOnEdges = false;
+            }
           }, 500);
         },
         reachEnd: function () {
           setTimeout(function () {
-            swiper.params.mousewheel.releaseOnEdges = true;
+            if (swiper.params.mousewheel) {
+              swiper.params.mousewheel.releaseOnEdges = true;
+            }
           }, 750);
         },
       },

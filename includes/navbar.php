@@ -50,8 +50,7 @@ Desktop Header
     <div class="sticky-wrapper">
 
         <div
-            class="menu-area"
-            data-bg-src="assets/img/bg/pattern_bg_2.png">
+            class="menu-area">
 
             <div class="container">
 

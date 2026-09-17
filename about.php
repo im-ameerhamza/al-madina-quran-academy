@@ -3,6 +3,8 @@ $pageTitle = "About Us | Al Madinah Quran Academy";
 $pageDescription = "Learn about Al Madinah Quran Academy, our mission, qualified teachers and commitment to providing quality online Quran education worldwide.";
 $pageKeywords = "About Quran Academy, Online Quran Teachers, Islamic Education";
 $pagePreloadImage = "assets/img/bg/about-us-header-bg.webp";
+$pageBanner = true;
+$pagePreloadImageMobile = "assets/img/bg/about-us-header-bg-mobile.webp";
 $pageImage = $pagePreloadImage;
 $enableAdvancedAnimations = true;
 ?>
@@ -30,10 +32,7 @@ Header Area
     Breadcumb
 ============================== -->
     <div
-      class="breadcumb-wrapper"
-      data-bg-src="assets/img/bg/about-us-header-bg.webp"
-      style="background-image: url('assets/img/bg/about-us-header-bg.webp')"
-    >
+      class="breadcumb-wrapper">
       <div class="container">
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">About Us</h1>
@@ -100,7 +99,7 @@ pillar  Area
               </div>
               <div class="box-img">
                 <img
-                  src="assets/img/gallery/Ramadan.webp"
+                  src="assets/img/gallery/Ramadan-720.webp"
                   alt=""
                   style="width: 170px; height: 140px"
                  loading="lazy" decoding="async" />
@@ -130,7 +129,7 @@ pillar  Area
               </div>
               <div class="box-img">
                 <img
-                  src="assets/img/gallery/Hajj.webp"
+                  src="assets/img/gallery/Hajj-720.webp"
                   alt=""
                   style="width: 170px; height: 140px"
                  loading="lazy" decoding="async" />
@@ -156,7 +155,7 @@ Service Area
 ==============================-->
     <section
       class="overflow-hidden space overflow-hidden"
-      data-bg-src="assets/img/bg/bg-img-1.jpg"
+      data-bg-src="assets/img/bg/bg-img-1.webp"
     >
       <div class="container">
         <div class="row align-items-center">

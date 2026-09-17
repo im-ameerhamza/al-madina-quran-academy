@@ -104,7 +104,7 @@
                   <div class="box-img">
                     <div class="team-overlay"></div>
                     <img
-                      src="assets/img/team/maryam-zahid.Webp"
+                      src="assets/img/team/maryam-zahid.webp"
                       alt="Islamic Scholar"
                       width="778"
                       height="775"
@@ -125,7 +125,7 @@
                   <div class="box-img">
                     <div class="team-overlay"></div>
                     <img
-                      src="assets/img/team/sana-manzoor.Webp"
+                      src="assets/img/team/sana-manzoor.webp"
                       alt="Islamic Scholar"
                       width="640"
                       height="640"

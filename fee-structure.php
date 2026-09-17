@@ -3,6 +3,7 @@ $pageTitle = "Fee Structure | Al Madinah Quran Academy";
 $pageDescription = "View the affordable fee structure for all online Quran courses offered by Al Madinah Quran Academy.";
 $pageKeywords = "Quran Course Fees, Online Quran Fee Structure";
 $pagePreloadImage = "assets/img/bg/fee-bg.webp";
+$pageBanner = true;
 $pageImage = $pagePreloadImage;
 ?>
 
@@ -27,7 +28,7 @@ Header Area
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/fee-bg.webp" style="background-image: url('assets/img/bg/fee-bg.webp')">
+    <div class="breadcumb-wrapper">
       <div class="container">
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">Fee Structure</h1>
@@ -262,6 +263,5 @@ Footer Area
     All Js File
 ============================== -->
   <?php require_once 'includes/script.php'; ?>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

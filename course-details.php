@@ -3,6 +3,8 @@ $pageTitle = "Course Details | Al Madinah Quran Academy";
 $pageDescription = "Explore our online Quran courses including Noorani Qaida, Nazra Quran, Tajweed, Hifz, Tarjmat-ul-Quran, Hadith and Islamic studies with experienced teachers.";
 $pageKeywords = "Online Quran Courses, Noorani Qaida, Nazra Quran, Hifz Quran, Tajweed Course, Islamic Studies";
 $pagePreloadImage = "assets/img/bg/courses-bg.webp";
+$pageBanner = true;
+$pagePreloadImageMobile = "assets/img/bg/courses-bg-mobile.webp";
 $pageImage = $pagePreloadImage;
 ?>
 
@@ -27,7 +29,7 @@ Header Area
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/courses-bg.webp" style="background-image: url('assets/img/bg/courses-bg.webp')">
+    <div class="breadcumb-wrapper">
       <div class="container">
         <div class="breadcumb-content">
           <h1 id="course-title" class="breadcumb-title">Course Details</h1>
@@ -113,8 +115,8 @@ Header Area
     All Js File
 ============================== -->
   <?php require_once 'includes/script.php'; ?>
-  <script src="assets/js/blog/blogs.js"></script>
-<script src="assets/js/blog/render.js"></script>
+  <script defer src="<?= asset('assets/js/blog/blogs.js'); ?>"></script>
+<script defer src="<?= asset('assets/js/blog/render.js'); ?>"></script>
 
   </body>
 </html>

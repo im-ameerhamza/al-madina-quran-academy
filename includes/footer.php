@@ -150,7 +150,7 @@
             <div class="sidebar-gallery">
               <div class="gallery-thumb">
                 <img
-                  src="assets/img/gallery/kid-1.webp"
+                  src="assets/img/gallery/thumb/kid-1.webp"
                   alt="Gallery Image"
                   loading="lazy"
                   decoding="async"
@@ -165,7 +165,7 @@
               </div>
               <div class="gallery-thumb">
                 <img
-                  src="assets/img/gallery/kid-4.webp"
+                  src="assets/img/gallery/thumb/kid-4.webp"
                   alt="Gallery Image"
                   loading="lazy"
                   decoding="async"
@@ -180,7 +180,7 @@
               </div>
               <div class="gallery-thumb">
                 <img
-                  src="assets/img/gallery/kid-5.webp"
+                  src="assets/img/gallery/thumb/kid-5.webp"
                   alt="Gallery Image"
                   loading="lazy"
                   decoding="async"
@@ -195,7 +195,7 @@
               </div>
               <div class="gallery-thumb">
                 <img
-                  src="assets/img/gallery/kid-2.webp"
+                  src="assets/img/gallery/thumb/kid-2.webp"
                   alt="Gallery Image"
                   loading="lazy"
                   decoding="async"
@@ -210,7 +210,7 @@
               </div>
               <div class="gallery-thumb">
                 <img
-                  src="assets/img/gallery/kid-3.webp"
+                  src="assets/img/gallery/thumb/kid-3.webp"
                   alt="Gallery Image"
                   loading="lazy"
                   decoding="async"
@@ -225,7 +225,7 @@
               </div>
               <div class="gallery-thumb">
                 <img
-                  src="assets/img/gallery/kid-6.webp"
+                  src="assets/img/gallery/thumb/kid-6.webp"
                   alt="Gallery Image"
                   loading="lazy"
                   decoding="async"
@@ -240,7 +240,7 @@
               </div>
               <div class="gallery-thumb">
                 <img
-                  src="assets/img/gallery/kid-7.webp"
+                  src="assets/img/gallery/thumb/kid-7.webp"
                   alt="Gallery Image"
                   loading="lazy"
                   decoding="async"
@@ -255,7 +255,7 @@
               </div>
               <div class="gallery-thumb">
                 <img
-                  src="assets/img/gallery/kid-8.webp"
+                  src="assets/img/gallery/thumb/kid-8.webp"
                   alt="Gallery Image"
                   loading="lazy"
                   decoding="async"
@@ -270,7 +270,7 @@
               </div>
               <div class="gallery-thumb">
                 <img
-                  src="assets/img/gallery/kid-9.webp"
+                  src="assets/img/gallery/thumb/kid-9.webp"
                   alt="Gallery Image"
                   loading="lazy"
                   decoding="async"

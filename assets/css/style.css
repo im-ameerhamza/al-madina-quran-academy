@@ -130,10 +130,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body.body-pattern {
-  background-image: url("../img/bg/pattern.png");
-}
-
 iframe {
   border: none;
   width: 100%;
@@ -5091,8 +5087,6 @@ blockquote.event-blockquote:after {
 }
 
 .hero-2 .th-hero-bg {
-  /* -webkit-mask-image: url("../img/hero/hero-shape.png");
-  mask-image: url("../img/hero/hero-shape.png"); */
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
@@ -6982,8 +6976,8 @@ blockquote.event-blockquote:after {
   content: "";
   position: absolute;
   inset: 0;
-  -webkit-mask-image: url("../img/shape/pillar-shape2.png");
-  mask-image: url("../img/shape/pillar-shape2.png");
+  -webkit-mask-image: url("../img/shape/pillar-shape2.webp");
+  mask-image: url("../img/shape/pillar-shape2.webp");
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -7131,8 +7125,8 @@ blockquote.event-blockquote:after {
   position: absolute;
   right: 48px;
   bottom: 120px;
-  -webkit-mask-image: url("../img/shape/about-shape2.png");
-  mask-image: url("../img/shape/about-shape2.png");
+  -webkit-mask-image: url("../img/shape/about-shape2.webp");
+  mask-image: url("../img/shape/about-shape2.webp");
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
   -webkit-mask-repeat: no-repeat;
@@ -7200,8 +7194,8 @@ blockquote.event-blockquote:after {
   width: 250px;
   min-height: 350px;
   z-index: 2;
-  -webkit-mask-image: url("../img/shape/about-shape2.png");
-  mask-image: url("../img/shape/about-shape2.png");
+  -webkit-mask-image: url("../img/shape/about-shape2.webp");
+  mask-image: url("../img/shape/about-shape2.webp");
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
@@ -7867,7 +7861,7 @@ blockquote.event-blockquote:after {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../img/shape/team-shape3.png");
+  background-image: url("../img/shape/team-shape3.webp");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 100%;
@@ -7901,7 +7895,7 @@ blockquote.event-blockquote:after {
   height: 224px;
   display: block;
   margin: auto;
-  background-image: url("../img/shape/bg-pattern.png");
+  background-image: url("../img/shape/bg-pattern.webp");
   /* Medium Large devices */
 }
 
@@ -7916,8 +7910,8 @@ blockquote.event-blockquote:after {
   content: "";
   position: absolute;
   inset: 0;
-  -webkit-mask-image: url("../img/shape/team-shape4.png");
-  mask-image: url("../img/shape/team-shape4.png");
+  -webkit-mask-image: url("../img/shape/team-shape4.webp");
+  mask-image: url("../img/shape/team-shape4.webp");
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -7938,8 +7932,8 @@ blockquote.event-blockquote:after {
 .team-card .box-img img {
   height: 297px;
   object-fit: cover;
-  -webkit-mask-image: url("../img/shape/team-shape4.png");
-  mask-image: url("../img/shape/team-shape4.png");
+  -webkit-mask-image: url("../img/shape/team-shape4.webp");
+  mask-image: url("../img/shape/team-shape4.webp");
   -webkit-mask-size: 100%;
   mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
@@ -8037,7 +8031,7 @@ blockquote.event-blockquote:after {
 }
 
 .team-card.style2:hover .team-overlay {
-  background-image: url("../img/shape/bg-pattern2.png");
+  background-image: url("../img/shape/bg-pattern2.webp");
 }
 
 .team-card.style3 {
@@ -8046,7 +8040,7 @@ blockquote.event-blockquote:after {
 }
 
 .team-card.style3:before {
-  background-image: url("../img/shape/team-shape5.png");
+  background-image: url("../img/shape/team-shape5.webp");
 }
 
 .team-card .th-social a {
@@ -8059,7 +8053,7 @@ blockquote.event-blockquote:after {
 }
 
 .team-card:hover:before {
-  background-image: url("../img/shape/team-shape-hover.png");
+  background-image: url("../img/shape/team-shape-hover.webp");
 }
 
 .team-card:hover .th-social a {
@@ -8521,8 +8515,8 @@ blockquote.event-blockquote:after {
   content: "";
   position: absolute;
   inset: 0;
-  -webkit-mask-image: url("../img/shape/event-shape.png");
-  mask-image: url("../img/shape/event-shape.png");
+  -webkit-mask-image: url("../img/shape/event-shape.webp");
+  mask-image: url("../img/shape/event-shape.webp");
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   background-color: var(--theme-color2);
@@ -8738,57 +8732,6 @@ blockquote.event-blockquote:after {
 /* cta 1 area  start ----------------------------*/
 .cta-area {
   position: relative;
-}
-
-.cta-area:before,
-.cta-area:after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  -webkit-mask-image: url("../img/bg/cta-shape-2.png");
-  mask-image: url("../img/bg/cta-shape-2.png");
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-size: 100% 100%;
-  mask-size: 100% 100%;
-  background-color: var(--theme-color);
-  z-index: -1;
-  /* Small devices */
-}
-
-@media (max-width: 767px) {
-
-  .cta-area:before,
-  .cta-area:after {
-    -webkit-mask-size: cover;
-    mask-size: cover;
-    -webkit-mask-position: center center;
-    mask-position: center center;
-  }
-}
-
-.cta-area:after {
-  -webkit-mask-image: url("../img/bg/cta-shape-2.png");
-  mask-image: url("../img/bg/cta-shape-2.png");
-  background-color: var(--theme-color2);
-  -webkit-mask-size: 100% 100%;
-  mask-size: 100% 100%;
-  -webkit-mask-position: top center;
-  mask-position: top center;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  z-index: -2;
-  top: 20px;
-  /* Small devices */
-}
-
-@media (max-width: 767px) {
-  .cta-area:after {
-    -webkit-mask-size: cover;
-    mask-size: cover;
-    -webkit-mask-position: center center;
-    mask-position: center center;
-  }
 }
 
 .courses-content {
@@ -9297,7 +9240,7 @@ blockquote.event-blockquote:after {
   position: absolute;
   top: 0;
   right: 0;
-  background-image: url("../img/shape/shape-6.png");
+  background-image: url("../img/shape/shape-6.webp");
   width: 99px;
   height: 119px;
 }
@@ -9375,7 +9318,7 @@ blockquote.event-blockquote:after {
   padding: 25px 40px;
   background-color: var(--theme-color2);
   border-radius: 0 0 16px 16px;
-  background-image: url("../img/shape/service-shape.png");
+  background-image: url("../img/shape/service-shape.webp");
 }
 
 .service-box2 .box-content .service-btn .simple-btn {
@@ -9689,4 +9632,13 @@ blockquote.event-blockquote:after {
 .footer-links ahover {
   color: #ffd700 !important;
   /* Hover par contrasting color (jaise gold) */
+}
+/* Mobile rendering: skip layout and paint for off-screen footer and slider-free
+   sections until they approach the viewport. */
+@media (max-width: 991px) {
+  .footer-wrapper,
+  section.space:not(:has(.swiper)) {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 900px;
+  }
 }
